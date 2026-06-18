@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 18
-- Sesión número: 18
-- Última tarea completada: Construcción del ARNES.md del Módulo 18 - WPO (FASE 2 COMPLETA)
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 19 - Blog a GitHub y construir su ARNES.md (inicio FASE 3)**
+- Última sesión: Sesión 19
+- Sesión número: 19
+- Última tarea completada: Construcción del ARNES.md del Módulo 19 - Blog
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 20 - SEO Off Page a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 16 / 91
+- Arneses creados: 17 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -91,7 +91,7 @@ identificado solo por módulo/tema.
 - [x] Módulo 18 - WPO → arnés creado, archivos subidos ← **FASE 2 COMPLETA**
 
 ### FASE 3 — Contenido y Off Page (Módulos 19-29)
-- [ ] Módulo 19 - Blog ← **SIGUIENTE**
+- [x] Módulo 19 - Blog → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 20 - SEO Off Page
 - [ ] Módulo 21 - Perfil de Enlaces
 - [ ] Módulo 22 - Linkbuilding y Linkbaiting
@@ -176,6 +176,22 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 19 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_19_blog/archivos/ en GitHub
+- Subida de los 7 archivos de conocimiento del Módulo 19 - Blog
+  (introducción/objetivos, directrices de ubicación, optimización
+  de posts, calendario editorial, ejemplos e IA generativa)
+- Construcción del ARNES.md del Módulo 19 - Blog basado en el
+  contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 20 - SEO
+  Off Page
+
+**Pendiente para sesión 20:**
+- Subir los archivos del Módulo 20 - SEO Off Page a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 20
 
 ### Sesión 18 — [FECHA]
 **Completado:**
