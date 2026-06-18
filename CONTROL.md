@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 25
-- Sesión número: 25
-- Última tarea completada: Construcción del ARNES.md del Módulo 25 - Señales Off Page
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 26 - Content Marketing a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 26
+- Sesión número: 26
+- Última tarea completada: Construcción del ARNES.md del Módulo 26 - Content Marketing
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 27 - Plan de Contenidos, subir sus archivos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 23 / 91
+- Arneses creados: 24 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -97,8 +97,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 22 - Linkbuilding y Linkbaiting → arnés creado, archivos subidos
 - [x] Módulo 23 - Linkbuilding que genera negocio → arnés creado, archivos subidos
 - [x] Módulo 24 - Adquisición de Enlaces → arnés creado, archivos subidos
-- [x] Módulo 25 - Señales Off Page → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 26 - Content Marketing
+- [x] Módulo 25 - Señales Off Page → arnés creado, archivos subidos
+- [x] Módulo 26 - Content Marketing → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 27 - Plan de Contenidos
 - [ ] Módulo 28 - Inbound Marketing
 - [ ] Módulo 29 - Lead Generation
@@ -176,6 +176,24 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 26 — [FECHA]
+**Completado:**
+- Subida de los 14 archivos de conocimiento del Módulo 26 - Content
+  Marketing (presentación de estrategias, introducción, recursos,
+  estrategia de contenido y Customer Journey, los 6 pasos paso a
+  paso, dos casos reales con resultados — Reversal Inbound y
+  Estrategia de Actualidad —, el caso de viralidad de IKEA, y FAQs
+  de aclaración)
+- Construcción del ARNES.md del Módulo 26 - Content Marketing basado
+  en el contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 27 - Plan de
+  Contenidos
+
+**Pendiente para sesión 27:**
+- Subir los archivos del Módulo 27 - Plan de Contenidos a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 27
 
 ### Sesión 25 — [FECHA]
 **Completado:**
