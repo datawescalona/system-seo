@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 14
-- Sesión número: 14
-- Última tarea completada: Construcción del ARNES.md del Módulo 14 - Datos Estructurados y Entidades
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 15 - Indexación a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 15
+- Sesión número: 15
+- Última tarea completada: Construcción del ARNES.md del Módulo 15 - Indexación
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 16 - Canibalizaciones a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 12 / 91
+- Arneses creados: 13 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -84,8 +84,8 @@ identificado solo por módulo/tema.
 ### FASE 2 — SEO Técnico (Módulos 12-18)
 - [x] Módulo 12 - Robots → arnés creado, archivos subidos
 - [x] Módulo 13 - Sitemap → arnés creado, archivos subidos
-- [x] Módulo 14 - Datos Estructurados → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 15 - Indexación
+- [x] Módulo 14 - Datos Estructurados → arnés creado, archivos subidos
+- [x] Módulo 15 - Indexación → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 16 - Canibalizaciones
 - [ ] Módulo 17 - Mobile
 - [ ] Módulo 18 - WPO
@@ -176,6 +176,23 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 15 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_15_indexacion/archivos/
+  en GitHub
+- Subida de los 9 archivos de conocimiento del Módulo 15 -
+  Indexación (introducción, noindex, Google Search Console, crawl
+  budget, consejos y ejemplo práctico de indexación)
+- Construcción del ARNES.md del Módulo 15 - Indexación basado en el
+  contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 16 -
+  Canibalizaciones
+
+**Pendiente para sesión 16:**
+- Subir los archivos del Módulo 16 - Canibalizaciones a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 16
 
 ### Sesión 14 — [FECHA]
 **Completado:**
