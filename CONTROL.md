@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 21
-- Sesión número: 21
-- Última tarea completada: Construcción del ARNES.md del Módulo 21 - Perfil de Enlaces
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 22 - Linkbuilding y Linkbaiting a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 22
+- Sesión número: 22
+- Última tarea completada: Construcción del ARNES.md del Módulo 22 - Linkbuilding y Linkbaiting
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 23 - Linkbuilding que genera negocio a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 19 / 91
+- Arneses creados: 20 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -93,8 +93,8 @@ identificado solo por módulo/tema.
 ### FASE 3 — Contenido y Off Page (Módulos 19-29)
 - [x] Módulo 19 - Blog → arnés creado, archivos subidos
 - [x] Módulo 20 - SEO Off Page → arnés creado, archivos subidos
-- [x] Módulo 21 - Perfil de Enlaces → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 22 - Linkbuilding y Linkbaiting
+- [x] Módulo 21 - Perfil de Enlaces → arnés creado, archivos subidos
+- [x] Módulo 22 - Linkbuilding y Linkbaiting → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 23 - Linkbuilding que genera negocio
 - [ ] Módulo 24 - Adquisición de Enlaces
 - [ ] Módulo 25 - Señales Off Page
@@ -176,6 +176,25 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 22 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_22_linkbuilding_y_linkbaiting/archivos/
+  en GitHub
+- Subida de los 9 archivos de conocimiento del Módulo 22 -
+  Linkbuilding y Linkbaiting (valorar enlaces, dominios, estrategias
+  de linkbuilding, linkbaiting, estrategias y ejemplos)
+- Construcción del ARNES.md del Módulo 22 - Linkbuilding y
+  Linkbaiting basado en el contenido real de esos archivos, neutral
+  desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 23 -
+  Linkbuilding que genera negocio
+
+**Pendiente para sesión 23:**
+- Subir los archivos del Módulo 23 - Linkbuilding que genera negocio
+  a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 23
 
 ### Sesión 21 — [FECHA]
 **Completado:**
