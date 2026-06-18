@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 30
-- Sesión número: 30
-- Última tarea completada: Construcción del ARNES.md del Módulo 30 - Google Search Console (inicia la FASE 4)
-- **PRÓXIMA TAREA: Crear la carpeta del Módulo 31 - Google Search Console Avanzado, subir sus archivos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 31
+- Sesión número: 31
+- Última tarea completada: Construcción del ARNES.md del Módulo 31 - Google Search Console Avanzado
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 32 - Sistrix, subir sus archivos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 28 / 91
+- Arneses creados: 29 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -104,8 +104,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 29 - Lead Generation → arnés creado, archivos subidos ← **FASE 3 COMPLETA**
 
 ### FASE 4 — Herramientas SEO (Módulos 30-37)
-- [x] Módulo 30 - Google Search Console → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 31 - Google Search Console Avanzado
+- [x] Módulo 30 - Google Search Console → arnés creado, archivos subidos
+- [x] Módulo 31 - Google Search Console Avanzado → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 32 - Sistrix
 - [ ] Módulo 33 - Semrush
 - [ ] Módulo 34 - Ahrefs
@@ -176,6 +176,25 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 31 — [FECHA]
+**Completado:**
+- Subida de los 3 archivos de conocimiento del Módulo 31 - Google
+  Search Console Avanzado (sitemaps quirúrgicos con Screaming Frog y
+  desindexación masiva, trucos de segmentación de marca/no marca y
+  long tail con regex más extensión de comparación de fechas, y
+  extracción/automatización de datos en Google Sheets con Search
+  Analytics for Sheets)
+- Construcción del ARNES.md del Módulo 31 - Google Search Console
+  Avanzado basado en el contenido real de esos archivos, neutral
+  desde el inicio (excluido el nombre del instructor del archivo
+  fuente)
+- Creación automática (PASO 0) de la carpeta del Módulo 32 - Sistrix
+
+**Pendiente para sesión 32:**
+- Subir los archivos del Módulo 32 - Sistrix a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 32
 
 ### Sesión 30 — [FECHA]
 **Completado:**
