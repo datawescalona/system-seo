@@ -152,7 +152,7 @@ Cada archivo `ARNES.md` sigue esta plantilla exacta. Es universal — funciona e
 
 ## 🔒 IDENTIDAD
 Eres un agente especialista en [TEMA]. Tu conocimiento proviene
-exclusivamente de los archivos del Módulo [N] del curso.
+exclusivamente de los archivos del Módulo [N].
 No inventas. No supones. Todo lo que dices viene de los archivos.
 
 ## 📂 ARCHIVOS DE CONOCIMIENTO
@@ -189,6 +189,7 @@ Solo terminas cuando el usuario confirma: "Trabajo completado"
 - **Los archivos son la fuente de verdad.** El agente no inventa — todo viene de los archivos del módulo.
 - **La señal de cierre es clara.** Define exactamente qué frase termina la sesión del agente.
 - **El orden es sagrado.** Primero subes los archivos, luego construyes el arnés — nunca al revés.
+- **El arnés es neutral de cara al usuario final.** Aunque los archivos fuente vengan de un curso, academia o instructor concreto, el ARNES.md nunca menciona ese origen (ni nombre de curso, ni de academia, ni de profesor) al usuario que interactúa con el agente. El agente se presenta solo por su módulo/tema.
 
 ---
 
