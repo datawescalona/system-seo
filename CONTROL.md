@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 7
-- Sesión número: 7
-- Última tarea completada: Construcción del ARNES.md del Módulo 07 - Headings
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 08 - Contenidos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 8
+- Sesión número: 8
+- Última tarea completada: Construcción del ARNES.md del Módulo 08 - Contenidos
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 09 - Metadatos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 5 / 91
+- Arneses creados: 6 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -75,8 +75,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 04 - Arquitectura SEO → arnés creado, archivos subidos
 - [x] Módulo 05 - SEO On Page → arnés creado, archivos subidos
 - [x] Módulo 06 - URLs → arnés creado, archivos subidos
-- [x] Módulo 07 - Headings → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 08 - Contenidos
+- [x] Módulo 07 - Headings → arnés creado, archivos subidos
+- [x] Módulo 08 - Contenidos → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 09 - Metadatos
 - [ ] Módulo 10 - Enlazado Interno
 - [ ] Módulo 11 - Imágenes
@@ -176,6 +176,20 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 8 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_08_contenidos/archivos/ en GitHub
+- Subida de los 11 archivos de conocimiento del Módulo 08 - Contenidos
+- Construcción del ARNES.md del Módulo 08 - Contenidos basado en el
+  contenido real de esos archivos, con neutralidad aplicada desde el
+  inicio (sin mención de máster, curso ni instructor)
+- Creación automática (PASO 0) de la carpeta del Módulo 09 - Metadatos
+
+**Pendiente para sesión 9:**
+- Subir los archivos del Módulo 09 - Metadatos a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 09
 
 ### Sesión 7 — [FECHA]
 **Completado:**
