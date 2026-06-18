@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 27
-- Sesión número: 27
-- Última tarea completada: Construcción del ARNES.md del Módulo 27 - Plan de Contenidos
-- **PRÓXIMA TAREA: Crear la carpeta del Módulo 28 - Inbound Marketing, subir sus archivos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 28
+- Sesión número: 28
+- Última tarea completada: Construcción del ARNES.md del Módulo 28 - Inbound Marketing
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 29 - Lead Generation, subir sus archivos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 25 / 91
+- Arneses creados: 26 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -99,8 +99,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 24 - Adquisición de Enlaces → arnés creado, archivos subidos
 - [x] Módulo 25 - Señales Off Page → arnés creado, archivos subidos
 - [x] Módulo 26 - Content Marketing → arnés creado, archivos subidos
-- [x] Módulo 27 - Plan de Contenidos → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 28 - Inbound Marketing
+- [x] Módulo 27 - Plan de Contenidos → arnés creado, archivos subidos
+- [x] Módulo 28 - Inbound Marketing → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 29 - Lead Generation
 
 ### FASE 4 — Herramientas SEO (Módulos 30-37)
@@ -176,6 +176,23 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 28 — [FECHA]
+**Completado:**
+- Subida de los 11 archivos de conocimiento del Módulo 28 - Inbound
+  Marketing (presentación completa, introducción, conceptos básicos
+  MQL/SQL/Lead Nurturing/Lead Scoring, Inbound vs Outbound, y los 5
+  pilares en detalle: atracción, conversión, automatización,
+  fidelización, análisis)
+- Construcción del ARNES.md del Módulo 28 - Inbound Marketing basado
+  en el contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 29 - Lead
+  Generation
+
+**Pendiente para sesión 29:**
+- Subir los archivos del Módulo 29 - Lead Generation a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 29
 
 ### Sesión 27 — [FECHA]
 **Completado:**
