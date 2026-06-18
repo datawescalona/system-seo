@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 6
-- Sesión número: 6
-- Última tarea completada: Construcción del ARNES.md del Módulo 06 - URLs
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 07 - Headings a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 7
+- Sesión número: 7
+- Última tarea completada: Construcción del ARNES.md del Módulo 07 - Headings
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 08 - Contenidos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -55,7 +55,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 4 / 91
+- Arneses creados: 5 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -69,8 +69,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 03 - Keyword Research → arnés creado, archivos subidos
 - [x] Módulo 04 - Arquitectura SEO → arnés creado, archivos subidos
 - [x] Módulo 05 - SEO On Page → arnés creado, archivos subidos
-- [x] Módulo 06 - URLs → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 07 - Headings
+- [x] Módulo 06 - URLs → arnés creado, archivos subidos
+- [x] Módulo 07 - Headings → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 08 - Contenidos
 - [ ] Módulo 09 - Metadatos
 - [ ] Módulo 10 - Enlazado Interno
@@ -171,6 +171,24 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 7 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_07_headings/archivos/ en GitHub
+- Subida de los 4 archivos de conocimiento del Módulo 07 - Headings
+- Construcción del ARNES.md del Módulo 07 - Headings basado en el
+  contenido real de esos archivos, aplicando desde el inicio la
+  regla de neutralidad (sin mención de curso ni instructor)
+
+**Decisiones tomadas:**
+- La regla de neutralidad ya estaba en la plantilla maestra
+  (HARNESS_SDD_BLUEPRINT.md), por lo que este módulo no necesitó
+  corrección posterior
+
+**Pendiente para sesión 8:**
+- Subir los archivos del Módulo 08 - Contenidos a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 08
 
 ### Sesión 6 — [FECHA]
 **Completado:**
