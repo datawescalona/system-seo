@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 36
-- Sesión número: 36
-- Última tarea completada: Construcción del ARNES.md del Módulo 36 - Screaming Frog Avanzado
-- **PRÓXIMA TAREA: Crear la carpeta del Módulo 37 - Extensión de Chrome para SEO, subir sus archivos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 37
+- Sesión número: 37
+- Última tarea completada: Construcción del ARNES.md del Módulo 37 - Extensiones de Chrome para SEO (cierra la FASE 4)
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 38 - SEO Ecommerce, subir sus archivos a GitHub y construir su ARNES.md (inicia la FASE 5)**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 34 / 91
+- Arneses creados: 35 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -111,7 +111,7 @@ identificado solo por módulo/tema.
 - [x] Módulo 34 - Ahrefs → arnés creado, archivos subidos
 - [x] Módulo 35 - Screaming Frog → arnés creado, archivos subidos
 - [x] Módulo 36 - Screaming Frog Avanzado → arnés creado, archivos subidos
-- [ ] Módulo 37 - Extensión de Chrome para SEO ← **SIGUIENTE**
+- [x] Módulo 37 - Extensión de Chrome para SEO → arnés creado, archivos subidos ← **FASE 4 COMPLETA**
 
 ### FASE 5 — SEO Especializado (Módulos 38-55)
 - [ ] Módulo 38 - SEO Ecommerce
@@ -176,6 +176,25 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 37 — [FECHA]
+**Completado:**
+- Subida de los 21 archivos de conocimiento del Módulo 37 -
+  Extensiones de Chrome para SEO (introducción y mini-clases de cada
+  extensión: Check My Links, EditThisCookie, SEO Meta in 1 Click, Open
+  SEO Stats, Seerobots, Web Developer, BuiltWith, Redirect Path, SEO
+  Minion, complemento de inhabilitación de Google Analytics, Daily.dev
+  y GoFullPage)
+- Construcción del ARNES.md del Módulo 37 basado en el contenido real
+  de esos archivos, neutral desde el inicio
+- **FASE 4 — Herramientas SEO completada** (Módulos 30 al 37)
+- Creación automática (PASO 0) de la carpeta del Módulo 38 - SEO
+  Ecommerce, iniciando la FASE 5 — SEO Especializado
+
+**Pendiente para sesión 38:**
+- Subir los archivos del Módulo 38 - SEO Ecommerce a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 38
 
 ### Sesión 36 — [FECHA]
 **Completado:**
