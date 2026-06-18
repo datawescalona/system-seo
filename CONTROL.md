@@ -17,11 +17,34 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: [FECHA DE SESIÓN 3]
-- Sesión número: 3
-- Última tarea completada: ARNES.md del Módulo 04 - Arquitectura SEO creado, archivos del módulo subidos a GitHub
-- **PRÓXIMA TAREA: Crear el ARNES.md del Módulo 05 - SEO On Page**
+- Última sesión: Sesión 4
+- Sesión número: 4
+- Última tarea completada: Actualización de archivos maestros CONTROL.md y BLUEPRINT.md con el flujo correcto de construcción de arneses
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 05 - SEO On Page a GitHub y luego construir su ARNES.md**
 - Bloqueadores: Ninguno
+
+---
+
+## 🔁 FLUJO OBLIGATORIO PARA CONSTRUIR UN ARNÉS
+⚠️ Sigue este orden SIEMPRE. No lo cambies.
+
+```
+PASO 1 — Sube los archivos del módulo a GitHub
+         Carpeta: harnesses/modulo_XX_nombre_modulo/archivos/
+         Formato de nombre: modulo_05_seo_on_page (número + guiones bajos)
+
+PASO 2 — Comparte los links raw de esos archivos con la IA
+         Ejemplo: https://raw.githubusercontent.com/usuario/repo/main/harnesses/modulo_05.../archivos/archivo.pdf
+
+PASO 3 — La IA lee los archivos y construye el ARNES.md basado en el contenido real
+         (nunca al revés — el arnés refleja lo que está en los archivos, no lo que la IA supone)
+
+PASO 4 — Copia el ARNES.md generado y súbelo a GitHub en la carpeta del módulo
+         Usa siempre el botón de copiar de un bloque de código o descarga el .txt
+         NUNCA copies desde la vista renderizada — perderás el formato Markdown
+
+PASO 5 — Actualiza este CONTROL.md marcando el arnés como completado
+```
 
 ---
 
@@ -144,6 +167,26 @@ construir un arnés nuevo.
 
 ## 📝 LOG DE SESIONES
 
+### Sesión 4 — [FECHA]
+**Completado:**
+- Identificación de un gap en el sistema: el Blueprint no explicaba el
+  orden correcto para construir un arnés (primero subir archivos,
+  luego construir el arnés)
+- Actualización de CONTROL.md con la sección "FLUJO OBLIGATORIO"
+- Actualización de BLUEPRINT.md con la sección "Cómo construir un arnés
+  paso a paso" y la tabla de nomenclatura de carpetas
+
+**Decisiones tomadas:**
+- El orden correcto es SIEMPRE: subir archivos → compartir links raw →
+  la IA construye el arnés — nunca al revés
+- Los nombres de carpeta siguen el patrón: modulo_XX_nombre_modulo
+  (número de dos dígitos + guiones bajos, sin mayúsculas, sin espacios)
+
+**Pendiente para sesión 5:**
+- Subir los archivos del Módulo 05 - SEO On Page a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 05
+
 ### Sesión 3 — [FECHA]
 **Completado:**
 - Creación del ARNES.md del Módulo 04 - Arquitectura SEO
@@ -175,15 +218,10 @@ construir un arnés nuevo.
 - Los archivos de cada módulo viven en una subcarpeta /archivos/
   dentro de la carpeta del módulo correspondiente
 
-**Pendiente para sesión 3:**
-- Crear el ARNES.md del Módulo 04 - Arquitectura SEO
-- Subir los archivos de conocimiento de ese módulo
-- (Opcional) Probar el arnés 03 con un caso real de keyword research
-
 ### Sesión 1 — [FECHA]
 **Completado:**
 - Diseño completo del sistema HARNESS-SDD
-- Creación del Blueprint maestro (HARNESS_SDD_BLUEPRINT.docx)
+- Creación del Blueprint maestro (HARNESS_SDD_BLUEPRINT.md)
 - Creación de este archivo CONTROL.md
 - Definición de la estructura de carpetas para GitHub
 - Definición de la plantilla universal de arnés
@@ -194,20 +232,15 @@ construir un arnés nuevo.
 - GitHub como repositorio central
 - CONTROL.md como memoria permanente entre sesiones
 
-**Pendiente para sesión 2:**
-- Crear el ARNES.md del Módulo 03 - Keyword Research
-- Subir estructura de carpetas a GitHub
-- Probar el arnés 03 con los archivos Excel y PDF del módulo
-
 ---
 
 ## 🗂️ ARCHIVOS DEL SISTEMA EN GITHUB
 ```
-/seo-harnesses/
+/system-seo/
 ├── README.md
 ├── MEGA_ARNES.md          ← pendiente
 ├── CONTROL.md             ← este archivo
-├── BLUEPRINT.md
+├── HARNESS_SDD_BLUEPRINT.md
 └── harnesses/
     └── [carpetas por módulo]
 ```
