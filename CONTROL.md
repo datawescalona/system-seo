@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 23
-- Sesión número: 23
-- Última tarea completada: Construcción del ARNES.md del Módulo 23 - Linkbuilding que genera negocio
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 24 - Adquisición de Enlaces a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 24
+- Sesión número: 24
+- Última tarea completada: Construcción del ARNES.md del Módulo 24 - Adquisición de Enlaces
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 25 - Señales Off Page a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 21 / 91
+- Arneses creados: 22 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -95,8 +95,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 20 - SEO Off Page → arnés creado, archivos subidos
 - [x] Módulo 21 - Perfil de Enlaces → arnés creado, archivos subidos
 - [x] Módulo 22 - Linkbuilding y Linkbaiting → arnés creado, archivos subidos
-- [x] Módulo 23 - Linkbuilding que genera negocio → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 24 - Adquisición de Enlaces
+- [x] Módulo 23 - Linkbuilding que genera negocio → arnés creado, archivos subidos
+- [x] Módulo 24 - Adquisición de Enlaces → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 25 - Señales Off Page
 - [ ] Módulo 26 - Content Marketing
 - [ ] Módulo 27 - Plan de Contenidos
@@ -176,6 +176,22 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 24 — [FECHA]
+**Completado:**
+- Subida de los 6 archivos de conocimiento del Módulo 24 -
+  Adquisición de Enlaces (introducción, proceso de compra, links
+  afines/autoridad, y análisis práctico de medios)
+- Construcción del ARNES.md del Módulo 24 - Adquisición de Enlaces
+  basado en el contenido real de esos archivos, neutral desde el
+  inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 25 -
+  Señales Off Page
+
+**Pendiente para sesión 25:**
+- Subir los archivos del Módulo 25 - Señales Off Page a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 25
 
 ### Sesión 23 — [FECHA]
 **Completado:**
