@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 4
-- Sesión número: 4
-- Última tarea completada: Actualización de archivos maestros CONTROL.md y BLUEPRINT.md con el flujo correcto de construcción de arneses
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 05 - SEO On Page a GitHub y luego construir su ARNES.md**
+- Última sesión: Sesión 5
+- Sesión número: 5
+- Última tarea completada: Construcción del ARNES.md del Módulo 05 - SEO On Page
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 06 - URLs a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -50,7 +50,7 @@ PASO 5 — Actualiza este CONTROL.md marcando el arnés como completado
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 2 / 91
+- Arneses creados: 3 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -63,7 +63,7 @@ PASO 5 — Actualiza este CONTROL.md marcando el arnés como completado
 - [ ] Módulo 02 - Introducción al SEO y Buscadores
 - [x] Módulo 03 - Keyword Research → arnés creado, archivos subidos
 - [x] Módulo 04 - Arquitectura SEO → arnés creado, archivos subidos
-- [ ] Módulo 05 - SEO On Page ← **SIGUIENTE**
+- [x] Módulo 05 - SEO On Page ← **SIGUIENTE**
 - [ ] Módulo 06 - URLs
 - [ ] Módulo 07 - Headings
 - [ ] Módulo 08 - Contenidos
