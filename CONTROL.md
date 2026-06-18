@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 33
-- Sesión número: 33
-- Última tarea completada: Construcción del ARNES.md del Módulo 33 - Semrush
-- **PRÓXIMA TAREA: Crear la carpeta del Módulo 34 - Ahrefs, subir sus archivos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 34
+- Sesión número: 34
+- Última tarea completada: Construcción del ARNES.md del Módulo 34 - Ahrefs
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 35 - Screaming Frog, subir sus archivos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 31 / 91
+- Arneses creados: 32 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -107,8 +107,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 30 - Google Search Console → arnés creado, archivos subidos
 - [x] Módulo 31 - Google Search Console Avanzado → arnés creado, archivos subidos
 - [x] Módulo 32 - Sistrix → arnés creado, archivos subidos
-- [x] Módulo 33 - Semrush → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 34 - Ahrefs
+- [x] Módulo 33 - Semrush → arnés creado, archivos subidos
+- [x] Módulo 34 - Ahrefs → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 35 - Screaming Frog
 - [ ] Módulo 36 - Screaming Frog Avanzado
 - [ ] Módulo 37 - Extensión de Chrome para SEO
@@ -176,6 +176,26 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 34 — [FECHA]
+**Completado:**
+- Subida de los 8 archivos de conocimiento del Módulo 34 - Ahrefs
+  (presentación completa con métricas, introducción a UR/DR/Referring
+  Domains/Ahrefs Rank, uso de la herramienta y Site Explorer/perfil de
+  enlaces, Keyword Explorer, búsqueda orgánica, Content Explorer,
+  monitorización de proyectos —Dashboard/Site Audit/Rank Tracker—,
+  alternativas gratuitas, y una clase práctica con visión crítica de
+  qué partes de la herramienta priorizar)
+- Construcción del ARNES.md del Módulo 34 - Ahrefs basado en el
+  contenido real de esos archivos, neutral desde el inicio (excluido
+  el nombre del instructor del archivo fuente)
+- Creación automática (PASO 0) de la carpeta del Módulo 35 - Screaming
+  Frog
+
+**Pendiente para sesión 35:**
+- Subir los archivos del Módulo 35 - Screaming Frog a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 35
 
 ### Sesión 33 — [FECHA]
 **Completado:**
