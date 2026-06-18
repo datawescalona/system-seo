@@ -29,6 +29,11 @@ construir un arnés nuevo.
 ⚠️ Sigue este orden SIEMPRE. No lo cambies.
 
 ```
+PASO 0 — La IA crea automáticamente, sin que se le pida, la carpeta
+         harnesses/modulo_XX_nombre_modulo/archivos/ del siguiente
+         módulo en cuanto se cierra el módulo anterior, y avisa al
+         usuario de que ya está lista para recibir archivos
+
 PASO 1 — Sube los archivos del módulo a GitHub
          Carpeta: harnesses/modulo_XX_nombre_modulo/archivos/
          Formato de nombre: modulo_05_seo_on_page (número + guiones bajos)
