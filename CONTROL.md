@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 17
-- Sesión número: 17
-- Última tarea completada: Construcción del ARNES.md del Módulo 17 - Mobile
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 18 - WPO a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 18
+- Sesión número: 18
+- Última tarea completada: Construcción del ARNES.md del Módulo 18 - WPO (FASE 2 COMPLETA)
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 19 - Blog a GitHub y construir su ARNES.md (inicio FASE 3)**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 15 / 91
+- Arneses creados: 16 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -87,11 +87,11 @@ identificado solo por módulo/tema.
 - [x] Módulo 14 - Datos Estructurados → arnés creado, archivos subidos
 - [x] Módulo 15 - Indexación → arnés creado, archivos subidos
 - [x] Módulo 16 - Canibalizaciones → arnés creado, archivos subidos
-- [x] Módulo 17 - Mobile → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 18 - WPO
+- [x] Módulo 17 - Mobile → arnés creado, archivos subidos
+- [x] Módulo 18 - WPO → arnés creado, archivos subidos ← **FASE 2 COMPLETA**
 
 ### FASE 3 — Contenido y Off Page (Módulos 19-29)
-- [ ] Módulo 19 - Blog
+- [ ] Módulo 19 - Blog ← **SIGUIENTE**
 - [ ] Módulo 20 - SEO Off Page
 - [ ] Módulo 21 - Perfil de Enlaces
 - [ ] Módulo 22 - Linkbuilding y Linkbaiting
@@ -176,6 +176,22 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 18 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_18_wpo/archivos/ en GitHub
+- Subida de los 8 archivos de conocimiento del Módulo 18 - WPO
+  (introducción, LCP, FID y CLS, con optimización de cada métrica)
+- Construcción del ARNES.md del Módulo 18 - WPO basado en el
+  contenido real de esos archivos, neutral desde el inicio
+- **FASE 2 — SEO Técnico completada** (Módulos 12 al 18)
+- Creación automática (PASO 0) de la carpeta del Módulo 19 - Blog,
+  iniciando la FASE 3 — Contenido y Off Page
+
+**Pendiente para sesión 19:**
+- Subir los archivos del Módulo 19 - Blog a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 19
 
 ### Sesión 17 — [FECHA]
 **Completado:**
