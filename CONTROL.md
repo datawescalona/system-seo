@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 8
-- Sesión número: 8
-- Última tarea completada: Construcción del ARNES.md del Módulo 08 - Contenidos
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 09 - Metadatos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 9
+- Sesión número: 9
+- Última tarea completada: Construcción del ARNES.md del Módulo 09 - Metadatos
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 10 - Enlazado Interno a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 6 / 91
+- Arneses creados: 7 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -76,8 +76,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 05 - SEO On Page → arnés creado, archivos subidos
 - [x] Módulo 06 - URLs → arnés creado, archivos subidos
 - [x] Módulo 07 - Headings → arnés creado, archivos subidos
-- [x] Módulo 08 - Contenidos → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 09 - Metadatos
+- [x] Módulo 08 - Contenidos → arnés creado, archivos subidos
+- [x] Módulo 09 - Metadatos → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 10 - Enlazado Interno
 - [ ] Módulo 11 - Imágenes
 
@@ -176,6 +176,22 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 9 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_09_metadatos/archivos/ en GitHub
+- Subida de los 10 archivos de conocimiento del Módulo 09 - Metadatos
+  (Title, Diferencia Title/H1, Optimización de Titles, Meta
+  Description, Canonical)
+- Construcción del ARNES.md del Módulo 09 - Metadatos basado en el
+  contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 10 -
+  Enlazado Interno
+
+**Pendiente para sesión 10:**
+- Subir los archivos del Módulo 10 - Enlazado Interno a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 10
 
 ### Sesión 8 — [FECHA]
 **Completado:**
