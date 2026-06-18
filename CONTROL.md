@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 34
-- Sesión número: 34
-- Última tarea completada: Construcción del ARNES.md del Módulo 34 - Ahrefs
-- **PRÓXIMA TAREA: Crear la carpeta del Módulo 35 - Screaming Frog, subir sus archivos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 35
+- Sesión número: 35
+- Última tarea completada: Construcción del ARNES.md del Módulo 35 - Screaming Frog
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 36 - Screaming Frog Avanzado, subir sus archivos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 32 / 91
+- Arneses creados: 33 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -108,8 +108,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 31 - Google Search Console Avanzado → arnés creado, archivos subidos
 - [x] Módulo 32 - Sistrix → arnés creado, archivos subidos
 - [x] Módulo 33 - Semrush → arnés creado, archivos subidos
-- [x] Módulo 34 - Ahrefs → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 35 - Screaming Frog
+- [x] Módulo 34 - Ahrefs → arnés creado, archivos subidos
+- [x] Módulo 35 - Screaming Frog → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 36 - Screaming Frog Avanzado
 - [ ] Módulo 37 - Extensión de Chrome para SEO
 
@@ -176,6 +176,25 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 35 — [FECHA]
+**Completado:**
+- Subida de los 7 archivos de conocimiento del Módulo 35 - Screaming
+  Frog (introducción, qué es la herramienta, descarga e instalación,
+  enlace de interés, usos principales, interfaz completa, trial de 30
+  días, y una presentación con técnicas avanzadas de Custom Search y
+  Custom Extraction con XPath aplicadas a un caso real)
+- Construcción del ARNES.md del Módulo 35 - Screaming Frog basado en
+  el contenido real de esos archivos, neutral desde el inicio
+  (excluidos los nombres de los dos instructores de los archivos
+  fuente)
+- Creación automática (PASO 0) de la carpeta del Módulo 36 - Screaming
+  Frog Avanzado
+
+**Pendiente para sesión 36:**
+- Subir los archivos del Módulo 36 - Screaming Frog Avanzado a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 36
 
 ### Sesión 34 — [FECHA]
 **Completado:**
