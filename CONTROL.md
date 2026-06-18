@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 20
-- Sesión número: 20
-- Última tarea completada: Construcción del ARNES.md del Módulo 20 - SEO Off Page
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 21 - Perfil de Enlaces a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 21
+- Sesión número: 21
+- Última tarea completada: Construcción del ARNES.md del Módulo 21 - Perfil de Enlaces
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 22 - Linkbuilding y Linkbaiting a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 18 / 91
+- Arneses creados: 19 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -92,8 +92,8 @@ identificado solo por módulo/tema.
 
 ### FASE 3 — Contenido y Off Page (Módulos 19-29)
 - [x] Módulo 19 - Blog → arnés creado, archivos subidos
-- [x] Módulo 20 - SEO Off Page → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 21 - Perfil de Enlaces
+- [x] Módulo 20 - SEO Off Page → arnés creado, archivos subidos
+- [x] Módulo 21 - Perfil de Enlaces → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 22 - Linkbuilding y Linkbaiting
 - [ ] Módulo 23 - Linkbuilding que genera negocio
 - [ ] Módulo 24 - Adquisición de Enlaces
@@ -176,6 +176,24 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 21 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_21_perfil_de_enlaces/archivos/
+  en GitHub
+- Subida de los 6 archivos de conocimiento del Módulo 21 - Perfil de
+  Enlaces (introducción, características de un perfil óptimo,
+  recomendaciones, penalizaciones Penguin y plantilla disavow)
+- Construcción del ARNES.md del Módulo 21 - Perfil de Enlaces basado
+  en el contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 22 -
+  Linkbuilding y Linkbaiting
+
+**Pendiente para sesión 22:**
+- Subir los archivos del Módulo 22 - Linkbuilding y Linkbaiting a
+  GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 22
 
 ### Sesión 20 — [FECHA]
 **Completado:**
