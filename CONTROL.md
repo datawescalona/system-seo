@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 13
-- Sesión número: 13
-- Última tarea completada: Construcción del ARNES.md del Módulo 13 - Sitemap
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 14 - Datos Estructurados a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 14
+- Sesión número: 14
+- Última tarea completada: Construcción del ARNES.md del Módulo 14 - Datos Estructurados y Entidades
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 15 - Indexación a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 11 / 91
+- Arneses creados: 12 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -83,8 +83,8 @@ identificado solo por módulo/tema.
 
 ### FASE 2 — SEO Técnico (Módulos 12-18)
 - [x] Módulo 12 - Robots → arnés creado, archivos subidos
-- [x] Módulo 13 - Sitemap → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 14 - Datos Estructurados
+- [x] Módulo 13 - Sitemap → arnés creado, archivos subidos
+- [x] Módulo 14 - Datos Estructurados → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 15 - Indexación
 - [ ] Módulo 16 - Canibalizaciones
 - [ ] Módulo 17 - Mobile
@@ -176,6 +176,24 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 14 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_14_datos_estructurados/archivos/
+  en GitHub
+- Subida de los 8 archivos de conocimiento del Módulo 14 - Datos
+  Estructurados (esquema/JSON-LD, generación, speakable, entidades/
+  Knowledge Graph, ejemplos prácticos)
+- Construcción del ARNES.md del Módulo 14 - Datos Estructurados y
+  Entidades basado en el contenido real de esos archivos, neutral
+  desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 15 -
+  Indexación
+
+**Pendiente para sesión 15:**
+- Subir los archivos del Módulo 15 - Indexación a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 15
 
 ### Sesión 13 — [FECHA]
 **Completado:**
