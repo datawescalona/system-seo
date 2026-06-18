@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 19
-- Sesión número: 19
-- Última tarea completada: Construcción del ARNES.md del Módulo 19 - Blog
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 20 - SEO Off Page a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 20
+- Sesión número: 20
+- Última tarea completada: Construcción del ARNES.md del Módulo 20 - SEO Off Page
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 21 - Perfil de Enlaces a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 17 / 91
+- Arneses creados: 18 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -91,8 +91,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 18 - WPO → arnés creado, archivos subidos ← **FASE 2 COMPLETA**
 
 ### FASE 3 — Contenido y Off Page (Módulos 19-29)
-- [x] Módulo 19 - Blog → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 20 - SEO Off Page
+- [x] Módulo 19 - Blog → arnés creado, archivos subidos
+- [x] Módulo 20 - SEO Off Page → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 21 - Perfil de Enlaces
 - [ ] Módulo 22 - Linkbuilding y Linkbaiting
 - [ ] Módulo 23 - Linkbuilding que genera negocio
@@ -176,6 +176,22 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 20 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_20_seo_off_page/archivos/
+  en GitHub
+- Subida de los 4 archivos de conocimiento del Módulo 20 - SEO Off
+  Page (introducción, link building y herramientas)
+- Construcción del ARNES.md del Módulo 20 - SEO Off Page basado en
+  el contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 21 - Perfil
+  de Enlaces
+
+**Pendiente para sesión 21:**
+- Subir los archivos del Módulo 21 - Perfil de Enlaces a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 21
 
 ### Sesión 19 — [FECHA]
 **Completado:**
