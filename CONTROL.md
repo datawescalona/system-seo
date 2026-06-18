@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 16
-- Sesión número: 16
-- Última tarea completada: Construcción del ARNES.md del Módulo 16 - Canibalizaciones
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 17 - Mobile a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 17
+- Sesión número: 17
+- Última tarea completada: Construcción del ARNES.md del Módulo 17 - Mobile
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 18 - WPO a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 14 / 91
+- Arneses creados: 15 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -86,8 +86,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 13 - Sitemap → arnés creado, archivos subidos
 - [x] Módulo 14 - Datos Estructurados → arnés creado, archivos subidos
 - [x] Módulo 15 - Indexación → arnés creado, archivos subidos
-- [x] Módulo 16 - Canibalizaciones → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 17 - Mobile
+- [x] Módulo 16 - Canibalizaciones → arnés creado, archivos subidos
+- [x] Módulo 17 - Mobile → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 18 - WPO
 
 ### FASE 3 — Contenido y Off Page (Módulos 19-29)
@@ -176,6 +176,21 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 17 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_17_mobile/archivos/ en GitHub
+- Subida de los 12 archivos de conocimiento del Módulo 17 - Mobile
+  (configuraciones, RWD/AWD, URLs independientes, AMP, prácticas
+  recomendadas y herramientas)
+- Construcción del ARNES.md del Módulo 17 - Mobile basado en el
+  contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 18 - WPO
+
+**Pendiente para sesión 18:**
+- Subir los archivos del Módulo 18 - WPO a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 18 (cierra la FASE 2)
 
 ### Sesión 16 — [FECHA]
 **Completado:**
