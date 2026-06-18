@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 5
-- Sesión número: 5
-- Última tarea completada: Construcción del ARNES.md del Módulo 05 - SEO On Page
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 06 - URLs a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 6
+- Sesión número: 6
+- Última tarea completada: Construcción del ARNES.md del Módulo 06 - URLs
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 07 - Headings a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -46,11 +46,16 @@ PASO 4 — Copia el ARNES.md generado y súbelo a GitHub en la carpeta del módu
 PASO 5 — Actualiza este CONTROL.md marcando el arnés como completado
 ```
 
+⚠️ Restricción de redacción: los ARNES.md NUNCA deben mencionar el
+curso de origen ni nombres de instructores/profesores que aparezcan
+en los archivos fuente. El arnés se redacta de forma neutral,
+identificado solo por módulo/tema.
+
 ---
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 3 / 91
+- Arneses creados: 4 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -63,8 +68,8 @@ PASO 5 — Actualiza este CONTROL.md marcando el arnés como completado
 - [ ] Módulo 02 - Introducción al SEO y Buscadores
 - [x] Módulo 03 - Keyword Research → arnés creado, archivos subidos
 - [x] Módulo 04 - Arquitectura SEO → arnés creado, archivos subidos
-- [x] Módulo 05 - SEO On Page ← **SIGUIENTE**
-- [ ] Módulo 06 - URLs
+- [x] Módulo 05 - SEO On Page → arnés creado, archivos subidos
+- [x] Módulo 06 - URLs → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 07 - Headings
 - [ ] Módulo 08 - Contenidos
 - [ ] Módulo 09 - Metadatos
@@ -166,6 +171,26 @@ PASO 5 — Actualiza este CONTROL.md marcando el arnés como completado
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 6 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_06_urls/archivos/ en GitHub
+- Subida de los 6 archivos de conocimiento del Módulo 06 - URLs
+- Construcción del ARNES.md del Módulo 06 - URLs basado en el
+  contenido real de esos archivos
+- Corrección del ARNES.md para eliminar toda referencia al curso de
+  origen y al nombre del instructor (regla de redacción neutral,
+  ahora documentada en este archivo)
+
+**Decisiones tomadas:**
+- Los ARNES.md nunca mencionan curso de origen ni nombres de
+  instructores/profesores, aunque aparezcan en los archivos fuente
+  transcritos — el arnés se identifica solo por módulo/tema
+
+**Pendiente para sesión 7:**
+- Subir los archivos del Módulo 07 - Headings a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 07
 
 ### Sesión 4 — [FECHA]
 **Completado:**
