@@ -6,7 +6,7 @@
 |---|---|
 | **91 módulos** | **91 arneses** |
 
-Versión 1.0 · Compatible con Claude · ChatGPT · Gemini · cualquier LLM
+Versión 1.1 · Compatible con Claude · ChatGPT · Gemini · cualquier LLM
 
 ---
 
@@ -65,7 +65,7 @@ Organiza tu repositorio exactamente así. Cada módulo tiene su propia carpeta c
 │
 ├── README.md                         ← presentación del sistema
 ├── MEGA_ARNES.md                     ← el orquestador maestro
-├── CONTROL.md                        ← registro de avances (VER SECCIÓN 6)
+├── CONTROL.md                        ← registro de avances
 ├── HARNESS_SDD_BLUEPRINT.md          ← este documento
 │
 └── harnesses/
@@ -84,9 +84,63 @@ Organiza tu repositorio exactamente así. Cada módulo tiene su propia carpeta c
     └── [un módulo por carpeta...]
 ```
 
+## 4.1 Cómo nombrar las carpetas de módulo
+
+⚠️ Sigue este formato SIEMPRE para que el sistema sea consistente.
+
+| **Regla** | **Ejemplo correcto** | **Ejemplo incorrecto** |
+|---|---|---|
+| Todo en minúsculas | modulo_05_seo_on_page | Modulo_05_SEO_On_Page |
+| Número de dos dígitos | modulo_05 | modulo_5 |
+| Espacios reemplazados por guión bajo | seo_on_page | seo on page |
+| Sin caracteres especiales | seo_on_page | seo-on-page / séo_on_page |
+
+**Ejemplos de nombres correctos:**
+```
+modulo_00_bienvenida
+modulo_03_keyword_research
+modulo_04_arquitectura_seo
+modulo_05_seo_on_page
+modulo_12_robots
+modulo_39_seo_local
+modulo_80_auditoria_seo
+```
+
 ---
 
-# 5. Anatomía de un Arnés
+# 5. Cómo Construir un Arnés — Paso a Paso
+
+> ⚠️ Este es el flujo obligatorio. No lo cambies ni lo atajos.
+> El arnés debe reflejar el contenido REAL de los archivos — la IA no inventa.
+
+```
+PASO 1 — Sube los archivos del módulo a GitHub
+         Ruta: harnesses/modulo_XX_nombre_modulo/archivos/
+         Sube todos los PDFs, Excel, PPT, TXT del módulo
+
+PASO 2 — Obtén los links raw de cada archivo
+         En GitHub: abre el archivo → botón "Raw" → copia la URL
+         Ejemplo: https://raw.githubusercontent.com/usuario/repo/main/
+                  harnesses/modulo_05_seo_on_page/archivos/seo_on_page.pdf
+
+PASO 3 — Abre la IA y comparte los links raw
+         Pega los links y pide: "Lee estos archivos y construye el ARNES.md
+         del Módulo 05 - SEO On Page siguiendo la plantilla del sistema HARNESS-SDD"
+
+PASO 4 — La IA lee los archivos y genera el ARNES.md
+         El arnés reflejará el contenido real de tus archivos
+
+PASO 5 — Copia el ARNES.md y súbelo a GitHub
+         ⚠️ USA SIEMPRE el botón de copiar del bloque de código
+         NUNCA copies desde la vista renderizada — perderás el formato Markdown
+
+PASO 6 — Actualiza CONTROL.md
+         Marca el arnés como completado [x] y registra la sesión en el log
+```
+
+---
+
+# 6. Anatomía de un Arnés
 
 Cada archivo `ARNES.md` sigue esta plantilla exacta. Es universal — funciona en cualquier IA sin modificación.
 
@@ -127,17 +181,18 @@ Paso 6 — No terminas hasta que el trabajo esté bien hecho
 Solo terminas cuando el usuario confirma: "Trabajo completado"
 ```
 
-## 5.1 Reglas de oro para construir un arnés
+## 6.1 Reglas de oro para construir un arnés
 
 - **Un arnés = un módulo.** Nunca mezcles temas en el mismo arnés.
 - **El arnés manda, no la IA.** La IA ejecuta lo que el arnés le dice.
 - **El loop es obligatorio.** El agente no termina hasta que el trabajo esté bien hecho o el usuario lo libere explícitamente.
 - **Los archivos son la fuente de verdad.** El agente no inventa — todo viene de los archivos del módulo.
 - **La señal de cierre es clara.** Define exactamente qué frase termina la sesión del agente.
+- **El orden es sagrado.** Primero subes los archivos, luego construyes el arnés — nunca al revés.
 
 ---
 
-# 6. El Mega Arnés — Orquestador Maestro
+# 7. El Mega Arnés — Orquestador Maestro
 
 El Mega Arnés es el cerebro que coordina todos los micro-agentes. Lo usas cuando necesitas una tarea que cruza varios módulos, como una Auditoría SEO completa o un proyecto nuevo de principio a fin.
 
@@ -174,21 +229,20 @@ y el usuario confirma: "Proyecto completado"
 
 ---
 
-# 7. Sistema de Control de Avances (CONTROL.md)
+# 8. Sistema de Control de Avances (CONTROL.md)
 
 > **Problema que resuelve:** Los tokens se acaban. Las sesiones terminan. Sin un registro de control, cada vez que vuelves a una IA tienes que explicar todo de nuevo desde cero. El archivo CONTROL.md en GitHub soluciona esto: es la memoria permanente del sistema.
 
-## 7.1 Cómo funciona
+## 8.1 Cómo funciona
 
 Al inicio de cada sesión con cualquier IA, haces esto:
 
 1. Abres la IA que vayas a usar.
-2. Adjuntas o pegas el contenido de `CONTROL.md`.
-3. Le dices: *"Lee este archivo. Es el estado actual de mi proyecto. Continúa desde donde quedamos."*
-4. La IA lee el control, entiende el contexto completo y continúa sin que tengas que explicar nada.
-5. Al terminar la sesión, actualizas el `CONTROL.md` con lo que se hizo y lo subes a GitHub.
+2. Compartes los links de CONTROL.md, README.md y BLUEPRINT.md.
+3. La IA lee los tres archivos, entiende el estado completo y continúa sin que tengas que explicar nada.
+4. Al terminar la sesión, actualizas el CONTROL.md con lo que se hizo y lo subes a GitHub.
 
-## 7.2 Estructura del archivo CONTROL.md
+## 8.2 Estructura del archivo CONTROL.md
 
 ```markdown
 # CONTROL DE AVANCES — SISTEMA HARNESS-SDD
@@ -200,6 +254,9 @@ Al inicio de cada sesión con cualquier IA, haces esto:
 - Próxima tarea pendiente: [descripción]
 - Bloqueadores actuales: [si los hay]
 
+## 🔁 FLUJO OBLIGATORIO PARA CONSTRUIR UN ARNÉS
+[sección con los 6 pasos del flujo — ver Sección 5 del Blueprint]
+
 ## ✅ ARNESES COMPLETADOS
 - [x] Módulo 03 - Keyword Research → commit: abc123f
 - [x] Módulo 04 - Arquitectura SEO → commit: def456g
@@ -207,31 +264,15 @@ Al inicio de cada sesión con cualquier IA, haces esto:
 
 ## ⏳ ARNESES PENDIENTES
 - [ ] Módulo 06 - URLs
-- [ ] Módulo 07 - Headings
-- [ ] Módulo 08 - Contenidos
 [... lista del resto ...]
 
 ## 📝 LOG DE SESIONES
-
-### Sesión 3 — [fecha]
-- Se completó el arnés del Módulo 04
-- Se probó el arnés del Módulo 03 con archivo Excel
-- Problema encontrado: el arnés 03 necesita más contexto de herramientas
-- Solución aplicada: se agregó sección de herramientas al arnés
-
-### Sesión 2 — [fecha]
-- Se completó el arnés del Módulo 03
-- Se creó la estructura de carpetas en GitHub
-- Pendiente: subir archivos Excel del módulo 03
-
-### Sesión 1 — [fecha]
-- Diseño del sistema completo
-- Creación del Blueprint y este archivo de control
+[registro de cada sesión con lo completado y lo pendiente]
 ```
 
 ---
 
-# 8. Registro Completo de Módulos
+# 9. Registro Completo de Módulos
 
 Usa esta tabla para hacer seguimiento del estado de cada arnés.
 
@@ -239,8 +280,8 @@ Usa esta tabla para hacer seguimiento del estado de cada arnés.
 |---|---|---|---|
 | **00** | Bienvenida | ⬜ | ⬜ |
 | **02** | Introducción al SEO y Buscadores | ⬜ | ⬜ |
-| **03** | Keyword Research | ⬜ | ⬜ |
-| **04** | Arquitectura SEO | ⬜ | ⬜ |
+| **03** | Keyword Research | ✅ | ⬜ |
+| **04** | Arquitectura SEO | ✅ | ⬜ |
 | **05** | SEO On Page | ⬜ | ⬜ |
 | **06** | URLs | ⬜ | ⬜ |
 | **07** | Headings | ⬜ | ⬜ |
@@ -326,29 +367,29 @@ Usa esta tabla para hacer seguimiento del estado de cada arnés.
 
 ---
 
-# 9. Acceso al Sistema — Quién Puede Conectarse
+# 10. Acceso al Sistema — Quién Puede Conectarse
 
 | **Tipo de acceso** | **Configuración en GitHub** | **Resultado** |
 |---|---|---|
 | **Solo tú** | Repositorio Privado | Solo tú ves y usas los arneses. Nadie más puede acceder. |
 | **Grupo selecto** | Repositorio Privado + Colaboradores | Invitas a personas específicas. Cada una accede con su cuenta GitHub. |
 | **Todo el mundo** | Repositorio Público | Cualquier persona puede ver, descargar y usar los arneses. Sin registro. |
-| **Otras IAs** | URL del archivo raw en GitHub | La IA accede directamente al archivo ARNES.md con el link raw de GitHub. |
+| **Otras IAs** | URL del archivo raw en GitHub | La IA accede directamente al archivo con el link raw de GitHub. |
 
 ---
 
-# 10. Plan de Acción — Por Dónde Empezar
+# 11. Plan de Acción — Por Dónde Empezar
 
 | **Paso** | **Cuándo** | **Qué hacer** |
 |---|---|---|
 | **1** | Esta semana | Crear cuenta en GitHub y crear el repositorio con la estructura de carpetas explicada en la Sección 4. |
 | **2** | Esta semana | Subir este documento (Blueprint) y crear el CONTROL.md inicial con todos los módulos en estado Pendiente. |
-| **3** | Siguiente sesión | Construir el primer arnés real: Módulo 03 - Keyword Research. Es el más rico en archivos y el mejor para probar el sistema. |
-| **4** | Sesiones siguientes | Ir módulo por módulo. Cada sesión: crear el arnés, probarlo con los archivos, marcarlo como completado en CONTROL.md. |
+| **3** | Siguiente sesión | Subir los archivos del primer módulo a GitHub. Luego pedir a la IA que construya el arnés leyendo esos archivos. |
+| **4** | Sesiones siguientes | Ir módulo por módulo. Cada sesión: subir archivos → construir arnés → probar → marcar como completado en CONTROL.md. |
 | **5** | Al tener 10+ arneses | Construir el Mega Arnés orquestador que los coordina a todos. |
 | **6** | Versión final | Sistema completo de 91 arneses + Mega Arnés. Repositorio público o compartido con tu comunidad. |
 
 ---
 
-*Sistema HARNESS-SDD — Micro-Agentes SEO*
-*Este documento es el punto de partida. Cada sesión lo complementa. Guárdalo en GitHub junto a CONTROL.md.*
+*Sistema HARNESS-SDD v1.1 — Micro-Agentes SEO*
+*Actualizado para incluir el flujo correcto de construcción de arneses y la nomenclatura de carpetas.*
