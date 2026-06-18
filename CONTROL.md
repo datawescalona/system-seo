@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 28
-- Sesión número: 28
-- Última tarea completada: Construcción del ARNES.md del Módulo 28 - Inbound Marketing
-- **PRÓXIMA TAREA: Crear la carpeta del Módulo 29 - Lead Generation, subir sus archivos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 29
+- Sesión número: 29
+- Última tarea completada: Construcción del ARNES.md del Módulo 29 - Lead Generation (cierra la FASE 3)
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 30 - Google Search Console, subir sus archivos a GitHub y construir su ARNES.md (inicia la FASE 4)**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 26 / 91
+- Arneses creados: 27 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -100,8 +100,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 25 - Señales Off Page → arnés creado, archivos subidos
 - [x] Módulo 26 - Content Marketing → arnés creado, archivos subidos
 - [x] Módulo 27 - Plan de Contenidos → arnés creado, archivos subidos
-- [x] Módulo 28 - Inbound Marketing → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 29 - Lead Generation
+- [x] Módulo 28 - Inbound Marketing → arnés creado, archivos subidos
+- [x] Módulo 29 - Lead Generation → arnés creado, archivos subidos ← **FASE 3 COMPLETA**
 
 ### FASE 4 — Herramientas SEO (Módulos 30-37)
 - [ ] Módulo 30 - Google Search Console
@@ -176,6 +176,24 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 29 — [FECHA]
+**Completado:**
+- Subida de los 6 archivos de conocimiento del Módulo 29 - Lead
+  Generation (presentación completa, introducción, los 7 pasos para
+  crear contenido SEO que convierta, elementos de conversión en post
+  de blog, elementos de conversión en páginas transaccionales, y
+  ejercicio práctico)
+- Construcción del ARNES.md del Módulo 29 - Lead Generation basado en
+  el contenido real de esos archivos, neutral desde el inicio
+- **FASE 3 — Contenido y Off Page completada** (Módulos 19 al 29)
+
+**Pendiente para sesión 30:**
+- Crear la carpeta del Módulo 30 - Google Search Console, iniciando
+  la FASE 4 — Herramientas SEO
+- Subir los archivos del Módulo 30 a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 30
 
 ### Sesión 28 — [FECHA]
 **Completado:**
