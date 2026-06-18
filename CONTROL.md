@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 15
-- Sesión número: 15
-- Última tarea completada: Construcción del ARNES.md del Módulo 15 - Indexación
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 16 - Canibalizaciones a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 16
+- Sesión número: 16
+- Última tarea completada: Construcción del ARNES.md del Módulo 16 - Canibalizaciones
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 17 - Mobile a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 13 / 91
+- Arneses creados: 14 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -85,8 +85,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 12 - Robots → arnés creado, archivos subidos
 - [x] Módulo 13 - Sitemap → arnés creado, archivos subidos
 - [x] Módulo 14 - Datos Estructurados → arnés creado, archivos subidos
-- [x] Módulo 15 - Indexación → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 16 - Canibalizaciones
+- [x] Módulo 15 - Indexación → arnés creado, archivos subidos
+- [x] Módulo 16 - Canibalizaciones → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 17 - Mobile
 - [ ] Módulo 18 - WPO
 
@@ -176,6 +176,22 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 16 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_16_canibalizaciones/archivos/
+  en GitHub
+- Subida de los 7 archivos de conocimiento del Módulo 16 -
+  Canibalizaciones (introducción, causas, impacto, tipos, detección
+  y solución)
+- Construcción del ARNES.md del Módulo 16 - Canibalizaciones basado
+  en el contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 17 - Mobile
+
+**Pendiente para sesión 17:**
+- Subir los archivos del Módulo 17 - Mobile a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 17
 
 ### Sesión 15 — [FECHA]
 **Completado:**
