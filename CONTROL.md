@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 32
-- Sesión número: 32
-- Última tarea completada: Construcción del ARNES.md del Módulo 32 - Sistrix
-- **PRÓXIMA TAREA: Crear la carpeta del Módulo 33 - Semrush, subir sus archivos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 33
+- Sesión número: 33
+- Última tarea completada: Construcción del ARNES.md del Módulo 33 - Semrush
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 34 - Ahrefs, subir sus archivos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 30 / 91
+- Arneses creados: 31 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -106,8 +106,8 @@ identificado solo por módulo/tema.
 ### FASE 4 — Herramientas SEO (Módulos 30-37)
 - [x] Módulo 30 - Google Search Console → arnés creado, archivos subidos
 - [x] Módulo 31 - Google Search Console Avanzado → arnés creado, archivos subidos
-- [x] Módulo 32 - Sistrix → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 33 - Semrush
+- [x] Módulo 32 - Sistrix → arnés creado, archivos subidos
+- [x] Módulo 33 - Semrush → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 34 - Ahrefs
 - [ ] Módulo 35 - Screaming Frog
 - [ ] Módulo 36 - Screaming Frog Avanzado
@@ -176,6 +176,25 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 33 — [FECHA]
+**Completado:**
+- Subida de los 10 archivos de conocimiento del Módulo 33 - Semrush
+  (enlace e introducción a la herramienta, presentación con datos de
+  escala, benchmark de competencia, keyword research con Keyword
+  Magic Tool, backlinks, auditoría de sitio, contenido con SEO Content
+  Template, Semrush Sensor, trial de 30 días, y un PDF de ejercicios
+  prácticos en inglés que mapea tareas SEO reales a funciones
+  concretas de la herramienta)
+- Construcción del ARNES.md del Módulo 33 - Semrush basado en el
+  contenido real de esos archivos, neutral desde el inicio (excluidos
+  los nombres de los dos instructores de los archivos fuente)
+- Creación automática (PASO 0) de la carpeta del Módulo 34 - Ahrefs
+
+**Pendiente para sesión 34:**
+- Subir los archivos del Módulo 34 - Ahrefs a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 34
 
 ### Sesión 32 — [FECHA]
 **Completado:**
