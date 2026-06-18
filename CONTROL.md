@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 26
-- Sesión número: 26
-- Última tarea completada: Construcción del ARNES.md del Módulo 26 - Content Marketing
-- **PRÓXIMA TAREA: Crear la carpeta del Módulo 27 - Plan de Contenidos, subir sus archivos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 27
+- Sesión número: 27
+- Última tarea completada: Construcción del ARNES.md del Módulo 27 - Plan de Contenidos
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 28 - Inbound Marketing, subir sus archivos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 24 / 91
+- Arneses creados: 25 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -98,8 +98,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 23 - Linkbuilding que genera negocio → arnés creado, archivos subidos
 - [x] Módulo 24 - Adquisición de Enlaces → arnés creado, archivos subidos
 - [x] Módulo 25 - Señales Off Page → arnés creado, archivos subidos
-- [x] Módulo 26 - Content Marketing → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 27 - Plan de Contenidos
+- [x] Módulo 26 - Content Marketing → arnés creado, archivos subidos
+- [x] Módulo 27 - Plan de Contenidos → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 28 - Inbound Marketing
 - [ ] Módulo 29 - Lead Generation
 
@@ -176,6 +176,25 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 27 — [FECHA]
+**Completado:**
+- Subida de los 14 archivos de conocimiento del Módulo 27 - Plan de
+  Contenidos (presentación completa, introducción, qué es un plan de
+  contenidos, tipos de contenido por fase del Customer Journey,
+  canales de difusión, frecuencia de publicación, cómo hacer el plan,
+  ejemplo real de Reversal Inbound, calendario editorial, calendario
+  de social media, organización del trabajo, y plantillas de buyer
+  persona/calendario editorial/calendario social media)
+- Construcción del ARNES.md del Módulo 27 - Plan de Contenidos basado
+  en el contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 28 - Inbound
+  Marketing
+
+**Pendiente para sesión 28:**
+- Subir los archivos del Módulo 28 - Inbound Marketing a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 28
 
 ### Sesión 26 — [FECHA]
 **Completado:**
