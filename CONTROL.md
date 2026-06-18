@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 35
-- Sesión número: 35
-- Última tarea completada: Construcción del ARNES.md del Módulo 35 - Screaming Frog
-- **PRÓXIMA TAREA: Crear la carpeta del Módulo 36 - Screaming Frog Avanzado, subir sus archivos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 36
+- Sesión número: 36
+- Última tarea completada: Construcción del ARNES.md del Módulo 36 - Screaming Frog Avanzado
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 37 - Extensión de Chrome para SEO, subir sus archivos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 33 / 91
+- Arneses creados: 34 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -109,9 +109,9 @@ identificado solo por módulo/tema.
 - [x] Módulo 32 - Sistrix → arnés creado, archivos subidos
 - [x] Módulo 33 - Semrush → arnés creado, archivos subidos
 - [x] Módulo 34 - Ahrefs → arnés creado, archivos subidos
-- [x] Módulo 35 - Screaming Frog → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 36 - Screaming Frog Avanzado
-- [ ] Módulo 37 - Extensión de Chrome para SEO
+- [x] Módulo 35 - Screaming Frog → arnés creado, archivos subidos
+- [x] Módulo 36 - Screaming Frog Avanzado → arnés creado, archivos subidos
+- [ ] Módulo 37 - Extensión de Chrome para SEO ← **SIGUIENTE**
 
 ### FASE 5 — SEO Especializado (Módulos 38-55)
 - [ ] Módulo 38 - SEO Ecommerce
@@ -176,6 +176,25 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 36 — [FECHA]
+**Completado:**
+- Subida de los 14 archivos de conocimiento del Módulo 36 - Screaming
+  Frog Avanzado (enlace, introducción, presentación con índice
+  completo, y transcripciones detalladas de cada técnica: contenido
+  duplicado, páginas huérfanas, palabra exacta para interlinking,
+  productos con opiniones, productos fuera de stock, URLs sin GA/GTM,
+  texto de categoría, breadcrumbs, precio de producto, valoraciones de
+  producto, productos por categoría, y extracción/conteo de H3)
+- Construcción del ARNES.md del Módulo 36 - Screaming Frog Avanzado
+  basado en el contenido real de esos archivos, neutral desde el
+  inicio
+
+**Pendiente para sesión 37:**
+- Subir los archivos del Módulo 37 - Extensión de Chrome para SEO a
+  GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 37 (cierra la FASE 4)
 
 ### Sesión 35 — [FECHA]
 **Completado:**
