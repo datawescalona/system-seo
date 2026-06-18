@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 9
-- Sesión número: 9
-- Última tarea completada: Construcción del ARNES.md del Módulo 09 - Metadatos
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 10 - Enlazado Interno a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 10
+- Sesión número: 10
+- Última tarea completada: Construcción del ARNES.md del Módulo 10 - Enlazado Interno
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 11 - Imágenes a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 7 / 91
+- Arneses creados: 8 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -77,8 +77,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 06 - URLs → arnés creado, archivos subidos
 - [x] Módulo 07 - Headings → arnés creado, archivos subidos
 - [x] Módulo 08 - Contenidos → arnés creado, archivos subidos
-- [x] Módulo 09 - Metadatos → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 10 - Enlazado Interno
+- [x] Módulo 09 - Metadatos → arnés creado, archivos subidos
+- [x] Módulo 10 - Enlazado Interno → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 11 - Imágenes
 
 ### FASE 2 — SEO Técnico (Módulos 12-18)
@@ -176,6 +176,23 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 10 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_10_enlazado_interno/archivos/
+  en GitHub
+- Subida de los 16 archivos de conocimiento del Módulo 10 - Enlazado
+  Interno (conceptos de enlace, tipos, link juice, teoría del primer
+  enlace, bloques de enlazado, análisis, breadcrumbs, estrategia,
+  ejemplos prácticos)
+- Construcción del ARNES.md del Módulo 10 - Enlazado Interno basado
+  en el contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 11 - Imágenes
+
+**Pendiente para sesión 11:**
+- Subir los archivos del Módulo 11 - Imágenes a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 11
 
 ### Sesión 9 — [FECHA]
 **Completado:**
