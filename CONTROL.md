@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 12
-- Sesión número: 12
-- Última tarea completada: Construcción del ARNES.md del Módulo 12 - Robots
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 13 - Sitemap a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 13
+- Sesión número: 13
+- Última tarea completada: Construcción del ARNES.md del Módulo 13 - Sitemap
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 14 - Datos Estructurados a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 10 / 91
+- Arneses creados: 11 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -82,8 +82,8 @@ identificado solo por módulo/tema.
 - [x] Módulo 11 - Imágenes → arnés creado, archivos subidos ← **FASE 1 COMPLETA**
 
 ### FASE 2 — SEO Técnico (Módulos 12-18)
-- [x] Módulo 12 - Robots → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 13 - Sitemap
+- [x] Módulo 12 - Robots → arnés creado, archivos subidos
+- [x] Módulo 13 - Sitemap → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 14 - Datos Estructurados
 - [ ] Módulo 15 - Indexación
 - [ ] Módulo 16 - Canibalizaciones
@@ -176,6 +176,22 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 13 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_13_sitemap/archivos/ en GitHub
+- Subida de los 10 archivos de conocimiento del Módulo 13 - Sitemap
+  (introducción, importancia, atributos, tipos, especificaciones,
+  buenas prácticas y caso práctico de sitemap de imágenes)
+- Construcción del ARNES.md del Módulo 13 - Sitemap basado en el
+  contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 14 - Datos
+  Estructurados
+
+**Pendiente para sesión 14:**
+- Subir los archivos del Módulo 14 - Datos Estructurados a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 14
 
 ### Sesión 12 — [FECHA]
 **Completado:**
