@@ -1,0 +1,3 @@
+domain:ejemolo.com
+domain:ejemplo2.com
+domain:ejemplo3.com
