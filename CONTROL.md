@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 10
-- Sesión número: 10
-- Última tarea completada: Construcción del ARNES.md del Módulo 10 - Enlazado Interno
-- **PRÓXIMA TAREA: Subir los archivos del Módulo 11 - Imágenes a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 11
+- Sesión número: 11
+- Última tarea completada: Construcción del ARNES.md del Módulo 11 - Imágenes (FASE 1 COMPLETA)
+- **PRÓXIMA TAREA: Subir los archivos del Módulo 12 - Robots a GitHub y construir su ARNES.md (inicio FASE 2)**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 8 / 91
+- Arneses creados: 9 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -78,11 +78,11 @@ identificado solo por módulo/tema.
 - [x] Módulo 07 - Headings → arnés creado, archivos subidos
 - [x] Módulo 08 - Contenidos → arnés creado, archivos subidos
 - [x] Módulo 09 - Metadatos → arnés creado, archivos subidos
-- [x] Módulo 10 - Enlazado Interno → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 11 - Imágenes
+- [x] Módulo 10 - Enlazado Interno → arnés creado, archivos subidos
+- [x] Módulo 11 - Imágenes → arnés creado, archivos subidos ← **FASE 1 COMPLETA**
 
 ### FASE 2 — SEO Técnico (Módulos 12-18)
-- [ ] Módulo 12 - Robots
+- [ ] Módulo 12 - Robots ← **SIGUIENTE**
 - [ ] Módulo 13 - Sitemap
 - [ ] Módulo 14 - Datos Estructurados
 - [ ] Módulo 15 - Indexación
@@ -176,6 +176,25 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 11 — [FECHA]
+**Completado:**
+- Creación de la carpeta harnesses/modulo_11_imagenes/archivos/ en GitHub
+- Subida de los 9 archivos de conocimiento del Módulo 11 - Imágenes
+  (selección de imágenes, formatos, uso técnico, auditoría y
+  estrategia, herramientas de optimización, ejemplos prácticos)
+- Construcción del ARNES.md del Módulo 11 - Imágenes basado en el
+  contenido real de esos archivos, neutral desde el inicio
+- **FASE 1 — Fundamentos SEO completada** (Módulos 03 al 11, 9
+  arneses construidos; Módulos 00 y 02 quedan pendientes de archivos
+  fuente)
+- Creación automática (PASO 0) de la carpeta del Módulo 12 - Robots,
+  iniciando la FASE 2 — SEO Técnico
+
+**Pendiente para sesión 12:**
+- Subir los archivos del Módulo 12 - Robots a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 12
 
 ### Sesión 10 — [FECHA]
 **Completado:**
