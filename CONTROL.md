@@ -8,6 +8,12 @@ Continúa exactamente desde donde indica "PRÓXIMA TAREA".
 No preguntes qué es el sistema — ya está explicado aquí.
 No empieces desde cero — continúa desde el punto marcado.
 
+⚠️ Este archivo rastrea SOLO la construcción de los arneses
+(el "cerebro"). El trabajo real con clientes o proyectos se
+rastrea por separado en /proyectos/PROYECTOS.md — revisa también
+ese archivo si la tarea es sobre un proyecto real, no sobre
+construir un arnés nuevo.
+
 ---
 
 ## 📌 ESTADO ACTUAL
