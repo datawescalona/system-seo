@@ -17,10 +17,10 @@ construir un arnés nuevo.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 31
-- Sesión número: 31
-- Última tarea completada: Construcción del ARNES.md del Módulo 31 - Google Search Console Avanzado
-- **PRÓXIMA TAREA: Crear la carpeta del Módulo 32 - Sistrix, subir sus archivos a GitHub y construir su ARNES.md**
+- Última sesión: Sesión 32
+- Sesión número: 32
+- Última tarea completada: Construcción del ARNES.md del Módulo 32 - Sistrix
+- **PRÓXIMA TAREA: Crear la carpeta del Módulo 33 - Semrush, subir sus archivos a GitHub y construir su ARNES.md**
 - Bloqueadores: Ninguno
 
 ---
@@ -60,7 +60,7 @@ identificado solo por módulo/tema.
 
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 91
-- Arneses creados: 29 / 91
+- Arneses creados: 30 / 91
 - Arneses probados: 0 / 91
 - Mega Arnés: ❌ Pendiente
 
@@ -105,8 +105,8 @@ identificado solo por módulo/tema.
 
 ### FASE 4 — Herramientas SEO (Módulos 30-37)
 - [x] Módulo 30 - Google Search Console → arnés creado, archivos subidos
-- [x] Módulo 31 - Google Search Console Avanzado → arnés creado, archivos subidos ← **SIGUIENTE**
-- [ ] Módulo 32 - Sistrix
+- [x] Módulo 31 - Google Search Console Avanzado → arnés creado, archivos subidos
+- [x] Módulo 32 - Sistrix → arnés creado, archivos subidos ← **SIGUIENTE**
 - [ ] Módulo 33 - Semrush
 - [ ] Módulo 34 - Ahrefs
 - [ ] Módulo 35 - Screaming Frog
@@ -176,6 +176,24 @@ identificado solo por módulo/tema.
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 32 — [FECHA]
+**Completado:**
+- Subida de los 11 archivos de conocimiento del Módulo 32 - Sistrix
+  (enlace de la herramienta, introducción al índice de visibilidad,
+  primeros pasos de análisis de dominio y función comparar datos,
+  dashboard/resumen, advertencia clave de que el índice de visibilidad
+  no equivale a tráfico ni a negocio, tráfico estimado, palabras
+  clave, estructura/URLs/directorios/hostnames/Core Web Vitals, SERPs,
+  enlaces, y análisis por palabra clave concreta)
+- Construcción del ARNES.md del Módulo 32 - Sistrix basado en el
+  contenido real de esos archivos, neutral desde el inicio
+- Creación automática (PASO 0) de la carpeta del Módulo 33 - Semrush
+
+**Pendiente para sesión 33:**
+- Subir los archivos del Módulo 33 - Semrush a GitHub
+- Compartir los links raw con la IA
+- Construir el ARNES.md del Módulo 33
 
 ### Sesión 31 — [FECHA]
 **Completado:**
