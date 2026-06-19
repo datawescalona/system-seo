@@ -1,0 +1,2 @@
+Continuamos con la explicación de un CDN (Content Delivery Network).
+>https://www.keycdn.com/

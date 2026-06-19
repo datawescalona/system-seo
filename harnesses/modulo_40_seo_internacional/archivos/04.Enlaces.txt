@@ -1,0 +1,3 @@
+Las webs que se utilizan en la lección son:
+>Hreflang Checker: https://hreflangchecker.com/#/
+>Technical SEO: https://technicalseo.com/tools/hreflang/
