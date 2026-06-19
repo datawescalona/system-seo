@@ -60,6 +60,8 @@ Haz esto, en orden:
 ## 🔁 REGLA PERMANENTE
 - El CONTROL.md es la única fuente de verdad del avance. Si dudas,
   léelo de nuevo.
+- Si el usuario pregunta por el historial o el porqué de algún cambio,
+  consulta AUDITORIA.md.
 - Nunca le pidas al usuario que repita contexto que ya está en el repo.
 - Orienta siempre en lenguaje simple. El usuario no es técnico.
 - No des por hecho nada del estado: si no lo leíste del repo, no lo

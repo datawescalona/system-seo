@@ -260,13 +260,16 @@ Hasta que no pase esa prueba, cuenta solo como "creado", no como "probado".
 ```
 /system-seo/
 ├── README.md
-├── CONTROL.md             ← este archivo
+├── INICIO.md               ← punto de entrada único del sistema
+├── CONTROL.md              ← este archivo (fuente de verdad del avance)
 ├── HARNESS_SDD_BLUEPRINT.md
 ├── PLAN_SISTEMA_COMPLETO.md
-├── MEGA_ARNES.md          ← pendiente (ya desbloqueado)
+├── AUDITORIA.md            ← registro permanente de hallazgos y decisiones (el porqué)
+├── IMPLEMENTACION_Y_OPERACION.md ← manual de implementación y operación
+├── MEGA_ARNES.md           ← pendiente (ya desbloqueado)
 ├── harnesses/
 │   └── [carpetas por módulo: modulo_03 ... modulo_38]
-└── proyectos/             ← Fase B ya iniciada
+└── proyectos/              ← Fase B ya iniciada
 ```
 
 ---

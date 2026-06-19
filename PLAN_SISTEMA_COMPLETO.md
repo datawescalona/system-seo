@@ -16,9 +16,12 @@ No empieces desde cero — continúa desde donde indica PRÓXIMA TAREA.
 
 ## 📌 ESTADO ACTUAL
 
-- Última sesión: Sesión de diseño arquitectural completo
-- PRÓXIMA TAREA: Terminar el Mega Arnés Orquestador del HARNESS-SDD
-- Bloqueadores: Ninguno
+⚠️ Este archivo NO tiene una "próxima tarea" propia. La única fuente de
+verdad del avance y de la próxima tarea es CONTROL.md en la raíz del
+repo. Este archivo es el plano arquitectónico fijo de los 3 sistemas;
+no cambia sesión a sesión. Para saber dónde está el proyecto y qué
+sigue, lee siempre:
+https://raw.githubusercontent.com/datawescalona/system-seo/main/CONTROL.md
 
 ---
 
