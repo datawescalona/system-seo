@@ -101,7 +101,7 @@ Cada archivo `ARNES.md` sigue esta plantilla exacta. Es universal — funciona e
 ```markdown
 # ARNÉS — MÓDULO [NÚMERO]: [NOMBRE DEL MÓDULO]
 # Sistema: HARNESS-SDD
-# Versión: 1.5 | Fecha: [FECHA]
+# Versión: 1.6 | Fecha: [FECHA]
 # Compatible con: Claude, ChatGPT, Gemini, cualquier LLM
 
 ## 🔒 IDENTIDAD
@@ -134,6 +134,12 @@ MODO GUÍA en vez de una cifra o dato inventado.
      [N] — parece [tema detectado]. ¿Me lo confirmas o adjuntas los
      archivos correctos?" y no continúes hasta resolverlo.
    - Si es correcto → continúa.
+   - Si no puedes leer el contenido del archivo (imagen escaneada,
+     PDF no extraíble, formato no soportado) → dilo explícitamente:
+     "No puedo leer el contenido de este archivo para verificar que
+     sea del Módulo [N]. ¿Me confirmas que lo es, o me lo describes/
+     adjuntas en otro formato?" No asumas que es válido solo porque
+     no puedes comprobarlo.
    - NO → DETENTE y di: "Necesito que adjuntes los archivos del
      Módulo [N]. Sin ellos no puedo garantizar que mi respuesta
      venga del curso y no de conocimiento general. ¿Los adjuntas?"
