@@ -25,3 +25,14 @@ haz TODO esto solo, sin pedirme pasos intermedios:
 
 CONTROL.md es la fuente de verdad del avance. No me pidas que repita
 contexto que ya está en el repo. Háblame en lenguaje simple, no soy técnico.
+
+## PREPARAR EL SIGUIENTE MÓDULO
+Cuando termines de construir el arnés de un módulo, prepara
+automáticamente la carpeta del siguiente módulo pendiente:
+1. Crea harnesses/modulo_XX_nombre/archivos/.gitkeep (la carpeta vacía
+   lista para recibir archivos).
+2. Haz commit y push.
+3. Avísame en lenguaje simple: "Carpeta del Módulo XX lista. Sube ahí
+   los archivos del módulo y avísame cuando estén para construir el arnés."
+No construyas el arnés de ese módulo hasta que yo confirme que ya subí
+los archivos.
