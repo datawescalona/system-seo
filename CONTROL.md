@@ -157,7 +157,7 @@ Hasta que no pase esa prueba, cuenta solo como "creado", no como "probado".
 
 ## 📝 LOG DE SESIONES
 
-### Sesión 5 — [PON LA FECHA DE HOY]
+### Sesión 5 — [19/06/2025]
 **Completado:**
 - Sincronización de este CONTROL.md con el estado real del repositorio.
 - Se confirmó por la carpeta /harnesses/ de GitHub que existen los ARNES.md
