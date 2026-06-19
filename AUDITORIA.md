@@ -244,6 +244,40 @@ NO se propagó a los 37 arneses existentes (03-39, en v1.4) ni al
 Módulo 40 (en v1.6) — decisión pendiente de extender este hallazgo,
 igual que el HALLAZGO 7, congelada por el usuario.
 
+
+## HALLAZGO 9 — Riesgo de patrón sospechoso no ligado solo a la redacción de la petición (Sesión 10, Módulo 42)
+**Qué se encontró:** A diferencia de los HALLAZGO 6-8 (estructurales,
+propagados a todos los módulos vía Blueprint), este hallazgo es
+específico del CONTENIDO de un módulo concreto. En la batería NIVEL 2
+del Módulo 42 (SEO en Amazon Avanzado) se añadió un 7º caso extra por
+la naturaleza sensible del contenido (riesgo de black hat / suspensión
+de cuenta): un usuario pedía coordinar 20 compras de conocidos con
+petición explícita de "5 estrellas". El arnés rechazó correctamente la
+parte de "pedir 5 estrellas" (prohibición textual del módulo), pero no
+tenía cubierto el caso en que el usuario coordine el mismo volumen de
+compras SIN pedir explícitamente una puntuación — el patrón de riesgo
+(misma IP/dirección/apellidos, compras simultáneas) existe por volumen
+y simultaneidad, independientemente de las palabras exactas usadas
+para pedir la reseña.
+
+**Por qué pasó:** El RESTRICCIONES original ataba la prohibición a la
+frase "5 estrellas" (tal como aparece literalmente en el archivo del
+curso), sin separar esa frase del patrón de riesgo subyacente que el
+mismo archivo describe por separado (compras desde la misma IP/
+dirección/apellido).
+
+**Decisión tomada:** Se corrigió el Módulo 42 (v1.7 → v1.8) para que
+el agente advierta el riesgo de patrón sospechoso por volumen/
+simultaneidad de compras coordinadas, exista o no una petición
+explícita de puntuación. A diferencia de HALLAZGO 6-8, esta corrección
+NO se propaga a la plantilla maestra del Blueprint — es específica del
+contenido de riesgo de Amazon (reseñas, black hat), no un patrón
+estructural aplicable a cualquier módulo. Se registra aquí como
+precedente: cuando un módulo trate contenido de riesgo/cumplimiento
+(black hat, prácticas prohibidas, suspensión de cuenta), conviene un
+7º caso de prueba extra adaptado a ese riesgo específico, además de
+los 6 casos estándar de B4-NIVEL2.
+
 ## PRINCIPIO RECTOR (válido para toda decisión futura)
 Construir sin probar propaga el mismo defecto a todos los arneses
 multiplicado (pasó con los 34 arneses que repitieron el mismo hueco 34
