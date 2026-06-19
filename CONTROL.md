@@ -21,13 +21,13 @@ las carpetas que tengan un ARNES.md dentro — esa es la verdad.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 7 — blindaje anti-jailbreak en IDENTIDAD, v1.2 → v1.3, Módulos 03-37
-- Sesión número: 7
-- Última tarea completada: Añadidas las dos líneas de blindaje anti-jailbreak al final del bloque IDENTIDAD en los 35 ARNES.md (Módulos 03 a 37) y subida la versión de 1.2 a 1.3. Commit subido a main (166ecb4). También actualizada la plantilla de la Sección 5 del HARNESS_SDD_BLUEPRINT.md a v1.3 con el blindaje incluido.
-- **PRÓXIMA TAREA: Construir el ARNES.md del Módulo 38 - SEO Ecommerce, ya nace en v1.3 (los archivos ya están subidos en harnesses/modulo_38_seo_ecommerce/archivos/)**
+- Última sesión: Sesión 8 — construcción del ARNES.md del Módulo 38 (SEO Ecommerce)
+- Sesión número: 8
+- Última tarea completada: Construido y subido el ARNES.md del Módulo 38 - SEO Ecommerce, en plantilla v1.3, a partir de los 16 archivos de conocimiento ya subidos en harnesses/modulo_38_seo_ecommerce/archivos/ (14 .txt + 2 .pdf). Cubre CMS, keyword research, arquitectura (incluida arquitecturas paralelas), home, categoría, subcategoría, ficha de producto, gestión de stock/descatalogados, contenidos, aspectos técnicos (URLs, canibalizaciones, imágenes, footer), schema, SEO local, linkbuilding y analítica de eCommerce.
+- **PRÓXIMA TAREA: Construir el ARNES.md del Módulo 39 - SEO Local (revisar si ya tiene archivos subidos en harnesses/modulo_39_seo_local/archivos/; si no, pedirlos al usuario)**
 - Bloqueadores: Ninguno
 
-> 🔓 NOTA: Ya hay 35 arneses listos (umbral de 10+ superado con creces).
+> 🔓 NOTA: Ya hay 36 arneses listos (umbral de 10+ superado con creces).
 > El Mega Arnés Orquestador YA SE PUEDE Y SE DEBE construir. Está pendiente.
 
 ---
@@ -35,9 +35,9 @@ las carpetas que tengan un ARNES.md dentro — esa es la verdad.
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 86 (el módulo de número más alto es el 91, pero la
   numeración tiene huecos: no existen 01, 83-86, 88)
-- Arneses creados: 35 / 86
-- Arneses en plantilla v1.3: 35 / 35 (Módulos 03 a 37 — blindaje anti-jailbreak aplicado, sesión 7)
-- Arneses probados: 0 / 35  (ver criterio de "probado" más abajo)
+- Arneses creados: 36 / 86
+- Arneses en plantilla v1.3: 36 / 36 (Módulos 03 a 38)
+- Arneses probados: 0 / 36  (ver criterio de "probado" más abajo)
 - Mega Arnés: ❌ Pendiente (ya desbloqueado — construir pronto)
 
 ### ✅ Criterio de "probado" (antes no estaba definido)
@@ -95,8 +95,8 @@ Hasta que no pase esa prueba, cuenta solo como "creado", no como "probado".
 - [x] Módulo 37 - Extensión de Chrome para SEO → arnés creado
 
 ### FASE 5 — SEO Especializado (Módulos 38-55)
-- [ ] Módulo 38 - SEO Ecommerce ← **SIGUIENTE** (archivos ya subidos, falta el ARNES.md)
-- [ ] Módulo 39 - SEO Local
+- [x] Módulo 38 - SEO Ecommerce → arnés creado
+- [ ] Módulo 39 - SEO Local ← **SIGUIENTE**
 - [ ] Módulo 40 - SEO Internacional
 - [ ] Módulo 41 - SEO en Amazon (Principiantes)
 - [ ] Módulo 42 - SEO en Amazon Avanzado
@@ -157,6 +157,32 @@ Hasta que no pase esa prueba, cuenta solo como "creado", no como "probado".
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 8 — [19/06/2026]
+**Completado:**
+- Leídos los 16 archivos de conocimiento del Módulo 38 (SEO Ecommerce)
+  ya subidos en harnesses/modulo_38_seo_ecommerce/archivos/: 14 .txt
+  (introducción, CMS, keyword research, arquitectura, home, categorías,
+  subcategorías, ficha de producto, anexo de stock, contenidos,
+  aspectos clave, schema, SEO local, linkbuilding, analítica, tips
+  extra) y 2 .pdf (ejercicio obligatorio + diapositivas de apoyo).
+- Construido el ARNES.md siguiendo la plantilla v1.3 de la Sección 5
+  del HARNESS_SDD_BLUEPRINT.md, con blindaje anti-jailbreak incluido
+  desde el inicio (nace directo en v1.3, sin necesidad de parche).
+- Subido el ARNES.md a harnesses/modulo_38_seo_ecommerce/ARNES.md vía
+  `gh api` (PUT contents).
+
+**Decisiones tomadas:**
+- El arnés cubre las canibalizaciones específicas de eCommerce (entre
+  fichas de producto y subcategorías, y entre blog y páginas
+  transaccionales) como tema transversal, dado que el módulo fuente
+  insiste en ello de forma recurrente en varios de sus archivos.
+
+**Pendiente para sesión 9:**
+- Construir el ARNES.md del Módulo 39 - SEO Local.
+- Empezar a marcar arneses como "probados" con casos ficticios.
+- Continuar Módulos 40 en adelante.
+- Construir el Mega Arnés Orquestador.
 
 ### Sesión 7 — [19/06/2026]
 **Completado:**
