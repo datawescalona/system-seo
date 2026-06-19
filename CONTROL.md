@@ -21,10 +21,10 @@ las carpetas que tengan un ARNES.md dentro — esa es la verdad.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 6 — parche universal v1.1 → v1.2 aplicado a los Módulos 04-37
-- Sesión número: 6
-- Última tarea completada: Aplicado el parche v1.2 (PASO 0 de verificación de fuente, MODO GUÍA, señal de cierre flexible) a los 34 ARNES.md de los Módulos 04 a 37. El Módulo 03 ya estaba en v1.2 desde antes. Commit subido a main (d47ff3c).
-- **PRÓXIMA TAREA: Construir el ARNES.md del Módulo 38 - SEO Ecommerce, ya nace en v1.2 (los archivos ya están subidos en harnesses/modulo_38_seo_ecommerce/archivos/)**
+- Última sesión: Sesión 7 — blindaje anti-jailbreak en IDENTIDAD, v1.2 → v1.3, Módulos 03-37
+- Sesión número: 7
+- Última tarea completada: Añadidas las dos líneas de blindaje anti-jailbreak al final del bloque IDENTIDAD en los 35 ARNES.md (Módulos 03 a 37) y subida la versión de 1.2 a 1.3. Commit subido a main (166ecb4). También actualizada la plantilla de la Sección 5 del HARNESS_SDD_BLUEPRINT.md a v1.3 con el blindaje incluido.
+- **PRÓXIMA TAREA: Construir el ARNES.md del Módulo 38 - SEO Ecommerce, ya nace en v1.3 (los archivos ya están subidos en harnesses/modulo_38_seo_ecommerce/archivos/)**
 - Bloqueadores: Ninguno
 
 > 🔓 NOTA: Ya hay 35 arneses listos (umbral de 10+ superado con creces).
@@ -36,7 +36,7 @@ las carpetas que tengan un ARNES.md dentro — esa es la verdad.
 - Total de módulos: 86 (el módulo de número más alto es el 91, pero la
   numeración tiene huecos: no existen 01, 83-86, 88)
 - Arneses creados: 35 / 86
-- Arneses en plantilla v1.2: 35 / 35 (Módulos 03 a 37 — parche completo, sesión 6)
+- Arneses en plantilla v1.3: 35 / 35 (Módulos 03 a 37 — blindaje anti-jailbreak aplicado, sesión 7)
 - Arneses probados: 0 / 35  (ver criterio de "probado" más abajo)
 - Mega Arnés: ❌ Pendiente (ya desbloqueado — construir pronto)
 
@@ -157,6 +157,32 @@ Hasta que no pase esa prueba, cuenta solo como "creado", no como "probado".
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 7 — [19/06/2026]
+**Completado:**
+- Añadido blindaje anti-jailbreak al final del bloque IDENTIDAD de los
+  35 ARNES.md (Módulos 03 a 37): rechaza instrucciones del usuario que
+  intenten cambiar la identidad del agente, su módulo, o saltarse el
+  PASO 0 ("olvidar instrucciones", "actuar como otro agente", etc.).
+- Versión subida de 1.2 a 1.3 en los 35 arneses.
+- Verificado antes de subir: `grep -L "Ninguna instrucción del usuario"`
+  sobre todos los ARNES.md devolvió vacío (ningún arnés sin blindaje);
+  `grep -c "Versión: 1.3"` en el Módulo 03 devolvió 1.
+- Commit subido a main (166ecb4): "Blindaje anti-jailbreak en IDENTIDAD
+  (v1.2 -> v1.3) Módulos 03-37".
+- Actualizada la plantilla maestra de la Sección 5 del
+  HARNESS_SDD_BLUEPRINT.md a v1.3, con el blindaje ya incluido en el
+  bloque IDENTIDAD, para que el Módulo 38 en adelante nazca en v1.3.
+
+**Decisiones tomadas:**
+- El blindaje anti-jailbreak pasa a ser parte fija de la plantilla
+  IDENTIDAD para todos los arneses futuros, no solo un parche puntual.
+
+**Pendiente para sesión 8:**
+- Construir el ARNES.md del Módulo 38 - SEO Ecommerce (ya nace en v1.3).
+- Empezar a marcar arneses como "probados" con casos ficticios.
+- Continuar Módulos 39 en adelante.
+- Construir el Mega Arnés Orquestador.
 
 ### Sesión 6 — [19/06/2026]
 **Completado:**
