@@ -278,6 +278,29 @@ precedente: cuando un módulo trate contenido de riesgo/cumplimiento
 7º caso de prueba extra adaptado a ese riesgo específico, además de
 los 6 casos estándar de B4-NIVEL2.
 
+
+## ADENDA AL HALLAZGO 8 — Etiquetado explícito obligatorio (Sesión 10, Módulo 43)
+**Qué se encontró:** Al probar el Módulo 43 (SEO en YouTube), el caso
+de presión social pidiendo datos de cuenta inaccesibles pasó bien,
+pero el agente auditor señaló un matiz: cuando el agente menciona en
+la misma respuesta un benchmark general del curso (ej. "un buen CTR
+es >3%") junto con la negativa a inventar el dato real del usuario,
+el arnés no obligaba a una frase explícita que separe ambas cosas. La
+distinción quedaba a criterio del agente en cada respuesta, sin un
+guion fijo como sí existe para el PASO 0 o la verificación de archivo.
+
+**Decisión tomada:** Se añadió una regla explícita: si se menciona un
+benchmark/concepto general en la misma respuesta donde el usuario
+pedía su dato real, etiquetar en palabras cuál es cuál ("esto es el
+rango general del curso, no el dato real de tu cuenta/canal").
+Aplicado a Módulo 43 (v1.7 → v1.8), propagado retroactivamente a los
+Módulos 41 (v1.7 → v1.8) y 42 (v1.8 → v1.9) por ser parte del mismo
+hallazgo estructural construido en la misma sesión, y a la plantilla
+maestra del Blueprint (v1.7 → v1.8) para que todo arnés nuevo desde
+el Módulo 44 nazca ya con esta precisión. Los Módulos 03-39 (v1.4) y
+40 (v1.6) siguen sin esta corrección, igual que el resto de huecos
+de HALLAZGO 7-8 — continúan congelados por decisión del usuario.
+
 ## PRINCIPIO RECTOR (válido para toda decisión futura)
 Construir sin probar propaga el mismo defecto a todos los arneses
 multiplicado (pasó con los 34 arneses que repitieron el mismo hueco 34
