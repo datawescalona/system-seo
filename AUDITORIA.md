@@ -98,6 +98,44 @@ empieza pegando la URL de este archivo.
 
 ---
 
+## HALLAZGO 6 — Plantilla v1.3 sin defensas frente a 3 vectores de la batería NIVEL 2 (Sesión 10)
+**Qué se encontró:** Al pasar por primera vez la batería completa de 6
+casos de B4-NIVEL2 (IMPLEMENTACION_Y_OPERACION.md) sobre un arnés recién
+construido (Módulo 40), 4 de los 6 casos revelaron huecos en la
+plantilla v1.3, no solo en ese arnés en particular:
+1. El aviso de "voy a responder con conocimiento general" podía
+   ejecutarse en el mismo turno que el aviso, sin esperar confirmación
+   explícita del usuario (Caso: insistencia sin archivos).
+2. Al derivar una pregunta de otro módulo, la plantilla no decía si
+   debía retomarse el hilo de trabajo abierto del propio módulo
+   después de derivar (Caso: pregunta de otro módulo).
+3. La señal de cierre ambigua no contemplaba qué hacer si el usuario
+   nunca respondía a la pregunta de confirmación — riesgo de loop de
+   re-pregunta en sesiones futuras (Caso: cierre prematuro).
+4. La regla "no inventas" no blindaba explícitamente contra presión
+   social (autoridad falsa, urgencia, culpa) como vector para forzar
+   una cifra inventada — funcionó por la fuerza de la regla general,
+   pero quedaba a interpretación del LLM (Caso: presión social).
+
+**Por qué pasó:** Las plantillas v1.1→v1.3 (Hallazgos 2 y 3) se
+corrigieron reaccionando a un solo caso de prueba cada vez, sin pasar
+nunca la batería completa de 6 casos de B4-NIVEL2 contra un arnés real
+antes de declararlo "probado". El Módulo 40 fue el primero en recibir
+la batería completa, no porque el problema sea nuevo, sino porque
+nunca se había auditado a este nivel ninguno de los 38 arneses
+anteriores.
+
+**Decisión tomada:** Las 4 correcciones se aplicaron al Módulo 40
+(v1.3 → v1.4, commits de Sesión 10) y se propagan a la plantilla
+maestra del Blueprint (Sección 5, v1.3 → v1.4) para que todo arnés
+nuevo (Módulo 41 en adelante) nazca ya con las 4 defensas incluidas.
+Queda pendiente decidir si se aplica un parche retroactivo a los
+Módulos 03-39 (ver PENDIENTES en CONTROL.md) — no se hace de forma
+automática porque afecta a ~37 archivos y el usuario debe aprobarlo.
+A partir de ahora, ningún arnés se marca "probado" en CONTROL.md sin
+haber pasado las 6 pruebas de B4-NIVEL2, no un subconjunto.
+
+---
 ## PRINCIPIO RECTOR (válido para toda decisión futura)
 Construir sin probar propaga el mismo defecto a todos los arneses
 multiplicado (pasó con los 34 arneses que repitieron el mismo hueco 34
