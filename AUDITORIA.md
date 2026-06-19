@@ -207,6 +207,43 @@ arneses existentes (03-39, que están en v1.4 sin estas dos últimas
 correcciones) — decisión explícita del usuario de no tocar ese lote
 por ahora. Queda registrado como pendiente en CONTROL.md.
 
+
+## HALLAZGO 8 — Sin distinción entre concepto explicable y dato de cuenta inaccesible (Sesión 10, Módulo 41)
+**Qué se encontró:** Al probar la batería NIVEL 2 completa en el
+Módulo 41 (SEO en Amazon), el arnés pasó 5 de 6 casos sin problema
+gracias a las correcciones ya acumuladas (HALLAZGO 6 y 7). El caso 6
+(presión social pidiendo Honeymoon Period exacto y Revenue Per
+Customer real) reveló un hueco nuevo: el PASO 0.2 trata todo "dato
+externo faltante" como un solo tipo de cosa (algo que "no tienes
+ahora pero se puede conseguir"), sin distinguir dos categorías
+distintas:
+1. **Concepto general del módulo**: contenido que el curso sí explica
+   y que el agente puede dar siempre (ej. "el Honeymoon Period dura
+   30-45 días" como rango general).
+2. **Dato específico de cuenta/proyecto**: cifras reales que SOLO
+   existen en un panel externo (BSR real, Revenue Per Customer real,
+   Order Defect Rate real) — un dato que ni siquiera el "modo
+   conocimiento general" podría aproximar honestamente, porque no es
+   un dato de SEO genérico sino una métrica interna y privada de la
+   cuenta del usuario.
+
+**Por qué importa:** Sin esta distinción, un arnés bajo presión podría
+tratar una cifra de cuenta privada como si fuera "solo un dato que
+falta y se puede estimar", abriendo la puerta a una aproximación
+inventada que suena razonable pero es categóricamente falsa (nadie,
+ni el agente ni el propio usuario de memoria, puede "calcular" un
+Revenue Per Customer real sin los datos de Amazon).
+
+**Decisión tomada:** Se añadió la distinción explícita al PASO 0.2 del
+Módulo 41 (v1.6 → v1.7) y, de forma genérica (no atada a Amazon), a la
+plantilla maestra del Blueprint (v1.6 → v1.7), para que cualquier
+módulo futuro con datos de panel cerrado (Search Console, Seller
+Central, Sistrix, etc.) nazca ya distinguiendo "concepto que puedo
+explicar siempre" de "dato de cuenta que no puedo aproximar nunca".
+NO se propagó a los 37 arneses existentes (03-39, en v1.4) ni al
+Módulo 40 (en v1.6) — decisión pendiente de extender este hallazgo,
+igual que el HALLAZGO 7, congelada por el usuario.
+
 ## PRINCIPIO RECTOR (válido para toda decisión futura)
 Construir sin probar propaga el mismo defecto a todos los arneses
 multiplicado (pasó con los 34 arneses que repitieron el mismo hueco 34
