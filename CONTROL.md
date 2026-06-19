@@ -21,13 +21,13 @@ las carpetas que tengan un ARNES.md dentro — esa es la verdad.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 8 — construcción del ARNES.md del Módulo 38 (SEO Ecommerce)
-- Sesión número: 8
-- Última tarea completada: Construido y subido el ARNES.md del Módulo 38 - SEO Ecommerce, en plantilla v1.3, a partir de los 16 archivos de conocimiento ya subidos en harnesses/modulo_38_seo_ecommerce/archivos/ (14 .txt + 2 .pdf). Cubre CMS, keyword research, arquitectura (incluida arquitecturas paralelas), home, categoría, subcategoría, ficha de producto, gestión de stock/descatalogados, contenidos, aspectos técnicos (URLs, canibalizaciones, imágenes, footer), schema, SEO local, linkbuilding y analítica de eCommerce.
-- **PRÓXIMA TAREA: Construir el ARNES.md del Módulo 39 - SEO Local (revisar si ya tiene archivos subidos en harnesses/modulo_39_seo_local/archivos/; si no, pedirlos al usuario)**
+- Última sesión: Sesión 9 — construcción del ARNES.md del Módulo 39 (SEO Local)
+- Sesión número: 9
+- Última tarea completada: Construido y subido el ARNES.md del Módulo 39 - SEO Local, en plantilla v1.3, a partir de los 16 archivos de conocimiento subidos en harnesses/modulo_39_seo_local/archivos/ (10 .txt + 3 .pdf + 3 .xlsx). Cubre geolocalización, keyword research local (segmentado por búsqueda y por ubicación), arquitectura SEO local en la web, optimización completa de Google My Business, estrategia combinada web+GMB, herramientas (Local Falcon, GMB Crush) y otros mapas (Apple Maps, Bing Places). Nota: el archivo 01.FAQs-de-Discord.pdf está mal ubicado en esta carpeta — su contenido real es de Copywriting SEO, no de SEO Local, y se documentó así en el propio arnés en vez de forzarlo como fuente. Se preparó también la carpeta vacía harnesses/modulo_40_seo_internacional/archivos/.gitkeep para la siguiente subida.
+- **PRÓXIMA TAREA: Construir el ARNES.md del Módulo 40 - SEO Internacional (la carpeta de archivos ya está creada y vacía; esperar a que el usuario suba los archivos y lo confirme)**
 - Bloqueadores: Ninguno
 
-> 🔓 NOTA: Ya hay 36 arneses listos (umbral de 10+ superado con creces).
+> 🔓 NOTA: Ya hay 37 arneses listos (umbral de 10+ superado con creces).
 > El Mega Arnés Orquestador YA SE PUEDE Y SE DEBE construir. Está pendiente.
 
 ---
@@ -35,9 +35,9 @@ las carpetas que tengan un ARNES.md dentro — esa es la verdad.
 ## 📊 PROGRESO GENERAL
 - Total de módulos: 86 (el módulo de número más alto es el 91, pero la
   numeración tiene huecos: no existen 01, 83-86, 88)
-- Arneses creados: 36 / 86
-- Arneses en plantilla v1.3: 36 / 36 (Módulos 03 a 38)
-- Arneses probados: 0 / 36  (ver criterio de "probado" más abajo)
+- Arneses creados: 37 / 86
+- Arneses en plantilla v1.3: 37 / 37 (Módulos 03 a 39)
+- Arneses probados: 0 / 37  (ver criterio de "probado" más abajo)
 - Mega Arnés: ❌ Pendiente (ya desbloqueado — construir pronto)
 
 ### ✅ Criterio de "probado" (antes no estaba definido)
@@ -96,8 +96,8 @@ Hasta que no pase esa prueba, cuenta solo como "creado", no como "probado".
 
 ### FASE 5 — SEO Especializado (Módulos 38-55)
 - [x] Módulo 38 - SEO Ecommerce → arnés creado
-- [ ] Módulo 39 - SEO Local ← **SIGUIENTE**
-- [ ] Módulo 40 - SEO Internacional
+- [x] Módulo 39 - SEO Local → arnés creado
+- [ ] Módulo 40 - SEO Internacional ← **SIGUIENTE** (carpeta de archivos creada, vacía)
 - [ ] Módulo 41 - SEO en Amazon (Principiantes)
 - [ ] Módulo 42 - SEO en Amazon Avanzado
 - [ ] Módulo 43 - SEO en YouTube
@@ -157,6 +157,39 @@ Hasta que no pase esa prueba, cuenta solo como "creado", no como "probado".
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 9 — [19/06/2026]
+**Completado:**
+- Leídos los 16 archivos de conocimiento del Módulo 39 (SEO Local) ya
+  subidos en harnesses/modulo_39_seo_local/archivos/: 10 .txt
+  (introducción, geolocalización, KWR para SEO local, SEO local desde
+  la web, Google My Business, web+GMB, herramientas, otros, 2 casos
+  prácticos), 3 .pdf (ejercicio, diapositivas de apoyo, y un FAQ de
+  Discord) y 3 .xlsx (dos hojas de KWR local y una arquitectura real de
+  coworking en Barcelona).
+- Detectado que 01.FAQs-de-Discord.pdf no corresponde a este módulo
+  (su contenido real es sobre Copywriting SEO) — se documentó esta
+  discrepancia dentro del propio ARNES.md como nota de limitación en
+  vez de inventar relación o forzarlo como fuente del módulo.
+- Construido el ARNES.md siguiendo la plantilla v1.3, con blindaje
+  anti-jailbreak incluido desde el inicio.
+- Subido el ARNES.md a harnesses/modulo_39_seo_local/ARNES.md.
+- Preparada automáticamente la carpeta del siguiente módulo pendiente
+  (Módulo 40 - SEO Internacional): harnesses/modulo_40_seo_internacional/archivos/.gitkeep,
+  según la nueva regla de CLAUDE.md "PREPARAR EL SIGUIENTE MÓDULO".
+
+**Decisiones tomadas:**
+- Cuando un archivo de la carpeta de un módulo no corresponde
+  temáticamente al módulo (mezcla o error de subida), no se descarta
+  en silencio ni se fuerza su uso: se documenta explícitamente como
+  limitación dentro del ARNES.md, siguiendo el principio de "nunca
+  inventar contenido de los archivos" del propio CLAUDE.md del repo.
+
+**Pendiente para sesión 10:**
+- Esperar a que el usuario suba los archivos del Módulo 40 - SEO
+  Internacional a la carpeta ya creada y lo confirme.
+- Empezar a marcar arneses como "probados" con casos ficticios.
+- Construir el Mega Arnés Orquestador.
 
 ### Sesión 8 — [19/06/2026]
 **Completado:**
