@@ -21,10 +21,10 @@ las carpetas que tengan un ARNES.md dentro — esa es la verdad.
 ---
 
 ## 📌 ESTADO ACTUAL
-- Última sesión: Sesión 5 — sincronización del control con el repo real
-- Sesión número: 5
-- Última tarea completada: Construcción de los ARNES.md de los Módulos 05 a 37 (33 arneses nuevos). Subida de los archivos del Módulo 38 - SEO Ecommerce.
-- **PRÓXIMA TAREA: Construir el ARNES.md del Módulo 38 - SEO Ecommerce (los archivos ya están subidos en harnesses/modulo_38_seo_ecommerce/archivos/)**
+- Última sesión: Sesión 6 — parche universal v1.1 → v1.2 aplicado a los Módulos 04-37
+- Sesión número: 6
+- Última tarea completada: Aplicado el parche v1.2 (PASO 0 de verificación de fuente, MODO GUÍA, señal de cierre flexible) a los 34 ARNES.md de los Módulos 04 a 37. El Módulo 03 ya estaba en v1.2 desde antes. Commit subido a main (d47ff3c).
+- **PRÓXIMA TAREA: Construir el ARNES.md del Módulo 38 - SEO Ecommerce, ya nace en v1.2 (los archivos ya están subidos en harnesses/modulo_38_seo_ecommerce/archivos/)**
 - Bloqueadores: Ninguno
 
 > 🔓 NOTA: Ya hay 35 arneses listos (umbral de 10+ superado con creces).
@@ -36,6 +36,7 @@ las carpetas que tengan un ARNES.md dentro — esa es la verdad.
 - Total de módulos: 86 (el módulo de número más alto es el 91, pero la
   numeración tiene huecos: no existen 01, 83-86, 88)
 - Arneses creados: 35 / 86
+- Arneses en plantilla v1.2: 35 / 35 (Módulos 03 a 37 — parche completo, sesión 6)
 - Arneses probados: 0 / 35  (ver criterio de "probado" más abajo)
 - Mega Arnés: ❌ Pendiente (ya desbloqueado — construir pronto)
 
@@ -156,6 +157,27 @@ Hasta que no pase esa prueba, cuenta solo como "creado", no como "probado".
 ---
 
 ## 📝 LOG DE SESIONES
+
+### Sesión 6 — [19/06/2026]
+**Completado:**
+- Aplicado el parche universal v1.1 → v1.2 a los 34 ARNES.md de los
+  Módulos 04 a 37 (el Módulo 03 ya estaba en v1.2 de antes).
+- Cambios aplicados en cada arnés: (1) versión subida a 1.2, (2) bloque
+  PASO 0 de verificación de fuente insertado tras IDENTIDAD, (3) bloque
+  SEÑAL DE CIERRE reemplazado por la versión flexible, (4) línea de
+  MODO GUÍA añadida a RESTRICCIONES donde no existía ya.
+- Commit subido a main del repo (d47ff3c): "Parche v1.1 a v1.2 en
+  arneses Modulos 04-37".
+
+**Decisiones tomadas:**
+- Los 35 arneses (03-37) quedan unificados en plantilla v1.2 antes de
+  seguir construyendo módulos nuevos.
+
+**Pendiente para sesión 7:**
+- Construir el ARNES.md del Módulo 38 - SEO Ecommerce (ya nace en v1.2).
+- Empezar a marcar arneses como "probados" con casos ficticios.
+- Continuar Módulos 39 en adelante.
+- Construir el Mega Arnés Orquestador.
 
 ### Sesión 5 — [19/06/2025]
 **Completado:**
