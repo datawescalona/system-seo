@@ -171,6 +171,42 @@ de verificación de autenticidad del archivo adjunto NO se corrigió —
 queda como pendiente abierto, no se inventa una solución sin antes
 discutirla.
 
+
+## HALLAZGO 7 — Sin verificación de autenticidad del archivo adjunto (Sesión 10, continuación)
+**Qué se encontró:** Durante la prueba funcional por muestra del
+HALLAZGO 6 (Módulo 17), se descubrió que ningún arnés (en ninguna
+versión, 1.2 a 1.4) verifica que el archivo adjunto por el usuario
+realmente pertenezca al módulo activado — el PASO 0 solo comprueba
+que "haya algo adjunto", no que su contenido corresponda al tema. Un
+usuario podía adjuntar por error (o a propósito) archivos de otro
+módulo y el agente los aceptaría sin más.
+
+**Por qué pasó:** El PASO 0 nació (Hallazgo 2) para resolver el
+problema de "trabajar de memoria sin archivos", no el de "trabajar
+con archivos equivocados creyendo que son los correctos" — un vector
+de error distinto que no se había probado hasta correr la batería
+NIVEL 2 completa por primera vez.
+
+**Decisión tomada:** Se corrigió el PASO 0 (Módulo 40 → v1.5, luego
+v1.6) para exigir que, además de comprobar que hay archivos
+adjuntos, se compruebe que su contenido/temática corresponde
+realmente al módulo (no solo el nombre del archivo — se verificó
+explícitamente que la regla no genera falsos positivos contra
+archivos legítimos con nombres genéricos, ver re-prueba). Se
+encontró un límite adicional en la misma re-prueba: si el archivo
+no es legible (imagen escaneada, PDF no extraíble), el agente no
+tenía instrucción de qué hacer — corregido en la misma sesión
+(v1.6): el agente debe decirlo explícitamente y pedir confirmación
+o el archivo en otro formato, nunca asumir que es válido porque no
+puede comprobarlo.
+
+Ambas correcciones se propagaron a la plantilla maestra del
+Blueprint (v1.4 → v1.6) para que todo arnés nuevo (Módulo 41 en
+adelante) nazca ya con ellas. NO se propagaron todavía a los 37
+arneses existentes (03-39, que están en v1.4 sin estas dos últimas
+correcciones) — decisión explícita del usuario de no tocar ese lote
+por ahora. Queda registrado como pendiente en CONTROL.md.
+
 ## PRINCIPIO RECTOR (válido para toda decisión futura)
 Construir sin probar propaga el mismo defecto a todos los arneses
 multiplicado (pasó con los 34 arneses que repitieron el mismo hueco 34
