@@ -31,7 +31,9 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
 
 ## PENDIENTE — Decisión del usuario (congelado, no tocar sin pedir)
 1. ¿Correr la batería NIVEL 2 completa en los arneses 04-39 que solo recibieron el parche mecánico v1.4 (excepto 03/17/26/33, ya probados)?
-2. ¿Propagar el parche v1.4 → v1.8 (HALLAZGO 7 + 8 + adenda) a los 37 arneses existentes (03-39)?
+2. Parche v1.4→v1.8 (HALLAZGO 7+8+adenda) — PROGRESO: 9 de 38 hechos.
+   Hechos: Módulos 03, 04, 05, 06, 07, 08, 09, 10, 11. Siguiente:
+   Módulo 12. (Módulo 40 está en v1.6, se trata aparte al final.)
 3. ¿Propagar el parche v1.6 → v1.8 al Módulo 40?
 4. HALLAZGO 9 (Módulo 42) es de contenido, no estructural.
 
