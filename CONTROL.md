@@ -15,27 +15,24 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
   - Módulo 43: **v1.8**
   - Módulo 42: **v1.9**
   - Módulo 41: **v1.8**
-  - Módulo 40: **v1.6**
-  - Módulos 03-39 (37 arneses): **v1.4**
+  - Módulos 03-39: **v1.8** (parche HALLAZGO 7+8+adenda completado 2026-06-20)
+  - Módulo 40: **v1.8** (parche v1.6→v1.8 completado 2026-06-20)
   - Blueprint maestro: **v1.8** — todo arnés desde el Módulo 48 nace con las correcciones completas.
 - **Bateria NIVEL 2 completa corrida y registrada:** Módulos 03, 17, 26, 33, 40 (x2), 41, 42 (+1 extra), 43, 44 (+1 extra), 45 (+1 extra), 46 (+1 extra), 47 (+1 extra), 48 (+1 extra), 49 (+1 extra). Todos superados.
-- **Last Session:** Session 11 (continuación). Construido y probado el ARNES.md del Módulo 49 - SEO de Multimedia (indexación de imágenes, PDF, archivos comprimidos, libros, vídeos, audio/podcast, RSS y Open Graph/Twitter Card) a partir de los 16 archivos reales subidos en harnesses/modulo_49_seo_de_multimedia/archivos/. Plantilla v1.8 completa. Pasó la batería NIVEL 2 (6 casos estándar + 1 extra por riesgo de copyright/piratería y cloaking), 7/7 sin huecos nuevos. Antes en la misma sesión: construido y probado el Módulo 48 - SEO para SaaS, también 7/7.
+- **Last Session:** Session 12. Parche v1.4→v1.8 (HALLAZGO 7+8+adenda) aplicado a Módulos 30-39 y parche v1.6→v1.8 aplicado a Módulo 40. Todos los arneses (03-49) están ahora en v1.8 o v1.9. check_coherencia.sh OK COHERENTE. Commits pendientes de push.
 - **Mega Harness Status:** Unlocked and ready for construction
 
 ## Module Phases Completed
-- **Phase 1 (Modules 03-11):** SEO Fundamentals — 9 harnesses ✅ v1.4
-- **Phase 2 (Modules 12-18):** Technical SEO — 7 harnesses ✅ v1.4
-- **Phase 3 (Modules 19-29):** Content & Off-Page — 11 harnesses ✅ v1.4
-- **Phase 4 (Modules 30-37):** SEO Tools — 8 harnesses ✅ v1.4
-- **Phase 5/6 (Modules 38-49):** Specialized SEO + Negocio — 12 harnesses ✅ (38-39 en v1.4, 40 en v1.6, 41 en v1.8, 42 en v1.9, 43-49 en v1.8) (50+ pendiente)
+- **Phase 1 (Modules 03-11):** SEO Fundamentals — 9 harnesses ✅ v1.8
+- **Phase 2 (Modules 12-18):** Technical SEO — 7 harnesses ✅ v1.8
+- **Phase 3 (Modules 19-29):** Content & Off-Page — 11 harnesses ✅ v1.8
+- **Phase 4 (Modules 30-37):** SEO Tools — 8 harnesses ✅ v1.8
+- **Phase 5/6 (Modules 38-49):** Specialized SEO + Negocio — 12 harnesses ✅ (40 en v1.8, 41 en v1.8, 42 en v1.9, 43-49 en v1.8) (50+ pendiente)
 
 ## PENDIENTE — Decisión del usuario (congelado, no tocar sin pedir)
 1. ¿Correr la batería NIVEL 2 completa en los arneses 04-39 que solo recibieron el parche mecánico v1.4 (excepto 03/17/26/33, ya probados)?
-2. Parche v1.4→v1.8 (HALLAZGO 7+8+adenda) — PROGRESO: 27 de 38 hechos.
-   Hechos: Módulos 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15,
-   16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29. Siguiente:
-   Módulo 30. (Módulo 40 está en v1.6, se trata aparte al final.)
-3. ¿Propagar el parche v1.6 → v1.8 al Módulo 40?
+2. ~~Parche v1.4→v1.8 (HALLAZGO 7+8+adenda)~~ **COMPLETADO 2026-06-20** — Módulos 03-39 y 40 todos en v1.8.
+3. ~~Propagar parche v1.6 → v1.8 al Módulo 40~~ **COMPLETADO 2026-06-20**.
 4. HALLAZGO 9 (Módulo 42) es de contenido, no estructural.
 
 ## Next Task
