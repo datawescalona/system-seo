@@ -335,3 +335,24 @@ aparente. Si el usuario describe que controla ambos lados del enlace, señalarlo
 Módulo 21 para análisis de riesgo de perfil.
 
 **Resultado post-corrección:** 7/7 OK. Todos los módulos 03-49 quedan marcados como probados.
+
+
+## HALLAZGO 11 — Nombre de carpeta de módulo inventado, sin leer la tabla oficial (Sesión 13)
+**Qué se encontró:** Al crear la carpeta de preparación del Módulo 53, la IA eligió el
+nombre "modulo_53_seo_en_medios_iii" basándose en un patrón contextual erróneo
+("había un módulo 44 SEO en Medios I y un 45 SEO en Medios II, por tanto el 53 sería
+III"). El nombre correcto según la tabla oficial de la Sección 8 del Blueprint es
+"Wireframes y Mockups". La carpeta fue subida a GitHub con el nombre incorrecto.
+
+**Por qué pasó:** CLAUDE.md no tenía una regla explícita obligando a leer la tabla de
+módulos del Blueprint antes de crear carpetas. La IA infirió el nombre por patrón en
+lugar de leerlo de la fuente de verdad.
+
+**Decisión tomada:**
+(a) Carpeta renombrada con `git mv` a `modulo_53_wireframes_y_mockups`.
+(b) CONTROL.md y PENDIENTES.md corregidos para eliminar el nombre inventado.
+(c) CLAUDE.md: nueva regla "NOMBRES DE MÓDULOS DE LA TABLA OFICIAL" — obliga a
+    leer la Sección 8 del Blueprint antes de crear cualquier carpeta nueva.
+(d) check_coherencia.sh: nuevo bloque Python que verifica que todas las carpetas
+    de preparación (sin ARNES.md) tengan el nombre normalizado que corresponde
+    a la tabla del Blueprint. Si no coincide, el chequeo falla con mensaje detallado.

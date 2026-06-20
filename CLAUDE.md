@@ -70,13 +70,26 @@ a "[RESUELTO YYYY-MM-DD]" y actualiza el contador en PENDIENTES.md.
 
 ---
 
+## REGLA DURA — NOMBRES DE MÓDULOS DE LA TABLA OFICIAL
+Antes de crear la carpeta de CUALQUIER módulo nuevo, DEBES:
+1. Leer la tabla de módulos en la Sección 8 de HARNESS_SDD_BLUEPRINT.md.
+2. Copiar el nombre EXACTO del módulo tal como aparece en esa tabla.
+3. Construir el nombre de carpeta así: modulo_NN_<nombre normalizado>
+   (minúsculas, espacios→guiones bajos, sin paréntesis, sin caracteres especiales).
+NUNCA inventes el nombre del módulo. NUNCA uses el nombre de un módulo diferente.
+Si no leíste la tabla antes de crear la carpeta, el nombre puede estar mal.
+check_coherencia.sh verificará que las carpetas de preparación (sin ARNES.md)
+tengan el nombre correcto — fallará si no coincide con la tabla.
+
+---
+
 ## PREPARAR EL SIGUIENTE MÓDULO
 Cuando termines de construir el arnés de un módulo, prepara
 automáticamente la carpeta del siguiente módulo pendiente:
-1. Crea harnesses/modulo_XX_nombre/archivos/.gitkeep (la carpeta vacía
-   lista para recibir archivos).
-2. Haz commit y push.
-3. Avísame en lenguaje simple: "Carpeta del Módulo XX lista. Sube ahí
+1. Lee la Sección 8 de HARNESS_SDD_BLUEPRINT.md para obtener el nombre oficial.
+2. Crea harnesses/modulo_XX_<nombre_oficial>/archivos/.gitkeep.
+3. Haz commit y push.
+4. Avísame en lenguaje simple: "Carpeta del Módulo XX lista. Sube ahí
    los archivos del módulo y avísame cuando estén para construir el arnés."
 No construyas el arnés de ese módulo hasta que yo confirme que ya subí
 los archivos.

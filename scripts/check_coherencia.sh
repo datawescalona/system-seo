@@ -52,6 +52,64 @@ if grep -qE "Arneses creados: *[0-9]|← *SIGUIENTE|[0-9]+ */ *91" PLAN_SISTEMA_
   FALLO=1
 fi
 
+# Verificación de nombres de módulos contra la tabla oficial del Blueprint
+if [ -f "HARNESS_SDD_BLUEPRINT.md" ]; then
+  python - <<'PYEOF'
+import re, os, sys, unicodedata
+
+blueprint = open("HARNESS_SDD_BLUEPRINT.md", encoding="utf-8").read()
+valid_modules = {}
+for m in re.finditer(r'\|\s*\*\*(\d+)\*\*\s*\|\s*([^|]+)\|', blueprint):
+    num = int(m.group(1))
+    name = m.group(2).strip()
+    # Ignorar filas que son encabezados de tabla (contienen "Nombre" o similares)
+    if not re.search(r'[A-Za-záéíóúñü]', name):
+        continue
+    valid_modules[num] = name
+
+def normalize(name):
+    nfkd = unicodedata.normalize('NFKD', name)
+    ascii_name = ''.join(c for c in nfkd if not unicodedata.combining(c))
+    result = re.sub(r'[^a-z0-9]+', '_', ascii_name.lower())
+    return result.strip('_')
+
+fallo = False
+harnesses_dir = "harnesses"
+for d in sorted(os.listdir(harnesses_dir)):
+    m = re.match(r'^modulo_(\d+)_(.+)$', d)
+    if not m:
+        continue
+    num = int(m.group(1))
+    suffix = m.group(2)
+    folder_path = os.path.join(harnesses_dir, d)
+
+    # Verificar que el número existe en la tabla del Blueprint
+    if num not in valid_modules:
+        print(f"FALLO: harnesses/{d} -> numero de modulo {num} no existe en la tabla del Blueprint (Seccion 8).")
+        fallo = True
+        continue
+
+    # Verificar el nombre solo para carpetas SIN ARNES.md (carpetas de preparación)
+    arnes_path = os.path.join(folder_path, "ARNES.md")
+    if not os.path.exists(arnes_path):
+        expected = normalize(valid_modules[num])
+        if suffix != expected:
+            print(f"FALLO: harnesses/{d} -> nombre de carpeta incorrecto.")
+            print(f"  Blueprint modulo {num}: '{valid_modules[num]}'")
+            print(f"  Nombre correcto: modulo_{num}_{expected}")
+            print(f"  Nombre hallado:  modulo_{num}_{suffix}")
+            fallo = True
+
+if not fallo:
+    print("Nombres de modulos verificados contra la tabla del Blueprint: OK")
+sys.exit(1 if fallo else 0)
+PYEOF
+  PYTHON_RESULT=$?
+  if [ $PYTHON_RESULT -ne 0 ]; then
+    FALLO=1
+  fi
+fi
+
 # Verificación de PENDIENTES.md
 if [ ! -f "PENDIENTES.md" ]; then
   echo "FALLO: PENDIENTES.md no existe. Debe vivir en la raíz del repo con la lista de pendientes abiertos."

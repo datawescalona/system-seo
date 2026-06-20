@@ -39,7 +39,7 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
 4. HALLAZGO 9 (Módulo 42) es de contenido, no estructural.
 
 ## Next Task
-"Preparar la carpeta vacía harnesses/modulo_53_seo_en_medios_iii/archivos/ con .gitkeep. En cuanto el usuario suba los archivos, construir el ARNES.md con plantilla v1.8, correr batería NIVEL 2 y actualizar CONTROL.md."
+"Carpeta harnesses/modulo_53_wireframes_y_mockups/archivos/ preparada con .gitkeep. En cuanto el usuario suba los archivos, construir el ARNES.md con plantilla v1.8, correr batería NIVEL 2 y actualizar CONTROL.md."
 
 ## Key System Rules
 - GitHub's `/harnesses/` folder structure is the source of truth
