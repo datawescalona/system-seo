@@ -1,0 +1,66 @@
+Sitemap: http://example.org/sitemap.xml 
+
+User-Agent: *
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-admin/
+Disallow: /trackback/
+Disallow: /?s=
+Disallow: /search
+Disallow: /archives/
+Disallow: /index.php
+Disallow: /*?
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: */trackback/
+Disallow: /page/
+Disallow: /tag/
+Disallow: /category/
+
+# WooCommerce
+User-agent: *
+Disallow: /*add-to-cart=*
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+
+# Disallow copias de seguridad
+Disallow: /*.git$
+Disallow: /*.sql$
+Disallow: /*.tgz$
+Disallow: /*.gz$
+Disallow: /*.tar$
+Disallow: /*.svn$
+Disallow: /*.bz2$
+Disallow: /*.log$
+
+
+# BOTS
+User-agent: Slurp
+Crawl-delay: 10
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: duggmirror
+Disallow: /
+
+User-agent: noxtrumbot
+Crawl-delay: 50
+
+User-agent: msnbot
+Crawl-delay: 30
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Microsoft.URL.Control
+Disallow: /
+
+User-agent: libwww
+Disallow: /
