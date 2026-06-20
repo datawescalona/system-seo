@@ -11,8 +11,16 @@ Antes de decir nada sobre en qué módulo va el sistema, haz esto sin preguntar:
 3. Corre `./scripts/check_coherencia.sh` ANTES de decir nada del estado.
 4. Si NO dice "OK COHERENTE": párate y avísame del fallo. No digas en qué
    módulo voy, no construyas nada, no sigas.
-Solo después de ver "OK COHERENTE" puedes decirme en lenguaje simple en
-qué módulo estoy y cuál es la próxima tarea (leyendo CONTROL.md).
+5. Lee PENDIENTES.md y listame en lenguaje simple TODOS los pendientes
+   marcados "[ABIERTO]", con este formato:
+   "Ahora mismo tienes abierto:
+    1) ...
+    2) ...
+    ..."
+   ESTA LECTURA NO SE PUEDE SALTAR. Si la IA no leyó PENDIENTES.md y no
+   listó los pendientes abiertos, no puede proponer ningún trabajo nuevo.
+Solo después de los pasos 1-5 puedes decirme en qué módulo estoy y
+proponer el siguiente paso (leyendo CONTROL.md).
 
 ---
 
@@ -44,6 +52,23 @@ haz TODO esto solo, sin pedirme pasos intermedios:
 
 CONTROL.md es la fuente de verdad del avance. No me pidas que repita
 contexto que ya está en el repo. Háblame en lenguaje simple, no soy técnico.
+
+## REGLA DURA — REGISTRO OBLIGATORIO DE ERRORES Y HUECOS
+Cuando una sesión ENCUENTRE un fallo, hueco o defecto (del sistema, del
+arnés o propio), ANTES de cerrar la tarea debes hacer DOS COSAS:
+(a) Anotarlo en AUDITORIA.md como hallazgo nuevo: añade al FINAL
+    (orden cronológico, nunca reescribas lo anterior) con:
+    — qué se encontró
+    — por qué pasó o por qué importa
+    — qué decisión se tomó (o que queda pendiente)
+(b) Agregarlo como línea "[ABIERTO]" en PENDIENTES.md y actualizar el
+    contador "PENDIENTES ABIERTOS: N" de la cabecera.
+Una tarea que encontró un fallo y NO lo registró en AMBOS sitios NO se
+considera cerrada, aunque el commit ya esté hecho.
+Cuando se RESUELVE un pendiente ya listado: cambia su línea de "[ABIERTO]"
+a "[RESUELTO YYYY-MM-DD]" y actualiza el contador en PENDIENTES.md.
+
+---
 
 ## PREPARAR EL SIGUIENTE MÓDULO
 Cuando termines de construir el arnés de un módulo, prepara

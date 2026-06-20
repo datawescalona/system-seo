@@ -52,6 +52,22 @@ if grep -qE "Arneses creados: *[0-9]|← *SIGUIENTE|[0-9]+ */ *91" PLAN_SISTEMA_
   FALLO=1
 fi
 
+# Verificación de PENDIENTES.md
+if [ ! -f "PENDIENTES.md" ]; then
+  echo "FALLO: PENDIENTES.md no existe. Debe vivir en la raíz del repo con la lista de pendientes abiertos."
+  FALLO=1
+else
+  CONTADOR_DECLARADO=$(grep -oE "PENDIENTES ABIERTOS: [0-9]+" PENDIENTES.md | grep -oE "[0-9]+" | head -1)
+  LINEAS_ABIERTO=$(grep -c "^\[ABIERTO\]" PENDIENTES.md || true)
+  if [ -z "$CONTADOR_DECLARADO" ]; then
+    echo "FALLO: PENDIENTES.md no tiene la línea 'PENDIENTES ABIERTOS: N' en la cabecera."
+    FALLO=1
+  elif [ "$CONTADOR_DECLARADO" != "$LINEAS_ABIERTO" ]; then
+    echo "FALLO: PENDIENTES.md declara 'PENDIENTES ABIERTOS: $CONTADOR_DECLARADO' pero contiene $LINEAS_ABIERTO líneas [ABIERTO]. Actualiza el contador."
+    FALLO=1
+  fi
+fi
+
 echo ""
 echo "Conteo de versiones de plantilla en harnesses/modulo_*/ARNES.md:"
 grep -h "# Versión:" harnesses/modulo_*/ARNES.md | sed -E 's/ \|.*//' | sort | uniq -c
@@ -60,4 +76,6 @@ if [ "$FALLO" -ne 0 ]; then
   exit 1
 fi
 
+LINEAS_ABIERTO_FINAL=$(grep -c "^\[ABIERTO\]" PENDIENTES.md || true)
+echo "Pendientes abiertos en PENDIENTES.md: $LINEAS_ABIERTO_FINAL"
 echo "OK COHERENTE"
