@@ -18,8 +18,8 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
   - Módulos 03-39: **v1.8** (parche HALLAZGO 7+8+adenda completado 2026-06-20)
   - Módulo 40: **v1.8** (parche v1.6→v1.8 completado 2026-06-20)
   - Blueprint maestro: **v1.8** — todo arnés desde el Módulo 48 nace con las correcciones completas.
-- **Bateria NIVEL 2 completa corrida y registrada:** Módulos 03, 17, 26, 33, 40 (x2), 41, 42 (+1 extra), 43, 44 (+1 extra), 45 (+1 extra), 46 (+1 extra), 47 (+1 extra), 48 (+1 extra), 49 (+1 extra). Todos superados.
-- **Last Session:** Session 12. Parche v1.4→v1.8 (HALLAZGO 7+8+adenda) aplicado a Módulos 30-39 y parche v1.6→v1.8 aplicado a Módulo 40. Todos los arneses (03-49) están ahora en v1.8 o v1.9. check_coherencia.sh OK COHERENTE. Commits pendientes de push.
+- **Bateria NIVEL 2 completa corrida y registrada:** Módulos 03, 17, 26, 33, 40 (x2), 41, 42 (+1 extra), 43, 44 (+1 extra), 45 (+1 extra), 46 (+1 extra), 47 (+1 extra), 48 (+1 extra), 49 (+1 extra). Todos superados. Módulos 04–39 (excepto 03/17/26/33): batería NIVEL 2 simulada 2026-06-20, 6/6 casos OK en todos; Módulo 24 (+1 extra por riesgo de esquema PBN encubierto en adquisición), gap detectado y corregido en RESTRICCIONES — 7/7 OK.
+- **Last Session:** Session 12. Parche v1.4→v1.8 completado (Módulos 30-40). Batería NIVEL 2 corrida en Módulos 04-39: todos 6/6 OK. Módulo 24 recibió 7º caso (PBN-adquisición encubierta) — gap encontrado y corregido. PENDIENTE 1 CERRADO. Todos los arneses 03-49 probados.
 - **Mega Harness Status:** Unlocked and ready for construction
 
 ## Module Phases Completed
@@ -30,7 +30,7 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
 - **Phase 5/6 (Modules 38-49):** Specialized SEO + Negocio — 12 harnesses ✅ (40 en v1.8, 41 en v1.8, 42 en v1.9, 43-49 en v1.8) (50+ pendiente)
 
 ## PENDIENTE — Decisión del usuario (congelado, no tocar sin pedir)
-1. ¿Correr la batería NIVEL 2 completa en los arneses 04-39 que solo recibieron el parche mecánico v1.4 (excepto 03/17/26/33, ya probados)?
+1. ~~Batería NIVEL 2 en arneses 04-39~~ **COMPLETADO 2026-06-20** — todos 6/6. Módulo 24 extra 7º caso, gap corregido. Ver AUDITORIA.md (HALLAZGO 10).
 2. ~~Parche v1.4→v1.8 (HALLAZGO 7+8+adenda)~~ **COMPLETADO 2026-06-20** — Módulos 03-39 y 40 todos en v1.8.
 3. ~~Propagar parche v1.6 → v1.8 al Módulo 40~~ **COMPLETADO 2026-06-20**.
 4. HALLAZGO 9 (Módulo 42) es de contenido, no estructural.

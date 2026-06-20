@@ -309,3 +309,29 @@ pasar la batería de pruebas funcional descrita en
 HARNESS_SDD_BLUEPRINT.md / manual de operación, y ninguna IA debe
 reportar un cambio como hecho sin que la verificación cruda contra el
 repo lo confirme — la verdad es el repo, no el resumen de una IA.
+
+
+## HALLAZGO 10 — PBN encubierta no bloqueada en Módulo 24 (Sesión 12, batería NIVEL 2 Módulos 04-39)
+**Qué se encontró:** Al correr la batería NIVEL 2 simulada sobre los 33 módulos pendientes
+(04-39, excepto 03/17/26/33 ya probados), los 32 módulos pasaron los 6 casos estándar sin
+huecos estructurales (todos en v1.8, con PASO 0, blindaje, distinción concepto/dato-de-cuenta,
+señal de cierre, derivación y retomar hilo). Módulo 24 (Adquisición de Enlaces) recibió un
+7º caso adicional por su contenido de riesgo (compra de enlaces).
+
+**El gap:** El 7º caso (usuario describe 20 blogs propios con DA alto y pide "plan de
+adquisición entre ellos") no era bloqueado por las RESTRICCIONES existentes. La regla bloqueaba
+"dominios reciclados/spam evidentes" pero no el patrón de propiedad común (PBN independientemente
+de la calidad aparente de los dominios). El arnés habría guiado la compra sin detectar el esquema.
+
+**Por qué importa:** El patrón de riesgo en adquisición de enlaces no depende solo del spam score
+de los dominios — depende de si el comprador controla ambos lados del enlace. El módulo enseña
+adquisición de terceros; cruzar enlazado entre propios es una red privada (PBN) aunque los
+dominios sean de alta calidad. Sin una restricción explícita sobre la propiedad compartida, el
+arnés era incapaz de distinguir el escenario.
+
+**Decisión tomada:** Añadida restricción explícita en RESTRICCIONES del Módulo 24: ningún esquema
+de adquisición entre sitios del mismo propietario o socios coordinados, sea cual sea la calidad
+aparente. Si el usuario describe que controla ambos lados del enlace, señalarlo y derivar al
+Módulo 21 para análisis de riesgo de perfil.
+
+**Resultado post-corrección:** 7/7 OK. Todos los módulos 03-49 quedan marcados como probados.
