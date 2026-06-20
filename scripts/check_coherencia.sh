@@ -52,6 +52,10 @@ if grep -qE "Arneses creados: *[0-9]|← *SIGUIENTE|[0-9]+ */ *91" PLAN_SISTEMA_
   FALLO=1
 fi
 
+echo ""
+echo "Conteo de versiones de plantilla en harnesses/modulo_*/ARNES.md:"
+grep -h "# Versión:" harnesses/modulo_*/ARNES.md | sed -E 's/ \|.*//' | sort | uniq -c
+
 if [ "$FALLO" -ne 0 ]; then
   exit 1
 fi
