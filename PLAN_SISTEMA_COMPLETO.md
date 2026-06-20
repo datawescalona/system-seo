@@ -85,26 +85,22 @@ https://raw.githubusercontent.com/datawescalona/system-seo/main/CONTROL.md
 /system-seo/
 ├── CONTROL.md                    ← memoria del sistema de arneses
 ├── HARNESS_SDD_BLUEPRINT.md      ← blueprint maestro
-├── MEGA_ARNES.md                 ← orquestador (PENDIENTE)
+├── MEGA_ARNES.md                 ← orquestador
 └── harnesses/
     ├── modulo_03_keyword_research/
-    │   ├── ARNES.md              ✅ creado
+    │   ├── ARNES.md
     │   └── archivos/
     ├── modulo_04_arquitectura_seo/
-    │   ├── ARNES.md              ✅ creado
+    │   ├── ARNES.md
     │   └── archivos/
-    └── modulo_05_seo_on_page/    ← SIGUIENTE
-        ├── ARNES.md              ⬜ pendiente
+    └── [resto de módulos]
+        ├── ARNES.md
         └── archivos/
 ```
 
 #### Progreso arneses
-- Arneses creados: 2 / 91
-- Módulo 03 - Keyword Research ✅
-- Módulo 04 - Arquitectura SEO ✅
-- Módulo 05 - SEO On Page ⬜ ← SIGUIENTE
-- Módulos 06 a 91 ⬜ pendientes
-- Mega Arnés orquestador ⬜ ← PENDIENTE URGENTE
+⚠️ El conteo y el módulo "siguiente" cambian sesión a sesión.
+La única fuente de verdad es CONTROL.md — no se repite aquí.
 
 #### Cómo se activa
 1. Usuario abre cualquier IA
@@ -318,9 +314,7 @@ no trabaje en el vacío]
 ```
 FASE A — Terminar el motor (Sistema 1)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[ ] Subir archivos del Módulo 05 - SEO On Page a GitHub
-[ ] Construir ARNES.md del Módulo 05
-[ ] Continuar módulos 06 → 11 (Fase 1 del curso)
+[ ] Ver CONTROL.md para el módulo pendiente concreto (no se repite aquí)
 [ ] Construir el Mega Arnés Orquestador  ← PRIORIDAD
 
 FASE B — Construir el gestor (Sistema 2)
@@ -358,8 +352,7 @@ FASE C — Construir el panel único (Sistema 3)
 ├── harnesses/                        ← Sistema 1
 │   ├── modulo_03_keyword_research/
 │   ├── modulo_04_arquitectura_seo/
-│   ├── modulo_05_seo_on_page/        ← siguiente
-│   └── [módulos 06 a 91]
+│   └── [resto de módulos — ver CONTROL.md para el estado real]
 │
 └── proyectos/                        ← Sistema 2 (construir en Fase B)
     ├── PROYECTOS.md

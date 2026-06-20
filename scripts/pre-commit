@@ -1,0 +1,16 @@
+#!/bin/sh
+# Hook de pre-commit: bloquea el commit si el sistema queda incoherente.
+# Copia versionada de .git/hooks/pre-commit (los hooks de .git/ no se
+# suben al repo, por eso esta copia vive en scripts/ y hay que instalarla
+# a mano: cp scripts/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit)
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+if ! ./scripts/check_coherencia.sh; then
+  echo ""
+  echo "COMMIT BLOQUEADO: el chequeo de coherencia falló (ver arriba)."
+  exit 1
+fi
+
+exit 0
