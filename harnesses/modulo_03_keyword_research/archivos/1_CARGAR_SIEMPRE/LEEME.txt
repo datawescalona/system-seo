@@ -1,0 +1,4 @@
+Esta es la carpeta que SIEMPRE debes cargar para activar el arnés del Módulo 03
+(Keyword Research). Contiene toda la metodología en texto liviano y siempre cabe
+en el chat. La carpeta 2_PLANTILLA_ENTREGABLE tiene el molde para presentar el
+resultado. Las carpetas 4 y 5 son opcionales/archivo: NO hace falta cargarlas.
