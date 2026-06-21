@@ -356,3 +356,31 @@ lugar de leerlo de la fuente de verdad.
 (d) check_coherencia.sh: nuevo bloque Python que verifica que todas las carpetas
     de preparación (sin ARNES.md) tengan el nombre normalizado que corresponde
     a la tabla del Blueprint. Si no coincide, el chequeo falla con mensaje detallado.
+
+
+## HALLAZGO 13 — Constructor v2.2 reprobó FASE 0: arneses con compuertas de verificación débiles (Sesión 20, 2026-06-21)
+
+**Qué se encontró:** El arnés del Módulo 04 (Arquitectura SEO) producido por el Constructor v2.2
+durante la FASE 0 sustituyó datos reales por criterio editorial propio en 4 puntos concretos:
+— Mezcló intenciones de búsqueda agrupando keywords por similitud de texto en lugar de verificar
+  el dato real (SERP de Google) como exige el método.
+— Creó una subcategoría redundante que no nacía de una segmentación real del usuario sino de una
+  inferencia editorial del agente.
+— Incluyó un servicio que el negocio de prueba no ofrece, sin cuestionarlo ni pararse a pedir
+  confirmación.
+— Repartió 23 keywords ambiguas a criterio propio en lugar de verificar la SERP de cada una o
+  detenerse y pedirlo al usuario, como el método obliga.
+
+**Por qué pasó / por qué importa:** El constructor instala compuertas (Compuerta A, Compuerta B)
+pero no las hace cruzables contra dato real en el momento crítico: antes de agrupar, separar o
+nombrar una página. El agente puede resolver por criterio editorial y presentarlo como si fuese
+dato, y la compuerta lo deja pasar porque no exige mostrar el dato real en ese punto. Es la
+reaparición del defecto raíz del sistema: el atajo editorial en lugar del método. Un constructor
+que reproduce este defecto lo propaga a cada arnés que fabrique.
+
+**Decisión tomada:** El Constructor v2.2 NO pasa FASE 0 y queda en estado NO VALIDADO. No se
+despliega ni se usa en serie para reconstruir arneses hasta que sus compuertas sean reforzadas:
+toda agrupación, separación o nombre de página debe verificarse contra dato real (SERP o
+confirmación del usuario) o el agente debe pararse y pedirlo — nunca resolverlo por criterio
+editorial. Una vez corregido el constructor, debe re-correr FASE 0 completa antes de cualquier
+uso en serie.

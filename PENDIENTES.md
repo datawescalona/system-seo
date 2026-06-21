@@ -1,7 +1,7 @@
 # PENDIENTES — SISTEMA HARNESS-SDD
-Última actualización: 2026-06-20 (Sesión 18)
+Última actualización: 2026-06-21 (Sesión 20)
 
-PENDIENTES ABIERTOS: 6
+PENDIENTES ABIERTOS: 8
 
 ---
 
@@ -16,5 +16,9 @@ PENDIENTES ABIERTOS: 6
 [ABIERTO] Hueco conocido: "dato falso dentro de archivo legítimo" — la Batería NIVEL 2 Caso 1 incluye el escenario de archivo correcto en tema pero con datos fabricados dentro, pero ningún ARNES.md tiene instrucción explícita para detectarlo ni protocolo de qué hacer; no hay HALLAZGO con fix registrado — origen: IMPLEMENTACION_Y_OPERACION.md línea 135 — estado: conocido, sin solución decidida
 
 [ABIERTO] Hueco conocido: "entrada degenerada sin guion explícito" — la Batería NIVEL 2 Caso 5 cubre entrada vacía, muro de texto, otro idioma y contradicción, pero ningún ARNES.md tiene instrucción dedicada para estos casos; los arneses pasan el caso por las reglas generales, no por un guion propio — origen: IMPLEMENTACION_Y_OPERACION.md línea 139 — estado: conocido, sin solución decidida
+
+[ABIERTO] Constructor v2.2 reprobó FASE 0 (HALLAZGO 13): reforzar compuertas de verificación —toda agrupación/separación/nombre debe verificarse contra dato real o pararse y pedirlo, nunca resolverse por criterio editorial— y re-correr FASE 0 antes de usar en serie — origen: HALLAZGO 13, Sesión 20 — estado: pendiente corrección del constructor
+
+[ABIERTO] Falta archivo ancla de cliente (BRIEF_CLIENTE) que todos los arneses lean para no re-preguntar el negocio en cada módulo — origen: observación Sesión 20 — estado: pendiente diseño e implementación
 
 [RESUELTO 2026-06-20] Propagar parche de comportamiento v1.9 a los arneses ya construidos (03 hecho como piloto) — completado: todos los 55 arneses en v1.9
