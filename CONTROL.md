@@ -4,8 +4,9 @@
 HARNESS-SDD is a structured system for building AI "harnesses" (specialized knowledge modules) for SEO training. The system tracks progress on 86 total modules across 8 phases, with emphasis on preventing AI jailbreaks and maintaining knowledge integrity.
 
 ## Current Progress
-- **Arneses Created:** 57 of 86 modules complete (Módulos 03-59)
+- **Arneses Created:** 58 of 86 modules complete (Módulos 03-60)
 - **Template Version (verificado contra el repo real):**
+  - Módulo 60: **v1.9** (probado 6/6, 2026-06-20)
   - Módulo 59: **v1.9** (probado 6/6, 2026-06-20)
   - Módulo 58: **v1.9** (probado 6/6, 2026-06-20)
   - Módulo 57: **v1.9** (parche comportamiento v1.9 aplicado 2026-06-20)
@@ -29,7 +30,7 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
   - Módulo 40: **v1.8** (parche v1.6→v1.8 completado 2026-06-20)
   - Blueprint maestro: **v1.8** — todo arnés desde el Módulo 48 nace con las correcciones completas.
 - **Bateria NIVEL 2 completa corrida y registrada:** Módulos 03, 17, 26, 33, 40 (x2), 41, 42 (+1 extra), 43, 44 (+1 extra), 45 (+1 extra), 46 (+1 extra), 47 (+1 extra), 48 (+1 extra), 49 (+1 extra). Todos superados. Módulos 04–39: 6/6 OK todos (M24 7/7 con gap PBN corregido). Módulos 50 y 51: 6/6 OK. Módulo 52: 7/7 OK (caso extra: migración desde dominio penalizado). Módulo 53: 6/6 OK (sin caso 7, contenido metodológico sin riesgo de compliance). Módulo 54: 6/6 OK (sin caso 7, contenido metodológico). Módulo 55: 6/6 OK (sin caso 7, contenido metodológico). Módulo 56: 6/6 OK (sin caso 7, contenido metodológico). Módulo 57: 6/6 OK (sin caso 7, contenido técnico-práctico sin riesgo de compliance).
-- **Last Session:** Session 19. Módulo 59 - PrestaShop: construido y probado 6/6. Carpeta modulo_60_magento preparada.
+- **Last Session:** Session 19. Módulos 59 (PrestaShop) y 60 (Magento): construidos y probados 6/6. Carpeta modulo_61_shopify preparada.
 - **Mega Harness Status:** Unlocked and ready for construction
 - **Blueprint maestro:** v1.9 — todos los arneses en v1.9 desde Sesión 18.
 
@@ -47,7 +48,7 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
 4. HALLAZGO 9 (Módulo 42) es de contenido, no estructural.
 
 ## Next Task
-"Carpeta harnesses/modulo_60_magento/archivos/ preparada con .gitkeep. En cuanto el usuario suba los archivos del Módulo 60, construir el ARNES.md con plantilla v1.9, correr batería NIVEL 2 y actualizar CONTROL.md."
+"Carpeta harnesses/modulo_61_shopify/archivos/ preparada con .gitkeep. En cuanto el usuario suba los archivos del Módulo 61, construir el ARNES.md con plantilla v1.9, correr batería NIVEL 2 y actualizar CONTROL.md."
 
 ## Key System Rules
 - GitHub's `/harnesses/` folder structure is the source of truth
