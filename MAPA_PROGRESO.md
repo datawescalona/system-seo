@@ -90,7 +90,7 @@
 
 | # | Nombre | Estado |
 |---|---|---|
-| 64 | Google Analytics 4 | ⏳ sin carpeta |
+| 64 | Google Analytics 4 | 📁 carpeta lista — esperando crudos |
 | 65 | Google Tag Manager | ⏳ sin carpeta |
 | 66 | Data Studio | ⏳ sin carpeta |
 | 67 | HTML | ⏳ sin carpeta |
