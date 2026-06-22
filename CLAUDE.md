@@ -65,8 +65,16 @@ quedes esperando sin ofrecerle el camino.
 1. QUÉ SE HIZO (una línea).
 2. QUÉ QUEDA PENDIENTE de esa tarea, si algo quedó a medias (ej.: "el arnés está
    construido pero falta probarlo con un cliente real").
-3. QUÉ SIGUE — ofrécele 2-3 opciones concretas de siguiente paso y pregúntale cuál
-   quiere. Nunca termines una tarea sin decirle al usuario qué puede hacer ahora.
+3. QUÉ SIGUE — ofrécele opciones concretas de siguiente paso y pregúntale cuál quiere.
+   Nunca termines una tarea sin decirle al usuario qué puede hacer ahora.
+   Las opciones deben incluir siempre, según el contexto:
+   - Construir/reconstruir el siguiente módulo.
+   - Probar/revisar el arnés recién hecho con un caso real.
+   - SEGUIR SUBIENDO crudos de otros módulos (el usuario está en fase de subida
+     continua — esta opción casi siempre aplica y NO se debe omitir).
+   - Preparar la carpeta de un módulo nuevo para que el usuario suba ahí.
+   - Parar y retomar después.
+   Si no sabes a qué módulo se refiere el usuario, pregúntale cuál.
 
 El usuario NO es técnico y no siempre sabe qué sigue. Tu trabajo es guiarlo: nunca lo
 dejes en el aire ni esperando sin opciones. Cada respuesta tuya termina o con una
