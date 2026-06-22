@@ -1,4 +1,4 @@
-# CONSTRUCTOR DE ARNESES v2.2 (meta-arnés)
+# CONSTRUCTOR DE ARNESES v2.3 (meta-arnés)
 Sistema: HARNESS-SDD
 Propósito: fabricar o reconstruir arneses de módulo bajo el modelo de 3 capas
 Estado: NO VALIDADO — debe pasar su propia batería (FASE 0) antes de fabricar en serie
@@ -46,6 +46,8 @@ Convierte lo aprendido en método (o heurísticas), en tu prosa. Cero rastro de 
 ### FASE 3 — INSTALAR COMPUERTAS DE EJECUCIÓN CRUZABLES
 Para HACER, instala checkpoints donde el agente se detenga y muestre trabajo intermedio. REGLA: la compuerta debe pedir algo que el humano pueda CRUZAR contra su propia realidad/archivo, no un dato alucinable sin que se note. Prohibido: "confirma que procesaste todo" o un número suelto inventable. Exigido: mostrar el trabajo de forma que el humano detecte una mentira mirándolo (ej.: lista los grupos y su keyword cabecera para que reconozca su negocio; muestra las filas descartadas y el motivo para que vea si descartó algo que servía). Criterio: ¿puede el humano detectar una mentira mirando esto? Si no, es teatro.
 
+Para módulos donde se clasifica/agrupa/nombra (arquitectura, keyword research, categorización): instala una compuerta OBLIGATORIA que detenga al agente ante cualquier elemento ambiguo y lo fuerce a verificar contra dato (SERP, export) o pedirlo al humano ANTES de meterlo en el resultado. Nunca asigna lo ambiguo por su cuenta.
+
 ### FASE 4 — RESCATAR LOS PARCHES (checklist obligatoria)
 Verifica uno por uno:
 - [ ] IDENTIDAD con blindaje anti-jailbreak.
@@ -58,6 +60,8 @@ Verifica uno por uno:
 - [ ] Señal de cierre flexible sin loop infinito.
 - [ ] Si es contenido de riesgo/compliance → defensa específica.
 - [ ] Listas para copiar en bloque limpio primero, explicación después.
+- [ ] REGLA ANTI-INVENCIÓN: cuando el método requiera clasificar, agrupar, separar o nombrar algo, el agente NO lo resuelve por criterio propio, similitud de texto, ni "lo que parece ordenado" — solo por dato verificable. Si un elemento es ambiguo (sin marcador claro en el dato), DEBE detenerse y verificarlo contra la fuente correcta (ej.: SERP real) o pedírselo al humano. Prohibido repartir lo ambiguo a ojo y presentarlo como si viniera del dato. Una tabla prolija no es evidencia de rigor.
+- [ ] COMPUERTA DE HONESTIDAD: antes de entregar, el agente declara qué salió de dato real y qué resolvió por criterio propio. Lo que resolvió por criterio lo marca "decisión mía, no del dato — confírmala". Nunca presenta criterio propio disfrazado de dato.
 
 ### FASE 5 — FORMATO DE SALIDA (Opción 1: el constructor diseña el molde)
 Según la categoría:
