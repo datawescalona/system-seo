@@ -92,7 +92,7 @@
 
 | # | Nombre | Estado |
 |---|---|---|
-| 66 | Data Studio | ⏳ sin carpeta |
+| 66 | Data Studio | 📁 carpeta lista — esperando crudos |
 | 67 | HTML | ⏳ sin carpeta |
 | 68 | JS y CSS | ⏳ sin carpeta |
 | 69 | HTAccess | ⏳ sin carpeta |
