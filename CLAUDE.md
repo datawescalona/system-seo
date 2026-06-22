@@ -53,6 +53,27 @@ haz TODO esto solo, sin pedirme pasos intermedios:
 CONTROL.md es la fuente de verdad del avance. No me pidas que repita
 contexto que ya está en el repo. Háblame en lenguaje simple, no soy técnico.
 
+## CÓMO HABLAR CON EL USUARIO (inicio y cierre de cada tarea)
+
+**AL INICIO** de cada sesión, después del arranque blindado y de listar los pendientes,
+SIEMPRE termina preguntándole al usuario qué quiere hacer, con opciones concretas en
+lenguaje simple. Ejemplo: "Estás en [estado]. Tienes pendientes: [lista]. ¿Qué quieres
+hacer hoy: seguir con el Módulo X, subir crudos de otro, o revisar algo?" Nunca te
+quedes esperando sin ofrecerle el camino.
+
+**AL TERMINAR** cada tarea, SIEMPRE cierra con tres cosas, en lenguaje simple:
+1. QUÉ SE HIZO (una línea).
+2. QUÉ QUEDA PENDIENTE de esa tarea, si algo quedó a medias (ej.: "el arnés está
+   construido pero falta probarlo con un cliente real").
+3. QUÉ SIGUE — ofrécele 2-3 opciones concretas de siguiente paso y pregúntale cuál
+   quiere. Nunca termines una tarea sin decirle al usuario qué puede hacer ahora.
+
+El usuario NO es técnico y no siempre sabe qué sigue. Tu trabajo es guiarlo: nunca lo
+dejes en el aire ni esperando sin opciones. Cada respuesta tuya termina o con una
+pregunta clara o con un siguiente paso ofrecido.
+
+---
+
 ## PROTOCOLO DE SUBIDA DE CRUDOS Y CONSTRUCCIÓN
 
 Para trabajar un módulo, la dinámica es esta y NO se salta:
