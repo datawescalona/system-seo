@@ -91,7 +91,7 @@
 
 | # | Nombre | Estado |
 |---|---|---|
-| 65 | Google Tag Manager | ⏳ sin carpeta |
+| 65 | Google Tag Manager | 📁 carpeta lista — esperando crudos |
 | 66 | Data Studio | ⏳ sin carpeta |
 | 67 | HTML | ⏳ sin carpeta |
 | 68 | JS y CSS | ⏳ sin carpeta |
