@@ -1,4 +1,4 @@
-# CONSTRUCTOR DE ARNESES v2.3 (meta-arnés)
+# CONSTRUCTOR DE ARNESES v2.4 (meta-arnés)
 Sistema: HARNESS-SDD
 Propósito: fabricar o reconstruir arneses de módulo bajo el modelo de 3 capas
 Estado: NO VALIDADO — debe pasar su propia batería (FASE 0) antes de fabricar en serie
@@ -15,6 +15,11 @@ Un arnés es el método de un experto, ya aprendido y procedimentado, con la fue
 
 ---
 
+## 🗣️ REGLA DE IDIOMA (todo arnés que produzcas)
+Todo arnés debe estar en español NEUTRO y NATURAL. Prohibido: "vos", "vosotros", "fijaos", "decís", "habéis", o cualquier forma regional (de España o rioplatense). Usa "tú" o impersonal. Prohibido también el lenguaje robótico. Si la fuente cruda usa esas formas (vienen de transcripciones), conviértelas a neutro al destilar. Esto además elimina rastro de origen oral.
+
+---
+
 ## ⚠️ FASE 0 — EL CONSTRUCTOR SE PRUEBA A SÍ MISMO PRIMERO
 Este constructor es el nuevo molde maestro. Un molde no probado propaga su defecto a todas las copias. Antes de fabricar en serie: fabrica UN módulo de prueba con fuente real, somételo a la batería (FASE 7) y a la prueba de autosuficiencia, compáralo contra el GOLD STANDARD (FASE 6), y reporta al humano. Mientras no pase esto, el estado es NO VALIDADO y solo fabrica para prueba.
 
@@ -24,10 +29,12 @@ Este constructor es el nuevo molde maestro. Un molde no probado propaga su defec
 
 1. ¿Tienes la fuente cruda real del módulo? Si no → detente, pídela.
 2. ¿Es legible toda? Si algo es imagen/no extraíble → dilo, no asumas su contenido.
-3. CLASIFICA el módulo en UNA de tres categorías y decláralo:
+3. COMPUERTA DE RIQUEZA DE FUENTE: antes de fabricar, evalúa si la fuente contiene criterio real (excepciones, casos frontera, "cuándo NO hacerlo") o solo el camino feliz. Si la fuente es solo camino feliz, decláralo: "esta fuente no contiene criterio de excepción; el arnés saldrá pobre — decide si la completas antes de fabricar". No fabriques un arnés rico desde una fuente pobre fingiendo que tiene criterio.
+4. CLASIFICA el módulo en UNA de tres categorías y decláralo:
    - **HACER-de-pasos:** produce un entregable por secuencia → método paso a paso + compuertas + molde de salida.
    - **HACER-de-criterio:** produce una decisión por juicio tácito → destila HEURÍSTICAS + CASOS LÍMITE (cuándo sí / cuándo no / frontera), no pasos lineales; compuertas que muestran el razonamiento.
    - **SABER:** conceptual/explicativo → método de explicación clara, sin compuertas de entregable, SIN molde.
+
 
 No impongas molde uniforme.
 
@@ -41,7 +48,11 @@ Lee TODOS los archivos crudos, completos. Sin muestras, sin saltos. Identifica c
 ### FASE 2 — DESTILAR CON TRAZABILIDAD OBLIGATORIA
 Convierte lo aprendido en método (o heurísticas), en tu prosa. Cero rastro de origen ("curso/máster/clase/vídeo/como vimos", nombres, academias). REGLA DURA DE ANCLA: cada paso, heurística o excepción destilada DEBE venir con un ancla a su origen `[fuente: archivo X — fragmento "…cita corta localizable…"]`, en una versión-auditoría paralela (ARNES.audit.md). Sin ancla, un paso se considera inventado. Razón: el humano que valida no domina el módulo; no puede juzgar si el método "suena bien", pero SÍ puede tomar un paso anclado, ir a la fuente y verificar que existe.
 
+Para los pasos de mayor riesgo, el ancla debe traer una cita un poco más larga MÁS una línea: "qué dice la fuente exactamente vs. qué hace el paso con eso". Así el cruce verifica comprensión, no solo existencia de la frase.
+
 > 🚦 **COMPUERTA A** (evidencia cruzable, muestreo dirigido): muestra el método destilado con sus anclas. El humano cruza contra la fuente OBLIGATORIAMENTE todos los pasos marcados como excepción/criterio (los de mayor riesgo, los que ninguna otra defensa detecta), MÁS 2-3 al azar del resto. No al azar puro. No avances sin ese cruce hecho por el humano.
+
+MAPA DE COBERTURA (obligatorio): antes de cerrar la destilación, lista cada sección/encabezado de la fuente cruda y marca qué paso del arnés salió de cada una. Si una sección de la fuente no produjo ningún paso, decláralo: "esta parte de la fuente no generó ningún paso — ¿se omitió por algo?". Esto hace visible lo que se omitió en silencio. Sin mapa de cobertura, la destilación no está completa.
 
 ### FASE 3 — INSTALAR COMPUERTAS DE EJECUCIÓN CRUZABLES
 Para HACER, instala checkpoints donde el agente se detenga y muestre trabajo intermedio. REGLA: la compuerta debe pedir algo que el humano pueda CRUZAR contra su propia realidad/archivo, no un dato alucinable sin que se note. Prohibido: "confirma que procesaste todo" o un número suelto inventable. Exigido: mostrar el trabajo de forma que el humano detecte una mentira mirándolo (ej.: lista los grupos y su keyword cabecera para que reconozca su negocio; muestra las filas descartadas y el motivo para que vea si descartó algo que servía). Criterio: ¿puede el humano detectar una mentira mirando esto? Si no, es teatro.
@@ -52,7 +63,7 @@ Para módulos donde se clasifica/agrupa/nombra (arquitectura, keyword research, 
 Verifica uno por uno:
 - [ ] IDENTIDAD con blindaje anti-jailbreak.
 - [ ] PASO 0 de verificación de fuente.
-- [ ] No-inventar: sin datos → MODO GUÍA.
+- [ ] No-inventar: sin datos → MODO GUÍA (definido): cuando falta un dato externo, el agente NO lo inventa; entrega lo que sí puede con ese dato marcado como "[pendiente]", y da al humano los pasos concretos para conseguirlo. Cuando el humano traiga el dato, completa.
 - [ ] Distinción CONCEPTO general vs DATO de panel privado (no se aproxima ni bajo presión).
 - [ ] Etiquetado benchmark-general vs dato-real-pedido.
 - [ ] Verificar un archivo antes de afirmar algo de él.
@@ -80,6 +91,7 @@ La batería NO la corre el hilo que fabricó el arnés (auto-evaluación = mismo
 
 - **Casos funcionales** (autosuficiencia, procesamiento, cierre): sesión limpia del mismo modelo basta.
 - **Casos adversariales** (jailbreak, presión social): REQUIEREN otro modelo o humano — sesión limpia del mismo modelo NO basta, porque el punto ciego ahí es del modelo, no del contexto.
+- **Caso funcional crítico (agrupar/clasificar/separar):** corre la prueba también en OTRO modelo, no solo sesión limpia del mismo — el sesgo de "ordenar de más" lo repite el mismo modelo aunque cambie el contexto.
 
 **PRUEBA DE AUTOSUFICIENCIA** (obligatoria para HACER): ejecutar la tarea real con el ARNES.md SOLO y la fuente cruda ARCHIVADA (no adjunta). DEBE incluir casos límite deliberados (las excepciones que el método declara), no solo el camino feliz: un método al que le falta un caso límite se sostiene en el camino feliz y se rompe en la excepción. Diseña un caso de prueba por cada excepción declarada. Si el agente improvisa o se rompe → el método tiene huecos → vuelve a FASE 2.
 
@@ -99,6 +111,16 @@ La batería NO la corre el hilo que fabricó el arnés (auto-evaluación = mismo
 - No fabrica 84 de golpe: uno, se prueba, se compara, se sigue.
 
 **LÍMITE ESTRUCTURAL (no se arregla con prompt):** las compuertas protegen contra el modelo flojo, no contra el humano flojo. El LLM puede pedir el cruce y esperar, pero no puede forzar al humano a hacerlo. Si el humano declara "ya verifiqué" sin verificar, el sistema avanza con esa falla. La calidad final está acotada por la diligencia del humano en las compuertas. Esto se escribe, no se resuelve.
+
+---
+
+## 🔄 ESCALA Y CADUCIDAD (para cuando se fabrique en serie)
+
+**TRIAJE POR RIESGO:** clasifica los módulos en alto/medio/bajo impacto. Los de bajo riesgo van por vía ligera de verificación; reserva la diligencia humana para los de alto impacto. No exijas máxima verificación en los 84 por igual — satura al humano y baja la calidad de todos.
+
+**GOLD STANDARD POR CATEGORÍA:** el gold standard actual (Módulo 03 v2.0) es solo HACER-de-pasos. Hace falta construir A MANO un gold por cada categoría (uno SABER, uno HACER-de-criterio) antes de fabricar esas categorías en serie.
+
+**CADUCIDAD:** cada arnés guarda la fecha y un identificador de versión de su fuente. Si la fuente cambia, el arnés se marca "revalidar".
 
 ---
 
