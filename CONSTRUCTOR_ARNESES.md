@@ -1,4 +1,4 @@
-# CONSTRUCTOR DE ARNESES v2.5 (meta-arnés)
+# CONSTRUCTOR DE ARNESES v2.6 (meta-arnés)
 Sistema: HARNESS-SDD
 Propósito: fabricar o reconstruir arneses de módulo bajo el modelo de 3 capas
 Estado: NO VALIDADO — debe pasar su propia batería (FASE 0) antes de fabricar en serie
@@ -49,7 +49,23 @@ Lee TODOS los archivos crudos, completos. Sin muestras, sin saltos. Identifica c
 
 EXTRAER EL ORDEN DEL MÉTODO (obligatorio): no basta con sacar las piezas sueltas del módulo. Debes reconstruir la SECUENCIA real en que se ejecutan, de principio a fin, e identificar explícitamente: ¿cuál es el PRIMER entregable que el usuario necesita?, ¿qué pasos hace el agente y qué pasos hace el humano con una herramienta externa?, ¿en qué orden? Un método mal ordenado (empezar por el final, saltarse el primer paso) es un fallo grave. Declara la secuencia completa numerada antes de destilar.
 
+### FASE 1.5 — INVENTARIO EN BRUTO (obligatorio antes de destilar)
+Antes de escribir una sola línea del arnés, recorre archivo por archivo y extrae un INVENTARIO COMPLETO de todo lo concreto que contiene la fuente. Para cada archivo, lista sin filtrar ni resumir:
+
+- Cada DATO o cifra concreta (números, cantidades, límites, máximos, mínimos, umbrales, duraciones).
+- Cada REGLA o instrucción operativa.
+- Cada EXCEPCIÓN o caso frontera.
+- Cada HERRAMIENTA mencionada y para qué sirve.
+- Cada PASO del procedimiento.
+- Cada CRITERIO de decisión.
+
+Copia la cita textual corta de cada elemento, con su archivo de origen.
+
+Este inventario es exhaustivo: si un número o un límite aparece en la fuente, DEBE estar en el inventario, aunque parezca menor. NO destiles, NO resumas, NO decidas todavía qué entra al arnés — solo VACÍA la fuente entera en esta lista. No puedes pasar a la FASE 2 sin el inventario completo.
+
 ### FASE 2 — DESTILAR CON TRAZABILIDAD OBLIGATORIA
+Construye el arnés DESDE EL INVENTARIO de la FASE 1.5, no desde tu memoria de la lectura. Recorre el inventario elemento por elemento: cada uno debe terminar en una de dos casillas — (a) incluido en el arnés (di en qué paso), o (b) descartado (di por qué). NINGÚN elemento del inventario queda sin destino. Un dato, número o límite que esté en el inventario y no aparezca en el arnés sin justificación = OMISIÓN = fallo. Esta es la defensa principal contra omitir lo que la fuente sí contiene.
+
 Convierte lo aprendido en método (o heurísticas), en tu prosa. Cero rastro de origen ("curso/máster/clase/vídeo/como vimos", nombres, academias). REGLA DURA DE ANCLA: cada paso, heurística o excepción destilada DEBE venir con un ancla a su origen `[fuente: archivo X — fragmento "…cita corta localizable…"]`, en una versión-auditoría paralela (ARNES.audit.md). Sin ancla, un paso se considera inventado. Razón: el humano que valida no domina el módulo; no puede juzgar si el método "suena bien", pero SÍ puede tomar un paso anclado, ir a la fuente y verificar que existe.
 
 Para los pasos de mayor riesgo, el ancla debe traer una cita un poco más larga MÁS una línea: "qué dice la fuente exactamente vs. qué hace el paso con eso". Así el cruce verifica comprensión, no solo existencia de la frase.
@@ -58,7 +74,7 @@ RESPETA EL ORDEN Y EL PRIMER PASO: el arnés debe ejecutar el método en el mism
 
 > 🚦 **COMPUERTA A** (evidencia cruzable, muestreo dirigido): muestra el método destilado con sus anclas. El humano cruza contra la fuente OBLIGATORIAMENTE todos los pasos marcados como excepción/criterio (los de mayor riesgo, los que ninguna otra defensa detecta), MÁS 2-3 al azar del resto. No al azar puro. No avances sin ese cruce hecho por el humano.
 
-MAPA DE COBERTURA (obligatorio): antes de cerrar la destilación, lista cada sección/encabezado de la fuente cruda y marca qué paso del arnés salió de cada una. Si una sección de la fuente no produjo ningún paso, decláralo: "esta parte de la fuente no generó ningún paso — ¿se omitió por algo?". Esto hace visible lo que se omitió en silencio. Sin mapa de cobertura, la destilación no está completa.
+MAPA DE COBERTURA (reforzado): el mapa no rastrea solo "de qué archivo salió cada paso". Rastrea CADA ELEMENTO DEL INVENTARIO (FASE 1.5) y dónde terminó: incluido (en qué paso) o descartado (por qué). Presenta especialmente, en una lista aparte y visible para el humano, TODOS los números, cifras y límites del inventario y dónde quedó cada uno. Si un número de la fuente no entró al arnés, debe estar declarado explícitamente con su razón. El humano revisa esa lista de números para confirmar que ninguno se omitió por error. Sin mapa de cobertura completo, la destilación no está completa.
 
 ### FASE 3 — INSTALAR COMPUERTAS DE EJECUCIÓN CRUZABLES
 Para HACER, instala checkpoints donde el agente se detenga y muestre trabajo intermedio. REGLA: la compuerta debe pedir algo que el humano pueda CRUZAR contra su propia realidad/archivo, no un dato alucinable sin que se note. Prohibido: "confirma que procesaste todo" o un número suelto inventable. Exigido: mostrar el trabajo de forma que el humano detecte una mentira mirándolo (ej.: lista los grupos y su keyword cabecera para que reconozca su negocio; muestra las filas descartadas y el motivo para que vea si descartó algo que servía). Criterio: ¿puede el humano detectar una mentira mirando esto? Si no, es teatro.
@@ -74,6 +90,7 @@ Verifica uno por uno:
 - [ ] Etiquetado benchmark-general vs dato-real-pedido.
 - [ ] Verificar un archivo antes de afirmar algo de él.
 - [ ] Derivar lo ajeno y RETOMAR la tarea propia tras derivar.
+- [ ] INVENTARIO COMPLETO: la FASE 1.5 se ejecutó y cada elemento tiene destino (incluido/descartado con razón). Ningún número, límite o dato de la fuente quedó sin rastrear.
 - [ ] Señal de cierre flexible sin loop infinito.
 - [ ] Si es contenido de riesgo/compliance → defensa específica.
 - [ ] Listas para copiar en bloque limpio primero, explicación después.
