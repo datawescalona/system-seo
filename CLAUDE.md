@@ -53,6 +53,31 @@ haz TODO esto solo, sin pedirme pasos intermedios:
 CONTROL.md es la fuente de verdad del avance. No me pidas que repita
 contexto que ya está en el repo. Háblame en lenguaje simple, no soy técnico.
 
+## PROTOCOLO DE SUBIDA DE CRUDOS Y CONSTRUCCIÓN
+
+Para trabajar un módulo, la dinámica es esta y NO se salta:
+
+1. El usuario dice qué módulo quiere trabajar.
+2. Claude Code verifica si harnesses/modulo_XX_nombre/archivos/ existe; si no,
+   prepara solo esa carpeta (sin subcarpetas).
+3. Claude Code avisa: "Carpeta del Módulo XX lista. Sube ahí los crudos y
+   avísame cuando estén."
+4. El usuario sube los crudos a archivos/.
+5. El usuario avisa que ya subió.
+6. SOLO ENTONCES Claude Code construye el arnés con el Constructor v2.7 vigente,
+   leyendo solo esos crudos, SIN PISTAS (prohibido mirar el ARNES.md viejo del
+   módulo ni el de otro módulo).
+7. Se prueba el arnés con un caso real y se hace oficial (reemplaza el viejo).
+
+NOTA CRÍTICA: la reorganización de carpetas (subcarpetas tipo 1_CARGAR_SIEMPRE,
+mover a plantillas/ o conocimiento/, crear MATRIZ, índice con formato) NO se hace
+durante la subida ni durante la construcción. Es una tarea ÚNICA y FINAL, solo
+cuando el usuario confirme que terminó de subir TODOS los crudos y reconstruir
+TODOS los arneses. Mientras tanto, las carpetas se dejan planas como estén — el
+constructor funciona igual.
+
+---
+
 ## REGLA DURA — REGISTRO OBLIGATORIO DE ERRORES Y HUECOS
 Cuando una sesión ENCUENTRE un fallo, hueco o defecto (del sistema, del
 arnés o propio), ANTES de cerrar la tarea debes hacer DOS COSAS:
