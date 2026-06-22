@@ -8,7 +8,7 @@
 
 | Estado | Módulos | Cantidad |
 |---|---|---|
-| ✅ Listos (v2.7) | M03, M04, M05, M61, M62, M63 | 6 |
+| ✅ Listos (v2.7) | M03, M04, M05, M61, M62, M63, M64 | 7 |
 | 🔄 Con crudos — pendientes de reconstruir con v2.7 | M06–M60 | 55 |
 | ⏳ Sin carpeta — esperan crudos del usuario | M64–M82, M87, M89, M90, M91 | 23 |
 | **Total** | | **84** |
@@ -83,6 +83,7 @@
 | 61 | SEO para Shopify | **v2.7** ✅ | 13 |
 | 62 | Google Analytics | **v2.7** ✅ | 13 |
 | 63 | Google Analytics Avanzado | **v2.7** ✅ | 3 |
+| 64 | Google Analytics 4 | **v2.7** ✅ | 10 |
 
 ---
 
@@ -90,7 +91,6 @@
 
 | # | Nombre | Estado |
 |---|---|---|
-| 64 | Google Analytics 4 | 📁 carpeta lista — esperando crudos |
 | 65 | Google Tag Manager | ⏳ sin carpeta |
 | 66 | Data Studio | ⏳ sin carpeta |
 | 67 | HTML | ⏳ sin carpeta |
