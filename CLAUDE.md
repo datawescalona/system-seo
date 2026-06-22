@@ -19,8 +19,13 @@ Antes de decir nada sobre en qué módulo va el sistema, haz esto sin preguntar:
     ..."
    ESTA LECTURA NO SE PUEDE SALTAR. Si la IA no leyó PENDIENTES.md y no
    listó los pendientes abiertos, no puede proponer ningún trabajo nuevo.
-Solo después de los pasos 1-5 puedes decirme en qué módulo estoy y
-proponer el siguiente paso (leyendo CONTROL.md).
+6. Lee MAPA_PROGRESO.md y resume en 3 líneas:
+   — Cuántos módulos están listos (v2.7) y cuáles son.
+   — Cuál es el siguiente módulo para reconstruir con v2.7.
+   — Cuántos módulos aún esperan crudos del usuario (los sin carpeta).
+   Esta lectura tampoco se puede saltar. El usuario necesita saber de un
+   vistazo dónde va el sistema sin tener que preguntar.
+Solo después de los pasos 1-6 puedes proponer el siguiente paso.
 
 ---
 
@@ -72,9 +77,14 @@ quedes esperando sin ofrecerle el camino.
    - Probar/revisar el arnés recién hecho con un caso real.
    - SEGUIR SUBIENDO crudos de otros módulos (el usuario está en fase de subida
      continua — esta opción casi siempre aplica y NO se debe omitir).
+     ⚠️ IMPORTANTE al ofrecer esta opción: recuerda al usuario que los módulos
+     M06–M60 YA tienen crudos subidos (solo falta reconstruirlos con v2.7) y
+     que los que aún esperan crudos nuevos son M62–M82, M87, M89, M90 y M91.
+     Nunca preguntes "¿a cuál quieres subir?" sin esta aclaración primero.
+     Ofrece la lista de módulos sin carpeta directamente para que el usuario elija.
    - Preparar la carpeta de un módulo nuevo para que el usuario suba ahí.
    - Parar y retomar después.
-   Si no sabes a qué módulo se refiere el usuario, pregúntale cuál.
+   Si no sabes a qué módulo se refiere el usuario, lee MAPA_PROGRESO.md antes de preguntar.
 
 El usuario NO es técnico y no siempre sabe qué sigue. Tu trabajo es guiarlo: nunca lo
 dejes en el aire ni esperando sin opciones. Cada respuesta tuya termina o con una
@@ -104,6 +114,18 @@ durante la subida ni durante la construcción. Es una tarea ÚNICA y FINAL, solo
 cuando el usuario confirme que terminó de subir TODOS los crudos y reconstruir
 TODOS los arneses. Mientras tanto, las carpetas se dejan planas como estén — el
 constructor funciona igual.
+
+---
+
+## REGLA DURA — MAPA_PROGRESO.md SIEMPRE ACTUALIZADO
+Cada vez que ocurra cualquiera de estas acciones, MAPA_PROGRESO.md DEBE actualizarse
+en el MISMO commit (no en uno separado posterior):
+- Se reconstruye un arnés a v2.7: cambia su fila de "v1.9 🔄" a "v2.7 ✅".
+- Se suben crudos nuevos a un módulo sin carpeta: añade la fila al módulo,
+  actualiza el contador de .txt, muévelo de la tabla "sin carpeta" a la tabla
+  "con crudos pendientes de reconstruir".
+- Se crea una carpeta nueva para un módulo: refleja el cambio en la tabla.
+Un commit de arnés o crudos sin actualizar MAPA_PROGRESO.md está INCOMPLETO.
 
 ---
 
