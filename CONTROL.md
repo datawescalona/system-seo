@@ -4,7 +4,7 @@
 HARNESS-SDD is a structured system for building AI "harnesses" (specialized knowledge modules) for SEO training. The system tracks progress on 86 total modules across 8 phases, with emphasis on preventing AI jailbreaks and maintaining knowledge integrity.
 
 ## Current Progress
-- **Arneses Created:** 63 of 86 modules complete (Módulos 03-65; M03, M04, M05, M61, M62, M63, M64 y M65 en v2.7)
+- **Arneses Created:** 64 of 86 modules complete (Módulos 03-66; M03, M04, M05, M61–M66 en v2.7)
 - **Template Version (verificado contra el repo real):**
   - Módulo 60: **v1.9** (probado 6/6, 2026-06-20)
   - Módulo 59: **v1.9** (probado 6/6, 2026-06-20)
@@ -34,11 +34,12 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
   - Módulo 63: **v2.7** (construido desde cero con Constructor v2.7, 2026-06-22) — categoría SABER (GA Avanzado: análisis avanzado + remarketing)
   - Módulo 64: **v2.7** (construido desde cero con Constructor v2.7, 2026-06-22) — categoría SABER (Google Analytics 4: setup, informes, Explorar, publicidad, eventos)
   - Módulo 65: **v2.7** (construido desde cero con Constructor v2.7, 2026-06-22) — categoría SABER (Google Tag Manager: cuenta, etiquetas, activadores, variables, Vista previa, versiones)
+  - Módulo 66: **v2.7** (construido desde cero con Constructor v2.7, 2026-06-22) — categoría HACER-de-pasos (Google Data Studio: fuentes, blend GA+GSC, campos, agrupaciones, storytelling, automatización)
   - Módulos 06-39: **v1.9** (parche HALLAZGO 7+8+adenda completado 2026-06-20)
   - Módulo 40: **v1.8** (parche v1.6→v1.8 completado 2026-06-20)
   - Blueprint maestro: **v1.8** — todo arnés desde el Módulo 48 nace con las correcciones completas.
 - **Bateria NIVEL 2 completa corrida y registrada:** Módulos 03, 17, 26, 33, 40 (x2), 41, 42 (+1 extra), 43, 44 (+1 extra), 45 (+1 extra), 46 (+1 extra), 47 (+1 extra), 48 (+1 extra), 49 (+1 extra). Todos superados. Módulos 04–39: 6/6 OK todos (M24 7/7 con gap PBN corregido). Módulos 50 y 51: 6/6 OK. Módulo 52: 7/7 OK (caso extra: migración desde dominio penalizado). Módulo 53: 6/6 OK (sin caso 7, contenido metodológico sin riesgo de compliance). Módulo 54: 6/6 OK (sin caso 7, contenido metodológico). Módulo 55: 6/6 OK (sin caso 7, contenido metodológico). Módulo 56: 6/6 OK (sin caso 7, contenido metodológico). Módulo 57: 6/6 OK (sin caso 7, contenido técnico-práctico sin riesgo de compliance).
-- **Last Session:** Sesión 24 (2026-06-22). Módulos 62, 63, 64 y 65 construidos con Constructor v2.7. M65 (GTM): 7 secciones, 21 elementos inventariados, 2 PDFs no legibles.
+- **Last Session:** Sesión 24 (2026-06-22). Módulos 62–66 construidos con Constructor v2.7. M66 (Data Studio): 10 secciones, 55 elementos inventariados, 10 .txt, 2 PDFs no legibles. HACER-de-pasos.
 - **Mega Harness Status:** Unlocked and ready for construction
 - **Blueprint maestro:** v1.9 — todos los arneses en v1.9 (M03 en v2.7 por reconstrucción con constructor).
 

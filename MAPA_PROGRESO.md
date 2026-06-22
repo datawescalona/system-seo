@@ -8,9 +8,9 @@
 
 | Estado | Módulos | Cantidad |
 |---|---|---|
-| ✅ Listos (v2.7) | M03, M04, M05, M61, M62, M63, M64, M65 | 8 |
+| ✅ Listos (v2.7) | M03, M04, M05, M61–M66 | 9 |
 | 🔄 Con crudos — pendientes de reconstruir con v2.7 | M06–M60 | 55 |
-| ⏳ Sin carpeta — esperan crudos del usuario | M66–M82, M87, M89, M90, M91 | 21 |
+| ⏳ Sin carpeta — esperan crudos del usuario | M67–M82, M87, M89, M90, M91 | 20 |
 | **Total** | | **84** |
 
 > Nota: los módulos 01, 83, 84, 85, 86 y 88 no existen en la tabla oficial del Blueprint.
@@ -85,6 +85,7 @@
 | 63 | Google Analytics Avanzado | **v2.7** ✅ | 3 |
 | 64 | Google Analytics 4 | **v2.7** ✅ | 10 |
 | 65 | Google Tag Manager | **v2.7** ✅ | 5 |
+| 66 | Data Studio | **v2.7** ✅ | 10 |
 
 ---
 
@@ -92,7 +93,6 @@
 
 | # | Nombre | Estado |
 |---|---|---|
-| 66 | Data Studio | 📁 carpeta lista — esperando crudos |
 | 67 | HTML | ⏳ sin carpeta |
 | 68 | JS y CSS | ⏳ sin carpeta |
 | 69 | HTAccess | ⏳ sin carpeta |
