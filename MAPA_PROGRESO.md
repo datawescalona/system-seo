@@ -1,6 +1,6 @@
 # MAPA DE PROGRESO — HARNESS-SDD
 > Este archivo es la foto del progreso. Se actualiza cada vez que se reconstruye un arnés (v2.7) o se suben crudos nuevos a un módulo.
-> Última actualización: 2026-06-22 — Sesión 23.
+> Última actualización: 2026-06-22 — Sesión 24.
 
 ---
 
@@ -8,9 +8,9 @@
 
 | Estado | Módulos | Cantidad |
 |---|---|---|
-| ✅ Listos (v2.7) | M03, M04, M05, M61 | 4 |
+| ✅ Listos (v2.7) | M03, M04, M05, M61, M62 | 5 |
 | 🔄 Con crudos — pendientes de reconstruir con v2.7 | M06–M60 | 55 |
-| ⏳ Sin carpeta — esperan crudos del usuario | M62–M82, M87, M89, M90, M91 | 25 |
+| ⏳ Sin carpeta — esperan crudos del usuario | M63–M82, M87, M89, M90, M91 | 24 |
 | **Total** | | **84** |
 
 > Nota: los módulos 01, 83, 84, 85, 86 y 88 no existen en la tabla oficial del Blueprint.
@@ -81,6 +81,7 @@
 | 59 | PrestaShop | v1.9 🔄 | 13 |
 | 60 | Magento | v1.9 🔄 | 8 |
 | 61 | SEO para Shopify | **v2.7** ✅ | 13 |
+| 62 | Google Analytics | **v2.7** ✅ | 13 |
 
 ---
 
@@ -88,7 +89,6 @@
 
 | # | Nombre | Estado |
 |---|---|---|
-| 62 | Google Analytics | ⏳ sin carpeta |
 | 63 | Google Analytics Avanzado | ⏳ sin carpeta |
 | 64 | Google Analytics 4 | ⏳ sin carpeta |
 | 65 | Google Tag Manager | ⏳ sin carpeta |
