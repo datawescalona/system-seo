@@ -26,13 +26,34 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
   - Módulo 43: **v1.8**
   - Módulo 42: **v1.9**
   - Módulo 41: **v1.8**
-  - Módulos 03-39: **v1.8** (parche HALLAZGO 7+8+adenda completado 2026-06-20)
+  - Módulo 03: **v2.7** (reconstruido desde cero con Constructor v2.7, 2026-06-22) — GOLD STANDARD categoría HACER-de-pasos
+  - Módulos 04-39: **v1.9** (parche HALLAZGO 7+8+adenda completado 2026-06-20)
   - Módulo 40: **v1.8** (parche v1.6→v1.8 completado 2026-06-20)
   - Blueprint maestro: **v1.8** — todo arnés desde el Módulo 48 nace con las correcciones completas.
 - **Bateria NIVEL 2 completa corrida y registrada:** Módulos 03, 17, 26, 33, 40 (x2), 41, 42 (+1 extra), 43, 44 (+1 extra), 45 (+1 extra), 46 (+1 extra), 47 (+1 extra), 48 (+1 extra), 49 (+1 extra). Todos superados. Módulos 04–39: 6/6 OK todos (M24 7/7 con gap PBN corregido). Módulos 50 y 51: 6/6 OK. Módulo 52: 7/7 OK (caso extra: migración desde dominio penalizado). Módulo 53: 6/6 OK (sin caso 7, contenido metodológico sin riesgo de compliance). Módulo 54: 6/6 OK (sin caso 7, contenido metodológico). Módulo 55: 6/6 OK (sin caso 7, contenido metodológico). Módulo 56: 6/6 OK (sin caso 7, contenido metodológico). Módulo 57: 6/6 OK (sin caso 7, contenido técnico-práctico sin riesgo de compliance).
-- **Last Session:** Session 19. Módulos 59 (PrestaShop) y 60 (Magento): construidos y probados 6/6. Carpeta modulo_61_shopify preparada.
+- **Last Session:** Sesión 21 (2026-06-22). Módulo 3 (Keyword Research) reconstruido desde cero con Constructor v2.7 y declarado oficial. Archivos de prueba (ARNES.v6_PRUEBA.md, ARNES.audit_v6.md) eliminados. ARNES.audit.md creado con anclas a fuentes.
 - **Mega Harness Status:** Unlocked and ready for construction
-- **Blueprint maestro:** v1.9 — todos los arneses en v1.9 desde Sesión 18.
+- **Blueprint maestro:** v1.9 — todos los arneses en v1.9 (M03 en v2.7 por reconstrucción con constructor).
+
+---
+
+## Constructor de Arneses
+
+**Archivo:** CONSTRUCTOR_ARNESES.md (en la raíz del repo)
+**Versión actual:** v2.7
+**Qué es:** meta-arnés que fabrica o reconstruye arneses de módulo a partir de sus crudos. Aplica el modelo de 3 capas, deja rastro auditable de cada decisión y exige inventario en bruto antes de destilar.
+
+**Evolución por versión:**
+- v2.2 → versión inicial. Reprobó FASE 0 (HALLAZGO 13): compuertas débiles, resolvía agrupaciones por criterio editorial sin verificar el dato real.
+- v2.3 → regla anti-invención: toda agrupación/separación/nombre debe verificarse contra dato real (SERP o confirmación del usuario) o el agente se detiene y lo pide.
+- v2.4 → idioma neutro + 8 mejoras de auditoría (anclas a fuente obligatorias, mapa de cobertura con lista de números, etc.).
+- v2.5 → EXTRAER EL ORDEN DEL MÉTODO: obliga a reconstruir la secuencia real de ejecución antes de destilar. Arregló el defecto de arneses que empezaban por el entregable final en vez del primer paso real.
+- v2.6 → INVENTARIO EN BRUTO (FASE 1.5): obliga a vaciar la fuente elemento por elemento antes de destilar. Arregló el defecto de omisión de datos que sí estaban en la fuente (caso: límite de 10 búsquedas del Keyword Planner omitido en versiones previas del M3).
+- v2.7 → PRESENTACIÓN DIGERIBLE AL HUMANO: plan resumido al inicio, una pregunta/cosa por turno, bloques cerrados antes de abrir el siguiente. Arregló el defecto de muros de texto que abrumaban al usuario en prueba real (cliente RACCA).
+
+**Gold Standard del constructor:** Módulo 03 (Keyword Research), categoría HACER-de-pasos, construido a mano con v2.7 y validado con cliente real. Tiene ARNES.md + ARNES.audit.md con anclas. Cualquier comparación de arneses nuevos usa este módulo como referencia. Para construir un gold standard de categoría HACER-de-criterio o SABER, se necesita construir uno a mano por cada categoría.
+
+**Estado:** VALIDADO en FASE 0 (Módulo 3 como caso de prueba). Listo para fabricar en serie, módulo por módulo, probando cada uno antes de continuar.
 
 ## Module Phases Completed
 - **Phase 1 (Modules 03-11):** SEO Fundamentals — 9 harnesses ✅ v1.8
@@ -48,7 +69,7 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
 4. HALLAZGO 9 (Módulo 42) es de contenido, no estructural.
 
 ## Next Task
-"Carpeta harnesses/modulo_61_shopify/archivos/ preparada con .gitkeep. En cuanto el usuario suba los archivos del Módulo 61, construir el ARNES.md con plantilla v1.9, correr batería NIVEL 2 y actualizar CONTROL.md."
+El usuario está subiendo crudos de módulos. Cuando confirme que terminó, reconstruir arneses 04 en adelante con Constructor v2.7, uno por uno (empezando por Módulo 4), probando cada uno antes de continuar. Después de terminar todos los arneses: reorganizar carpetas (harnesses/ + plantillas/ + conocimiento/) y crear MATRIZ.md.
 
 ## Key System Rules
 - GitHub's `/harnesses/` folder structure is the source of truth

@@ -1,24 +1,18 @@
 # PENDIENTES — SISTEMA HARNESS-SDD
-Última actualización: 2026-06-21 (Sesión 20)
+Última actualización: 2026-06-22 (Sesión 21)
 
-PENDIENTES ABIERTOS: 8
+PENDIENTES ABIERTOS: 4
 
 ---
 
-[ABIERTO] Construir arneses Módulos 54-86 (33 módulos restantes del Sistema 1) — Módulo 54 (CRO) es el siguiente; carpeta harnesses/modulo_54_cro/archivos/ preparada — origen: CONTROL.md Next Task + IMPLEMENTACION_Y_OPERACION.md B6 — estado: en progreso
+[ABIERTO] El usuario está subiendo crudos de módulos — en progreso. Cuando confirme que terminó, se arranca la reconstrucción con el constructor v2.7.
 
-[ABIERTO] Mega Arnés Orquestador (MEGA_ARNES.md) pendiente hasta completar los arneses del Sistema 1 — ya desbloqueado (superado el umbral de 10 arneses probados) — origen: IMPLEMENTACION_Y_OPERACION.md B6 — estado: congelado
+[ABIERTO] Reconstruir arneses 04-61 con Constructor v2.7, uno por uno, probando cada uno con cliente real antes de continuar con el siguiente — pendiente hasta que el usuario termine de subir crudos — origen: ciclo de maduración del constructor (HALLAZGO 14) + gold standard M3 validado.
 
-[ABIERTO] Decisión estratégica: Vertical Slice — probar cliente ficticio de punta a punta con los arneses actuales para validar el handshake Sistema 1→2 antes de invertir en los 37 arneses restantes — origen: IMPLEMENTACION_Y_OPERACION.md B7 — estado: congelado, pendiente decisión del usuario
+[ABIERTO] Reorganización de carpetas: harnesses/ + plantillas/ + conocimiento/ + crear MATRIZ.md — hacer DESPUÉS de terminar de subir crudos y reconstruir arneses, no antes — origen: decisión estratégica Sesión 21.
 
-[ABIERTO] Construir Sistema 2 (Gestor: PROYECTOS.md, PROYECTO.md, SESIONES.md, BRIEF_SEO.md, EXPORTABLE.md, RESUMEN_EJECUTIVO.md, MOCKUP_WEB.md) y Sistema 3 (PM-Control: extender INICIO.md para enrutar al Gestor) — origen: IMPLEMENTACION_Y_OPERACION.md B8 FASES B y C — estado: bloqueado hasta terminar Sistema 1
+[ABIERTO] Mega Arnés Orquestador (MEGA_ARNES.md) — congelado hasta tener todos los arneses reconstruidos y sanos con v2.7 — origen: IMPLEMENTACION_Y_OPERACION.md B6.
 
-[ABIERTO] Hueco conocido: "dato falso dentro de archivo legítimo" — la Batería NIVEL 2 Caso 1 incluye el escenario de archivo correcto en tema pero con datos fabricados dentro, pero ningún ARNES.md tiene instrucción explícita para detectarlo ni protocolo de qué hacer; no hay HALLAZGO con fix registrado — origen: IMPLEMENTACION_Y_OPERACION.md línea 135 — estado: conocido, sin solución decidida
+[RESUELTO 2026-06-22] Constructor maduró de v2.2 a v2.7 (HALLAZGO 14). Módulo 3 reconstruido oficial con v2.7, ARNES.audit.md con anclas, archivos de prueba eliminados. Gold standard HACER-de-pasos validado.
 
-[ABIERTO] Hueco conocido: "entrada degenerada sin guion explícito" — la Batería NIVEL 2 Caso 5 cubre entrada vacía, muro de texto, otro idioma y contradicción, pero ningún ARNES.md tiene instrucción dedicada para estos casos; los arneses pasan el caso por las reglas generales, no por un guion propio — origen: IMPLEMENTACION_Y_OPERACION.md línea 139 — estado: conocido, sin solución decidida
-
-[ABIERTO] Constructor v2.2 reprobó FASE 0 (HALLAZGO 13): reforzar compuertas de verificación —toda agrupación/separación/nombre debe verificarse contra dato real o pararse y pedirlo, nunca resolverse por criterio editorial— y re-correr FASE 0 antes de usar en serie — origen: HALLAZGO 13, Sesión 20 — estado: pendiente corrección del constructor
-
-[ABIERTO] Falta archivo ancla de cliente (BRIEF_CLIENTE) que todos los arneses lean para no re-preguntar el negocio en cada módulo — origen: observación Sesión 20 — estado: pendiente diseño e implementación
-
-[RESUELTO 2026-06-20] Propagar parche de comportamiento v1.9 a los arneses ya construidos (03 hecho como piloto) — completado: todos los 55 arneses en v1.9
+[RESUELTO 2026-06-20] Propagar parche de comportamiento v1.9 a los arneses ya construidos (03 hecho como piloto) — completado: todos los arneses en v1.9.

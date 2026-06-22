@@ -358,6 +358,31 @@ lugar de leerlo de la fuente de verdad.
     a la tabla del Blueprint. Si no coincide, el chequeo falla con mensaje detallado.
 
 
+## HALLAZGO 14 — Constructor maduró a v2.7 por iteración con casos reales (Sesión 21, 2026-06-22)
+
+**Qué se encontró / cadena de versiones:**
+
+El Constructor de Arneses pasó de v2.2 (NO VALIDADO, reprobó FASE 0) a v2.7 (validado con cliente real, FASE 0 pasada) mediante ciclos de prueba → fallo detectado → corrección focalizada. Cada versión arregló exactamente un defecto encontrado en prueba real con cliente (RACCA):
+
+- **v2.3 — anti-invención:** el constructor resolvía agrupaciones, separaciones y nombres de páginas por criterio editorial propio, sin verificar contra dato real (SERP) ni pararse a pedirlo al usuario. El fix: toda decisión de ese tipo debe venir de un dato verificable o el agente se detiene.
+- **v2.4 — idioma neutro + auditoría:** eliminó formas regionales (vosotros, fijaos, decís) de los arneses generados y añadió 8 mejoras de auditoría (anclas obligatorias a la fuente, mapa de cobertura).
+- **v2.5 — orden del método:** el constructor extraía piezas del módulo pero no reconstruía la SECUENCIA real de ejecución. Arneses que empezaban por el entregable final en vez del primer paso real. El fix: FASE 1 obliga a declarar la secuencia completa numerada antes de destilar.
+- **v2.6 — inventario en bruto (anti-omisión):** el constructor destilaba directamente desde la lectura, lo que permitía omitir datos que sí estaban en la fuente. Caso real: el límite de 10 búsquedas del Keyword Planner estaba en el archivo 09 de los crudos del M3 y versiones previas del arnés lo omitían. El fix: FASE 1.5 obliga a vaciar la fuente elemento por elemento (cada dato, cifra, regla, excepción, herramienta) antes de destilar. Ningún elemento puede quedar sin destino en el arnés.
+- **v2.7 — presentación digerible:** arneses generados con v2.6 lanzaban toda la información al humano de golpe (muros de texto, varias preguntas en el mismo mensaje). En prueba real con cliente (RACCA), el humano se abrumaba y cometía errores en los pasos. El fix: regla de presentación progresiva obligatoria — plan resumido al inicio, una cosa por turno, bloques cerrados antes de abrir el siguiente.
+
+**Método validado (ciclo de maduración del constructor):**
+1. Construir un arnés desde crudos sin pistas ni memoria del módulo.
+2. Probar con cliente real en sesión limpia.
+3. Auditar la fuente cruda cuando algo falta: distinguir fallo-del-constructor (el método era débil) de fuente-flaca (el dato no estaba en los crudos y no se puede destiliar lo que no existe).
+4. Reforzar el constructor con la corrección mínima necesaria (no sobreingeniería).
+5. Repetir con el siguiente módulo.
+
+**Regla aprendida:** cada arnés hace SOLO lo de su módulo y nada más. El Módulo 3 (Keyword Research) no agrupa keywords por intención ni construye la arquitectura de la web — eso es del Módulo 4. Si un arnés empieza a hacer trabajo de otro módulo, es un defecto del constructor, no una mejora.
+
+**Estado actual del constructor:** v2.7, VALIDADO. Gold standard: Módulo 03 reconstruido a mano y probado con cliente real. Listo para fabricar en serie.
+
+---
+
 ## HALLAZGO 13 — Constructor v2.2 reprobó FASE 0: arneses con compuertas de verificación débiles (Sesión 20, 2026-06-21)
 
 **Qué se encontró:** El arnés del Módulo 04 (Arquitectura SEO) producido por el Constructor v2.2
