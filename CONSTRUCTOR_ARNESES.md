@@ -1,4 +1,4 @@
-# CONSTRUCTOR DE ARNESES v2.4 (meta-arnés)
+# CONSTRUCTOR DE ARNESES v2.5 (meta-arnés)
 Sistema: HARNESS-SDD
 Propósito: fabricar o reconstruir arneses de módulo bajo el modelo de 3 capas
 Estado: NO VALIDADO — debe pasar su propia batería (FASE 0) antes de fabricar en serie
@@ -17,6 +17,8 @@ Un arnés es el método de un experto, ya aprendido y procedimentado, con la fue
 
 ## 🗣️ REGLA DE IDIOMA (todo arnés que produzcas)
 Todo arnés debe estar en español NEUTRO y NATURAL. Prohibido: "vos", "vosotros", "fijaos", "decís", "habéis", o cualquier forma regional (de España o rioplatense). Usa "tú" o impersonal. Prohibido también el lenguaje robótico. Si la fuente cruda usa esas formas (vienen de transcripciones), conviértelas a neutro al destilar. Esto además elimina rastro de origen oral.
+
+Prohibido usar siglas, abreviaturas o jerga sin explicar (ej.: "KP", "BPO"). Si la fuente usa una sigla, el arnés escribe el término completo en lenguaje natural la primera vez. El usuario no tiene por qué saber jerga interna.
 
 ---
 
@@ -45,10 +47,14 @@ No impongas molde uniforme.
 ### FASE 1 — APRENDER
 Lee TODOS los archivos crudos, completos. Sin muestras, sin saltos. Identifica conceptos, método/heurísticas, reglas Y excepciones, datos externos que requiere y de qué herramienta salen, formato del entregable si lo hay.
 
+EXTRAER EL ORDEN DEL MÉTODO (obligatorio): no basta con sacar las piezas sueltas del módulo. Debes reconstruir la SECUENCIA real en que se ejecutan, de principio a fin, e identificar explícitamente: ¿cuál es el PRIMER entregable que el usuario necesita?, ¿qué pasos hace el agente y qué pasos hace el humano con una herramienta externa?, ¿en qué orden? Un método mal ordenado (empezar por el final, saltarse el primer paso) es un fallo grave. Declara la secuencia completa numerada antes de destilar.
+
 ### FASE 2 — DESTILAR CON TRAZABILIDAD OBLIGATORIA
 Convierte lo aprendido en método (o heurísticas), en tu prosa. Cero rastro de origen ("curso/máster/clase/vídeo/como vimos", nombres, academias). REGLA DURA DE ANCLA: cada paso, heurística o excepción destilada DEBE venir con un ancla a su origen `[fuente: archivo X — fragmento "…cita corta localizable…"]`, en una versión-auditoría paralela (ARNES.audit.md). Sin ancla, un paso se considera inventado. Razón: el humano que valida no domina el módulo; no puede juzgar si el método "suena bien", pero SÍ puede tomar un paso anclado, ir a la fuente y verificar que existe.
 
 Para los pasos de mayor riesgo, el ancla debe traer una cita un poco más larga MÁS una línea: "qué dice la fuente exactamente vs. qué hace el paso con eso". Así el cruce verifica comprensión, no solo existencia de la frase.
+
+RESPETA EL ORDEN Y EL PRIMER PASO: el arnés debe ejecutar el método en el mismo orden que la fuente. Si el primer paso que el usuario necesita es simple (ej.: una lista de términos base en texto), el arnés lo entrega PRIMERO y simple — NO salta a generar archivos complejos o pasos posteriores antes de tiempo. No adelantes entregables que van al final.
 
 > 🚦 **COMPUERTA A** (evidencia cruzable, muestreo dirigido): muestra el método destilado con sus anclas. El humano cruza contra la fuente OBLIGATORIAMENTE todos los pasos marcados como excepción/criterio (los de mayor riesgo, los que ninguna otra defensa detecta), MÁS 2-3 al azar del resto. No al azar puro. No avances sin ese cruce hecho por el humano.
 
@@ -80,6 +86,8 @@ Según la categoría:
 - **SABER** → NO lleva molde. No inventes un Excel para un módulo conceptual.
 - **HACER-de-criterio** → puede no llevar molde, o una checklist de decisión ligera.
 - **HACER-de-pasos** → lleva molde, diseñado como SUBPRODUCTO del método de ESTE módulo (las columnas/estructura que el método genera). El molde NO se hereda de otro módulo: el de keyword research es una tabla de keywords, el de arquitectura es un árbol, el de sitemap es un XML — cada uno fresco según su método.
+
+No generes ni hagas generar un entregable (Excel u otro) ANTES del paso que le corresponde en la secuencia. Si el método entrega primero algo simple en texto (ej.: términos semilla), eso va primero; los archivos complejos van solo en su paso correcto del orden.
 
 El arnés debe incluir la ESPECIFICACIÓN COMPLETA del molde en texto: columnas exactas, orden, reglas de color, qué va en cada pestaña, formato visual, cómo se ve cada elemento. Redáctala con tanto detalle que el entregable salga consistente lo genere quien lo genere. El arnés instruye a construir ese entregable al vuelo siguiendo la especificación; NO se guarda un archivo Excel fijo. Referencia de nivel de calidad: el molde del Módulo 03 (estacionalidad en color, 12 meses, pestañas) marca el estándar que la especificación debe alcanzar.
 
