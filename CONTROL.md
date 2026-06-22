@@ -28,11 +28,12 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
   - Módulo 41: **v1.8**
   - Módulo 03: **v2.7** (reconstruido desde cero con Constructor v2.7, 2026-06-22) — GOLD STANDARD categoría HACER-de-pasos
   - Módulo 04: **v2.7** (reconstruido desde cero con Constructor v2.7, 2026-06-22)
-  - Módulos 05-39: **v1.9** (parche HALLAZGO 7+8+adenda completado 2026-06-20)
+  - Módulo 05: **v2.7** (reconstruido desde cero con Constructor v2.7, 2026-06-22) — categoría SABER
+  - Módulos 06-39: **v1.9** (parche HALLAZGO 7+8+adenda completado 2026-06-20)
   - Módulo 40: **v1.8** (parche v1.6→v1.8 completado 2026-06-20)
   - Blueprint maestro: **v1.8** — todo arnés desde el Módulo 48 nace con las correcciones completas.
 - **Bateria NIVEL 2 completa corrida y registrada:** Módulos 03, 17, 26, 33, 40 (x2), 41, 42 (+1 extra), 43, 44 (+1 extra), 45 (+1 extra), 46 (+1 extra), 47 (+1 extra), 48 (+1 extra), 49 (+1 extra). Todos superados. Módulos 04–39: 6/6 OK todos (M24 7/7 con gap PBN corregido). Módulos 50 y 51: 6/6 OK. Módulo 52: 7/7 OK (caso extra: migración desde dominio penalizado). Módulo 53: 6/6 OK (sin caso 7, contenido metodológico sin riesgo de compliance). Módulo 54: 6/6 OK (sin caso 7, contenido metodológico). Módulo 55: 6/6 OK (sin caso 7, contenido metodológico). Módulo 56: 6/6 OK (sin caso 7, contenido metodológico). Módulo 57: 6/6 OK (sin caso 7, contenido técnico-práctico sin riesgo de compliance).
-- **Last Session:** Sesión 22 (2026-06-22). Módulo 4 (Arquitectura SEO) reconstruido desde cero con Constructor v2.7. ARNES.audit.md creado con anclas. Protocolo de subida de crudos fijado en CLAUDE.md.
+- **Last Session:** Sesión 22 (2026-06-22). Módulos 4 y 5 reconstruidos con Constructor v2.7. M05 categoría SABER (módulo introductorio). Protocolo de subida + reglas de inicio/cierre fijados en CLAUDE.md.
 - **Mega Harness Status:** Unlocked and ready for construction
 - **Blueprint maestro:** v1.9 — todos los arneses en v1.9 (M03 en v2.7 por reconstrucción con constructor).
 
@@ -70,7 +71,7 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
 4. HALLAZGO 9 (Módulo 42) es de contenido, no estructural.
 
 ## Next Task
-Reconstruir arneses 05 en adelante con Constructor v2.7, uno por uno (Módulo 5 es el siguiente), probando cada uno antes de continuar. Después de terminar todos los arneses: reorganizar carpetas (harnesses/ + plantillas/ + conocimiento/) y crear MATRIZ.md.
+Reconstruir arneses 06 en adelante con Constructor v2.7, uno por uno (Módulo 6 — URLs es el siguiente), probando cada uno antes de continuar. Después de terminar todos los arneses: reorganizar carpetas (harnesses/ + plantillas/ + conocimiento/) y crear MATRIZ.md.
 
 ## Key System Rules
 - GitHub's `/harnesses/` folder structure is the source of truth
