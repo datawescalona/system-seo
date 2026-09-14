@@ -1,6 +1,6 @@
 # MAPA DE PROGRESO — HARNESS-SDD
 > Este archivo es la foto del progreso. Se actualiza cada vez que se reconstruye un arnés (v2.7) o se suben crudos nuevos a un módulo.
-> Última actualización: 2026-06-22 — Sesión 24.
+> Última actualización: 2026-09-14 — Sesión actual (corrección HALLAZGO 15: M69 ya tenía crudos subidos desde 2026-06-22, mapa desactualizado).
 
 ---
 
@@ -9,8 +9,8 @@
 | Estado | Módulos | Cantidad |
 |---|---|---|
 | ✅ Listos (v2.7) | M03, M04, M05, M61–M68 | 11 |
-| 🔄 Con crudos — pendientes de reconstruir con v2.7 | M06–M60 | 55 |
-| ⏳ Sin carpeta — esperan crudos del usuario | M69–M82, M87, M89, M90, M91 | 18 |
+| 🔄 Con crudos — pendientes de reconstruir con v2.7 | M06–M60, M69 | 56 |
+| ⏳ Sin carpeta — esperan crudos del usuario | M70–M82, M87, M89, M90, M91 | 17 |
 | **Total** | | **84** |
 
 > Nota: los módulos 01, 83, 84, 85, 86 y 88 no existen en la tabla oficial del Blueprint.
@@ -88,6 +88,7 @@
 | 66 | Data Studio | **v2.7** ✅ | 10 |
 | 67 | HTML | **v2.7** ✅ | 5 |
 | 68 | JS y CSS | **v2.7** ✅ | 19 |
+| 69 | HTAccess | sin construir (nunca hecho) 🔄 | 8 |
 
 ---
 

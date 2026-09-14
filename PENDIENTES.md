@@ -1,9 +1,11 @@
 # PENDIENTES — SISTEMA HARNESS-SDD
-Última actualización: 2026-06-22 (Sesión 21)
+Última actualización: 2026-09-14 (Sesión actual)
 
-PENDIENTES ABIERTOS: 4
+PENDIENTES ABIERTOS: 5
 
 ---
+
+[ABIERTO] Construir el arnés del Módulo 69 (HTAccess) con Constructor v2.7 — sus crudos ya estaban subidos desde 2026-06-22 (8 archivos), pero no se había reconstruido. Ver HALLAZGO 15 en AUDITORIA.md.
 
 [ABIERTO] El usuario está subiendo crudos de módulos — en progreso. Cuando confirme que terminó, se arranca la reconstrucción con el constructor v2.7.
 

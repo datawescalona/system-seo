@@ -409,3 +409,27 @@ toda agrupación, separación o nombre de página debe verificarse contra dato r
 confirmación del usuario) o el agente debe pararse y pedirlo — nunca resolverlo por criterio
 editorial. Una vez corregido el constructor, debe re-correr FASE 0 completa antes de cualquier
 uso en serie.
+
+---
+
+## HALLAZGO 15 — MAPA_PROGRESO.md desactualizado: Módulo 69 ya tenía carpeta y crudos subidos (Sesión actual, 2026-09-14)
+
+**Qué se encontró:** Al preparar la carpeta del Módulo 69 (HTAccess) a pedido del usuario,
+ya existía `harnesses/modulo_69_htaccess/archivos/` con 8 archivos subidos (2 PDF + 6 .txt:
+Ejercicio, HTAccess, Índice, Qué es un servidor web, Para qué me sirve un servidor web en el
+SEO, Cómo aprendo a hacer estas cosas en mi servidor, Apache, NGINX). MAPA_PROGRESO.md lo
+listaba como "⏳ sin carpeta — esperan crudos del usuario".
+
+**Por qué pasó:** Según `git log`, los crudos se subieron el 2026-06-22 (commits `d751bbf` y
+`7e344dd`, "Add files via upload" — subida directa por GitHub web, no vía sesión de Claude
+Code). Como la regla dura de actualizar MAPA_PROGRESO.md en el mismo commit solo se puede
+cumplir si la IA hace el commit, una subida hecha fuera de una sesión de Claude Code no
+actualiza el mapa. El mapa quedó desincronizado ~3 meses sin que ninguna sesión lo detectara.
+
+**Decisión tomada:**
+(a) Se verificaron los otros 17 módulos listados como "sin carpeta" (M70-82, M87, M89-91):
+    todos confirmados sin carpeta real, solo M69 estaba desincronizado.
+(b) MAPA_PROGRESO.md corregido: M69 movido de la tabla "sin carpeta" a la tabla de módulos
+    con crudos pendientes de reconstruir, con su conteo real de 8 archivos.
+(c) Pendiente: construir el arnés del Módulo 69 con el Constructor v2.7 (no requiere subida
+    adicional del usuario, salvo que él confirme que los crudos están incompletos).
