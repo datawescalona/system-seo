@@ -1,0 +1,9 @@
+Materiales:
+
+Regex - https://regex101.com/
+
+Profundizar en Regex - https://regexone.com/
+
+Guía completa - https://www.onely.com/blog/principles-regular-expressions-seo/
+
+Ejemplos adicionales - https://www.mecagoenlos.com/Posicionamiento/expresiones-regulares-en-google.php
