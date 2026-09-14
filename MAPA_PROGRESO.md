@@ -1,6 +1,9 @@
 # MAPA DE PROGRESO — HARNESS-SDD
 > Este archivo es la foto del progreso. Se actualiza cada vez que se reconstruye un arnés (v2.7) o se suben crudos nuevos a un módulo.
-> Última actualización: 2026-09-14 — Sesión actual (corrección HALLAZGO 15: M69 ya tenía crudos subidos desde 2026-06-22, mapa desactualizado).
+> Última actualización: 2026-09-14 — Sesión actual. M69–M82 ya tienen crudos subidos y confirmados.
+> Por decisión del usuario, M87, M89 y M90 YA NO se construyen como arneses independientes
+> (su contenido va a harnesses/material_de_apoyo/). Solo queda M91 como módulo oficial
+> pendiente, con carpeta ya creada esperando crudos. Ver HALLAZGO 15 y HALLAZGO 16 en AUDITORIA.md.
 
 ---
 
@@ -9,12 +12,19 @@
 | Estado | Módulos | Cantidad |
 |---|---|---|
 | ✅ Listos (v2.7) | M03, M04, M05, M61–M68 | 11 |
-| 🔄 Con crudos — pendientes de reconstruir con v2.7 | M06–M60, M69 | 56 |
-| ⏳ Sin carpeta — esperan crudos del usuario | M70–M82, M87, M89, M90, M91 | 17 |
-| **Total** | | **84** |
+| 🔄 Con crudos — pendientes de reconstruir con v2.7 | M06–M60, M69–M82 | 69 |
+| 📁 Carpeta creada, esperando crudos | M91 | 1 |
+| **Total módulos oficiales activos** | | **81** |
 
 > Nota: los módulos 01, 83, 84, 85, 86 y 88 no existen en la tabla oficial del Blueprint.
-> El módulo 84 del Blueprint es el último numerado como 91.
+> Nota: los módulos 87 (Casos Reales de la Agencia), 89 (Masterclasses) y 90 (Business
+> Cases) SÍ existen en la tabla del Blueprint, pero por decisión del usuario (Sesión
+> actual, ver HALLAZGO 16 en AUDITORIA.md) no se construyen como arneses de módulo
+> independientes — su contenido va junto en harnesses/material_de_apoyo/. Pendiente
+> decidir si se actualiza el conteo total del Blueprint (ver PENDIENTES.md).
+> Nota aparte: `harnesses/material_de_apoyo/` NO es un módulo numerado — es una carpeta
+> única para contenido de Directos/Bonus/Master (incluido lo de 87/89/90) que no encaja
+> en la tabla oficial como arnés independiente. No cuenta en el total de arriba.
 
 ---
 
@@ -92,25 +102,30 @@
 
 ---
 
-## Tabla completa — módulos sin carpeta (esperan crudos)
+## Módulos 70–82 — con crudos ya subidos (pendientes de reconstruir con v2.7)
+
+| # | Nombre | Crudos |
+|---|---|---|
+| 70 | Desarrollo Avanzado | 8 |
+| 71 | Logs | 7 |
+| 72 | RegEx | 18 |
+| 73 | SQL | 17 |
+| 74 | Frameworks | 11 |
+| 75 | Introducción al Python | 19 |
+| 76 | Gestión de Proyectos | 16 |
+| 77 | Presupuestos | 9 |
+| 78 | Informes para Clientes | 7 |
+| 79 | Generación de negocio y monetización | 13 |
+| 80 | Auditoría SEO | 39 |
+| 81 | Proyecto Final de Master | 2 |
+| 82 | Mercado laboral SEO | 3 |
+
+---
+
+## Único módulo sin carpeta pendiente
 
 | # | Nombre | Estado |
 |---|---|---|
-| 69 | HTAccess | ⏳ sin carpeta |
-| 70 | Desarrollo Avanzado | ⏳ sin carpeta |
-| 71 | Logs | ⏳ sin carpeta |
-| 72 | RegEx | ⏳ sin carpeta |
-| 73 | SQL | ⏳ sin carpeta |
-| 74 | Frameworks | ⏳ sin carpeta |
-| 75 | Introducción al Python | ⏳ sin carpeta |
-| 76 | Gestión de Proyectos | ⏳ sin carpeta |
-| 77 | Presupuestos | ⏳ sin carpeta |
-| 78 | Informes para Clientes | ⏳ sin carpeta |
-| 79 | Generación de negocio y monetización | ⏳ sin carpeta |
-| 80 | Auditoría SEO | ⏳ sin carpeta |
-| 81 | Proyecto Final de Master | ⏳ sin carpeta |
-| 82 | Mercado laboral SEO | ⏳ sin carpeta |
-| 87 | Casos Reales de la Agencia | ⏳ sin carpeta |
-| 89 | Masterclasses | ⏳ sin carpeta |
-| 90 | Business Cases | ⏳ sin carpeta |
-| 91 | SEO con ChatGPT | ⏳ sin carpeta |
+| 91 | SEO con ChatGPT | 📁 carpeta creada, esperando crudos |
+
+> M87, M89 y M90 ya NO aparecen en esta lista — ver nota arriba (HALLAZGO 16).

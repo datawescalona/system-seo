@@ -1,9 +1,11 @@
 # PENDIENTES — SISTEMA HARNESS-SDD
 Última actualización: 2026-09-14 (Sesión actual)
 
-PENDIENTES ABIERTOS: 5
+PENDIENTES ABIERTOS: 6
 
 ---
+
+[ABIERTO] Decidir si se actualiza el conteo "Total: 86 módulos" del Blueprint (línea 432) y "86 total modules" de CONTROL.md a 83, ya que por decisión del usuario los módulos 87, 89 y 90 dejan de construirse como arneses independientes (su contenido va a harnesses/material_de_apoyo/). Ver HALLAZGO 16 en AUDITORIA.md.
 
 [ABIERTO] Construir el arnés del Módulo 69 (HTAccess) con Constructor v2.7 — sus crudos ya estaban subidos desde 2026-06-22 (8 archivos), pero no se había reconstruido. Ver HALLAZGO 15 en AUDITORIA.md.
 

@@ -433,3 +433,39 @@ actualiza el mapa. El mapa quedó desincronizado ~3 meses sin que ninguna sesió
     con crudos pendientes de reconstruir, con su conteo real de 8 archivos.
 (c) Pendiente: construir el arnés del Módulo 69 con el Constructor v2.7 (no requiere subida
     adicional del usuario, salvo que él confirme que los crudos están incompletos).
+
+---
+
+## HALLAZGO 16 — Decisión del usuario: Módulos 87, 89 y 90 NO se construyen como arneses separados; su contenido va a `material_de_apoyo/` (Sesión actual, 2026-09-14)
+
+**Qué se encontró:** El usuario tiene material de Directos, Bonus y clases de Master.
+Al preguntarle si eso correspondía a los módulos oficiales 87 (Casos Reales de la
+Agencia), 89 (Masterclasses) o 90 (Business Cases) —que sí están en la tabla del
+Blueprint, Sección 8—, el usuario aclaró explícitamente: "desde el 83 hasta el 90 es
+eso, 91 sí es un módulo operativo solo". Es decir: para el usuario, todo el rango 83-90
+(incluidos los que el Blueprint sí lista como módulos numerados: 87, 89, 90) es material
+de apoyo/bonus, no arneses de módulo independientes. Solo el 91 (SEO con ChatGPT) es un
+módulo operativo real que debe construirse como arnés normal.
+
+**Por qué importa:** Esto es una decisión de alcance del usuario (dueño del contenido),
+no un error del sistema — pero SÍ contradice lo que el Blueprint (fuente de verdad de
+nombres de módulo) declara en su tabla y en su conteo "Total: 86 módulos" (línea 432) y
+en CONTROL.md ("86 total modules"). Se registra aquí para que ninguna sesión futura
+reconstruya carpetas modulo_87/89/90 asumiendo que son arneses pendientes.
+
+**Decisión tomada:**
+(a) Se había creado por error una carpeta `modulo_87_casos_reales_de_la_agencia/` (vacía,
+    solo `.gitkeep`, sin datos) antes de esta aclaración del usuario. Se eliminó (git rm)
+    sin pérdida de información.
+(b) Se creó `harnesses/material_de_apoyo/archivos/` como carpeta única (no numerada, no
+    sigue el patrón `modulo_NN_nombre`) para todo el material de Directos + Bonus + Master
+    adicional, incluyendo lo que hubiera correspondido a 87, 89 y 90.
+(c) NO se crean carpetas `modulo_87_...`, `modulo_89_...` ni `modulo_90_...`. El único
+    módulo pendiente en ese rango alto que sigue siendo oficial es el 91 (SEO con
+    ChatGPT) — se preparó su carpeta `modulo_91_seo_con_chatgpt/archivos/` como el
+    siguiente módulo real a subir/construir.
+(d) PENDIENTE de decisión posterior (no bloqueante): si corresponde actualizar el conteo
+    "Total: 86 módulos" del Blueprint (línea 432) y "86 total modules" de CONTROL.md a 83,
+    ya que 87, 89 y 90 dejan de contarse como arneses de módulo independientes. No se tocó
+    el Blueprint todavía porque es el documento maestro de nombres/números y una edición
+    ahí requiere más cuidado — queda anotado para revisarlo con el usuario.
