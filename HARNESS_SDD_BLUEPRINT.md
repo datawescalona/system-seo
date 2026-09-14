@@ -4,7 +4,7 @@
 
 | Módulos totales | Arneses a crear |
 |---|---|
-| **86 módulos** (el de número más alto es el 91, pero la numeración tiene huecos: no existen 01, 83-86, 88) | **86 arneses** |
+| **83 módulos** (el de número más alto es el 91, pero la numeración tiene huecos: no existen 01, 83-86, 88, y 87/89/90 se excluyeron — ver nota bajo la tabla de la Sección 8) | **83 arneses** |
 
 Versión 1.1 · Compatible con Claude · ChatGPT · Gemini · cualquier LLM
 
@@ -275,7 +275,8 @@ diriges. Indicas al usuario qué arnés activar y en qué orden.
 [56-75] (Tecnología)          → copywriting, CMS, Analytics, código...
 [76-82] (Negocio)             → gestión, presupuestos, informes,
                                 auditoría SEO...
-[87-91] (Casos y bonus)       → casos reales, masterclasses, ChatGPT
+[91] (Bonus)                  → SEO con ChatGPT (87/89/90 excluidos,
+                                ver nota Sección 8)
 (El catálogo completo, módulo a módulo, se mantiene en CONTROL.md)
 
 ## ⚙️ PROCESO DE ORQUESTACIÓN
@@ -424,12 +425,17 @@ sin inventar datos, y cerrando el loop correctamente.
 | **80** | Auditoría SEO |
 | **81** | Proyecto Final de Master |
 | **82** | Mercado laboral SEO |
-| **87** | Casos Reales de la Agencia |
-| **89** | Masterclasses |
-| **90** | Business Cases |
 | **91** | SEO con ChatGPT |
 
-Total: 86 módulos.
+> NOTA (Sesión 2026-09-14, ver HALLAZGO 16 en AUDITORIA.md): los módulos 87 (Casos
+> Reales de la Agencia), 89 (Masterclasses) y 90 (Business Cases) se excluyeron de esta
+> tabla por decisión explícita del usuario — su contenido (Directos, Bonus, Master) ya
+> no se construye como arnés de módulo independiente, va junto en
+> harnesses/material_de_apoyo/ (carpeta no numerada, fuera del sistema de módulos).
+> Como ya no están en esta tabla, check_coherencia.sh rechazará cualquier intento futuro
+> de crear carpetas modulo_87_..., modulo_89_... o modulo_90_....
+
+Total: 83 módulos.
 
 ---
 

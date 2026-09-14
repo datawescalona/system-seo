@@ -1,7 +1,7 @@
 # HARNESS-SDD System Status Summary
 
 ## Project Overview
-HARNESS-SDD is a structured system for building AI "harnesses" (specialized knowledge modules) for SEO training. The system tracks progress on 86 total modules across 8 phases, with emphasis on preventing AI jailbreaks and maintaining knowledge integrity.
+HARNESS-SDD is a structured system for building AI "harnesses" (specialized knowledge modules) for SEO training. The system tracks progress on 83 total modules across 8 phases, with emphasis on preventing AI jailbreaks and maintaining knowledge integrity. (Was 86; modules 87, 89 and 90 were excluded 2026-09-14 by user decision — their content goes to harnesses/material_de_apoyo/ instead of a standalone harness. See HALLAZGO 16 in AUDITORIA.md.)
 
 ## Current Progress
 - **Arneses Created:** 66 of 86 modules complete (Módulos 03-68; M03, M04, M05, M61–M68 en v2.7)
