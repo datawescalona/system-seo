@@ -480,3 +480,14 @@ reconstruya carpetas modulo_87/89/90 asumiendo que son arneses pendientes.
 **Por qué importa:** Sin el código literal, un arnés que "escribiera la configuración" tendría que inventar sintaxis, lo que la regla de no inventar prohíbe (Constructor v2.7, compuerta de riqueza de fuente). Una línea mal escrita en un archivo de servidor puede dejar un sitio caído (el propio material advierte del error 500).
 
 **Decisión tomada:** (a) El arnés NO escribe sintaxis de código; entrega lógica, orden, advertencias y esqueleto comentado, y usa MODO GUÍA para la sintaxis exacta (declarado en el PASO 0, punto 3). (b) Si el usuario sube los archivos de ejemplo mencionados, el arnés los usará como fuente literal. (c) Queda abierto: conseguir esos dos archivos de ejemplo. (d) Quedan pendientes las Compuertas A (cruce del humano) y B (batería en sesión limpia) del constructor: el arnés está construido pero NO probado.
+
+
+---
+
+## HALLAZGO 18 — M91: crudos subidos por la web de GitHub; mapa desincronizado y material con herramientas de fecha (Sesión 25, 2026-10-31)
+
+**Qué se encontró:** El usuario subió por la web de GitHub (commit `9b14a4a`, "Add files via upload") los crudos del Módulo 91 (SEO con ChatGPT): 27 archivos (18 .txt, 8 PDF, 1 Excel) numerados del 01.1 al 09 sin saltos. Se revisó: los 8 PDF y el Excel se leen bien; el contenido corresponde al módulo (herramientas de IA, plan de contenidos, briefing, customer journey, datos estructurados, hreflang, expresiones regulares, imágenes, integraciones). Dos matices: (a) `09.Integraciones.pptx.pdf` es solo una diapositiva de índice (el contenido real está en `09.Integración.txt`); (b) las herramientas citadas son de la fecha de grabación y varias ya cambiaron de nombre o de versión (Bing Chat, Bard, DALL-E 2).
+
+**Por qué importa:** (a) Igual que en el HALLAZGO 15, una subida hecha fuera de una sesión de Claude Code no actualiza MAPA_PROGRESO.md. (b) Un arnés que presente esas herramientas como vigentes inventaría actualidad que la fuente no tiene.
+
+**Decisión tomada:** (a) MAPA_PROGRESO.md corregido en el mismo commit de esta revisión: M91 pasa a "con crudos". (b) Pendiente: al construir M91, el arnés debe declarar que los nombres de herramientas son los de la fuente y pedir al humano que confirme la versión actual antes de recomendarlas.

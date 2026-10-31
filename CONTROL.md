@@ -80,7 +80,7 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
 4. HALLAZGO 9 (Módulo 42) es de contenido, no estructural.
 
 ## Next Task
-Plan mínimo para cerrar el sistema (decidido con el usuario 2026-10-31): primero construir los arneses que no existen (M70 a M82, uno por uno), luego M91 cuando el usuario suba crudos; probar M69 (Compuertas A y B). Reconstruir M06 a M60 y reorganizar carpetas queda para después.
+Plan mínimo para cerrar el sistema (decidido con el usuario 2026-10-31): primero construir los arneses que no existen (M70 a M82, uno por uno), M91 ya tiene sus crudos subidos (2026-10-31) y puede construirse en cualquier momento; probar M69 (Compuertas A y B). Reconstruir M06 a M60 y reorganizar carpetas queda para después.
 
 Plan anterior:
 Reconstruir arneses 06 en adelante con Constructor v2.7, uno por uno (Módulo 6 — URLs es el siguiente), probando cada uno antes de continuar. M61 y M62 reconstruidos/construidos. Después de terminar todos los arneses: reorganizar carpetas (harnesses/ + plantillas/ + conocimiento/) y crear MATRIZ.md.

@@ -9,7 +9,9 @@ PENDIENTES ABIERTOS: 6
 
 [ABIERTO] Módulo 69: faltan los dos archivos de ejemplo de configuración (uno de Apache y uno de Nginx) que el material dice dejar para copiar; no están en harnesses/modulo_69_htaccess/archivos/. Sin ellos el arnés no escribe código y usa MODO GUÍA. Si el usuario los tiene, subirlos a esa carpeta. Ver HALLAZGO 17.
 
-[ABIERTO] El usuario está subiendo crudos de módulos — en progreso. Cuando confirme que terminó, se arranca la reconstrucción con el constructor v2.7.
+[RESUELTO 2026-10-31] El usuario terminó de subir crudos: M06 a M82 y M91 ya tienen sus archivos. Ya no hay módulos esperando crudos (revisión del M91 en HALLAZGO 18).
+
+[ABIERTO] Módulo 91 (SEO con ChatGPT): crudos subidos y revisados, falta construir su arnés con Constructor v2.7. Al construir, declarar que los nombres de herramientas de IA (Bing Chat, Bard, DALL-E 2) son los de la fuente y pedir al humano confirmar la versión actual. Ver HALLAZGO 18.
 
 [ABIERTO] Reconstruir arneses 04-61 con Constructor v2.7, uno por uno, probando cada uno con cliente real antes de continuar con el siguiente — pendiente hasta que el usuario termine de subir crudos — origen: ciclo de maduración del constructor (HALLAZGO 14) + gold standard M3 validado.
 

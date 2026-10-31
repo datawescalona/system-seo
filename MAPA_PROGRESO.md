@@ -1,9 +1,9 @@
 # MAPA DE PROGRESO — HARNESS-SDD
 > Este archivo es la foto del progreso. Se actualiza cada vez que se reconstruye un arnés (v2.7) o se suben crudos nuevos a un módulo.
-> Última actualización: 2026-10-31 — Sesión 25. M69 construido con v2.7 (pendiente de probar). M70–M82 ya tienen crudos subidos y confirmados.
+> Última actualización: 2026-10-31 — Sesión 25. M69 construido con v2.7 (pendiente de probar). M70–M82 y M91 ya tienen crudos subidos y confirmados: ya NO queda ningún módulo esperando crudos.
 > Por decisión del usuario, M87, M89 y M90 YA NO se construyen como arneses independientes
-> (su contenido va a harnesses/material_de_apoyo/). Solo queda M91 como módulo oficial
-> pendiente, con carpeta ya creada esperando crudos. Ver HALLAZGO 15 y HALLAZGO 16 en AUDITORIA.md.
+> (su contenido va a harnesses/material_de_apoyo/). M91 es el único módulo oficial del rango
+> alto y ya tiene sus crudos (subidos 2026-10-31). Ver HALLAZGO 15, 16 y 18 en AUDITORIA.md.
 
 ---
 
@@ -12,8 +12,7 @@
 | Estado | Módulos | Cantidad |
 |---|---|---|
 | ✅ Listos (v2.7) | M03, M04, M05, M61–M69 | 12 |
-| 🔄 Con crudos — pendientes de reconstruir con v2.7 | M06–M60, M70–M82 | 68 |
-| 📁 Carpeta creada, esperando crudos | M91 | 1 |
+| 🔄 Con crudos — pendientes de construir/reconstruir con v2.7 | M06–M60, M70–M82, M91 | 69 |
 | **Total módulos oficiales activos** | | **81** |
 
 > Nota: los módulos 01, 83, 84, 85, 86 y 88 no existen en la tabla oficial del Blueprint.
@@ -122,10 +121,10 @@
 
 ---
 
-## Único módulo sin carpeta pendiente
+## Módulo 91 — con crudos ya subidos (pendiente de construir con v2.7)
 
-| # | Nombre | Estado |
+| # | Nombre | Crudos |
 |---|---|---|
-| 91 | SEO con ChatGPT | 📁 carpeta creada, esperando crudos |
+| 91 | SEO con ChatGPT | 27 archivos: 18 .txt + 8 PDF + 1 Excel |
 
 > M87, M89 y M90 ya NO aparecen en esta lista — ver nota arriba (HALLAZGO 16).
