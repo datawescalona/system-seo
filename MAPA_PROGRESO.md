@@ -1,6 +1,6 @@
 # MAPA DE PROGRESO — HARNESS-SDD
 > Este archivo es la foto del progreso. Se actualiza cada vez que se reconstruye un arnés (v2.7) o se suben crudos nuevos a un módulo.
-> Última actualización: 2026-09-14 — Sesión actual. M69–M82 ya tienen crudos subidos y confirmados.
+> Última actualización: 2026-10-31 — Sesión 25. M69 construido con v2.7 (pendiente de probar). M70–M82 ya tienen crudos subidos y confirmados.
 > Por decisión del usuario, M87, M89 y M90 YA NO se construyen como arneses independientes
 > (su contenido va a harnesses/material_de_apoyo/). Solo queda M91 como módulo oficial
 > pendiente, con carpeta ya creada esperando crudos. Ver HALLAZGO 15 y HALLAZGO 16 en AUDITORIA.md.
@@ -11,8 +11,8 @@
 
 | Estado | Módulos | Cantidad |
 |---|---|---|
-| ✅ Listos (v2.7) | M03, M04, M05, M61–M68 | 11 |
-| 🔄 Con crudos — pendientes de reconstruir con v2.7 | M06–M60, M69–M82 | 69 |
+| ✅ Listos (v2.7) | M03, M04, M05, M61–M69 | 12 |
+| 🔄 Con crudos — pendientes de reconstruir con v2.7 | M06–M60, M70–M82 | 68 |
 | 📁 Carpeta creada, esperando crudos | M91 | 1 |
 | **Total módulos oficiales activos** | | **81** |
 
@@ -98,7 +98,7 @@
 | 66 | Data Studio | **v2.7** ✅ | 10 |
 | 67 | HTML | **v2.7** ✅ | 5 |
 | 68 | JS y CSS | **v2.7** ✅ | 19 |
-| 69 | HTAccess | sin construir (nunca hecho) 🔄 | 8 |
+| 69 | HTAccess | **v2.7** ✅ (sin probar: Compuertas A y B pendientes) | 6 |
 
 ---
 

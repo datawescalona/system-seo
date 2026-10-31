@@ -469,3 +469,14 @@ reconstruya carpetas modulo_87/89/90 asumiendo que son arneses pendientes.
     ya que 87, 89 y 90 dejan de contarse como arneses de módulo independientes. No se tocó
     el Blueprint todavía porque es el documento maestro de nombres/números y una edición
     ahí requiere más cuidado — queda anotado para revisarlo con el usuario.
+
+
+---
+
+## HALLAZGO 17 — Módulo 69: los crudos no incluyen el código literal de configuración y las transcripciones tienen errores de voz (Sesión 25, 2026-10-31)
+
+**Qué se encontró:** Al construir el arnés del Módulo 69 (HTAccess) con el Constructor v2.7 se leyeron los 6 .txt y los 2 PDF completos. Los 2 PDF sí son legibles. Pero el material explica cada configuración hablando y NO trae el texto literal de ningún archivo de configuración: el último archivo de Nginx dice que se dejan archivos de ejemplo para Apache y para Nginx, y esos archivos no están en `harnesses/modulo_69_htaccess/archivos/`. Además los .txt son transcripciones automáticas con errores de reconocimiento de voz (por ejemplo "Jinx" por Nginx, "HT-AXIS" por el archivo de configuración de Apache); las equivalencias usadas están documentadas en ARNES.audit.md sección 1. Las diapositivas listan "X-Robots-Tag" y "WPO" para Nginx, pero el material hablado solo desarrolla redirecciones, compresión, contraseña, user agents e IP en Nginx.
+
+**Por qué importa:** Sin el código literal, un arnés que "escribiera la configuración" tendría que inventar sintaxis, lo que la regla de no inventar prohíbe (Constructor v2.7, compuerta de riqueza de fuente). Una línea mal escrita en un archivo de servidor puede dejar un sitio caído (el propio material advierte del error 500).
+
+**Decisión tomada:** (a) El arnés NO escribe sintaxis de código; entrega lógica, orden, advertencias y esqueleto comentado, y usa MODO GUÍA para la sintaxis exacta (declarado en el PASO 0, punto 3). (b) Si el usuario sube los archivos de ejemplo mencionados, el arnés los usará como fuente literal. (c) Queda abierto: conseguir esos dos archivos de ejemplo. (d) Quedan pendientes las Compuertas A (cruce del humano) y B (batería en sesión limpia) del constructor: el arnés está construido pero NO probado.
