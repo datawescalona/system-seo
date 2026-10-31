@@ -491,3 +491,14 @@ reconstruya carpetas modulo_87/89/90 asumiendo que son arneses pendientes.
 **Por qué importa:** (a) Igual que en el HALLAZGO 15, una subida hecha fuera de una sesión de Claude Code no actualiza MAPA_PROGRESO.md. (b) Un arnés que presente esas herramientas como vigentes inventaría actualidad que la fuente no tiene.
 
 **Decisión tomada:** (a) MAPA_PROGRESO.md corregido en el mismo commit de esta revisión: M91 pasa a "con crudos". (b) Pendiente: al construir M91, el arnés debe declarar que los nombres de herramientas son los de la fuente y pedir al humano que confirme la versión actual antes de recomendarlas.
+
+
+---
+
+## HALLAZGO 19 — Lote 1 de arneses nuevos (M70, M71, M72, M73, M78, M81, M82): huecos de fuente y arneses sin probar (Sesión 26, 2026-10-31)
+
+**Qué se encontró:** Se construyeron siete arneses con Constructor v2.7 mediante ejecutores en paralelo; el PM verificó cada uno (citas: M70 172, M71 372, M72 161, M73 187, M78 230, M81 49, M82 187; todas con 0 fallidas; "PASO 0" y blindaje presentes; sin rastro de origen). Huecos de las fuentes: (1) M70, M71, M72 y M73 tienen código, fórmulas y capturas en imágenes que el verificador no comprueba; M71 casi no trae scripts literales (MODO GUÍA). (2) M73: contradicción interna en el caso FULL OUTER JOIN con WHERE en ambas tablas; el ejercicio no trae solución. (3) M72 y M78: los ejercicios traen solo enunciado, sin solución. (4) M82: fuente sin fecha, cifras solo de España y nombres de plataformas ininteligibles. (5) M70: ejemplos Apache con [R,L] sin 301 y www de relleno. (6) M71: zona horaria dudosa y verificación de Googlebot incompleta en la fuente. (7) Cifras y herramientas posiblemente desactualizadas en varios módulos. (8) M81: fuente pobre, declarado en el arnés.
+
+**Por qué importa:** Un arnés que rellenara esos huecos inventaría contenido que la fuente no tiene. Además ninguno de los siete ha pasado Compuerta A ni B, y varios tocan riesgo (redirecciones, borrado masivo con regex, datos personales en logs, dinero y carrera).
+
+**Decisión tomada:** Los arneses declaran cada hueco (MODO GUÍA o "según la fuente") y no lo rellenan. Queda pendiente en PENDIENTES.md: Compuertas A y B de los siete, cruce manual de lo que está en imágenes, decisión sobre la contradicción de M73 y revisión de vigencia de cifras. Las decisiones de clasificación y estructura de cada ejecutor están en la sección de decisiones de cada ARNES.audit.md y requieren confirmación humana.

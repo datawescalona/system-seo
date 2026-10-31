@@ -1,7 +1,7 @@
 # PENDIENTES — SISTEMA HARNESS-SDD
-Última actualización: 2026-10-31 (Sesión 25)
+Última actualización: 2026-10-31 (Sesión 26)
 
-PENDIENTES ABIERTOS: 6
+PENDIENTES ABIERTOS: 10
 
 ---
 
@@ -10,6 +10,14 @@ PENDIENTES ABIERTOS: 6
 [ABIERTO] Módulo 69: faltan los dos archivos de ejemplo de configuración (uno de Apache y uno de Nginx) que el material dice dejar para copiar; no están en harnesses/modulo_69_htaccess/archivos/. Sin ellos el arnés no escribe código y usa MODO GUÍA. Si el usuario los tiene, subirlos a esa carpeta. Ver HALLAZGO 17.
 
 [RESUELTO 2026-10-31] El usuario terminó de subir crudos: M06 a M82 y M91 ya tienen sus archivos. Ya no hay módulos esperando crudos (revisión del M91 en HALLAZGO 18).
+
+[ABIERTO] Módulos 70, 71, 72, 73, 78, 81 y 82: arneses construidos con Constructor v2.7 el 2026-10-31 pero NO probados. Falta la Compuerta A (el humano cruza los pasos de riesgo de cada ARNES.audit.md contra la fuente) y la Compuerta B (batería en sesión limpia y otro modelo para los casos adversariales). Ver HALLAZGO 19.
+
+[ABIERTO] Módulos 70, 71, 72 y 73: parte del código, las fórmulas y las capturas de las fuentes están en imágenes y el verificador automático no las comprueba. Cruzar a mano las secciones de código/ejemplos de cada arnés contra los PDF. M71 además no trae casi ningún script literal (MODO GUÍA). Ver HALLAZGO 19.
+
+[ABIERTO] M73 (SQL): la fuente se contradice en el caso con FULL OUTER JOIN (el WHERE con AND en ambas tablas descarta las filas que el JOIN quería conservar). El arnés avisa y pregunta, pero el humano debe decidir si lo corrige. Ver HALLAZGO 19.
+
+[ABIERTO] M82 y otros módulos con cifras: la fuente de M82 no tiene fecha y solo da cifras de España; M70, M71, M72, M73 y M78 citan herramientas o cifras que pueden estar desactualizadas. Los arneses las marcan "según la fuente"; revisar vigencia antes de uso real. Ver HALLAZGO 19.
 
 [ABIERTO] Módulo 91 (SEO con ChatGPT): crudos subidos y revisados, falta construir su arnés con Constructor v2.7. Al construir, declarar que los nombres de herramientas de IA (Bing Chat, Bard, DALL-E 2) son los de la fuente y pedir al humano confirmar la versión actual. Ver HALLAZGO 18.
 
