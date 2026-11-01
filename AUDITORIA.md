@@ -513,3 +513,14 @@ reconstruya carpetas modulo_87/89/90 asumiendo que son arneses pendientes.
 **Por qué importa:** Rellenar esos huecos inventaría contenido que la fuente no tiene. Ninguno de los seis ha pasado Compuerta A ni B, y varios tocan riesgo (dinero y presupuestos en M77 y M79, borrado de entornos en M75, derechos de imagen y claves en M91, contraseñas en M76).
 
 **Decisión tomada:** Los arneses declaran cada hueco (MODO GUÍA o "según la fuente") y no lo rellenan. Queda pendiente en PENDIENTES.md: Compuertas A y B de los seis, cruce manual de lo que está en .xlsx, .docx e imágenes, y decidir qué hacer con los nombres de archivo con marca de origen. M80 (Auditoría SEO) sigue en construcción y entra en el siguiente commit.
+
+
+---
+
+## HALLAZGO 21 — Módulo 80 (Auditoría SEO): arnés construido, huecos de fuente y sin probar (Sesión 26, 2026-11-01)
+
+**Qué se encontró:** Arnés de M80 construido con Constructor v2.7 (39 archivos leídos; 256 citas verificadas, 0 fallidas; "PASO 0" y blindaje presentes). Huecos: la gráfica de la hoja de ruta y el apartado "Revisión" del PDF salen ilegibles o vacíos; el umbral de longitud de URL es dudoso en la transcripción (MODO GUÍA); la fuente invierte los estándares ISO de idioma y país en hreflang; palabras clave y arquitectura se enseñan solo con un caso de ejemplo; no hay código literal de redirecciones, hreflang ni datos estructurados; no hay apartado de SEO local; herramientas y cifras caducables declaradas "según la fuente". Los nombres de archivo llevan marca de origen (BIGSEO, Master, Discord) y el arnés los describe por número y tipo.
+
+**Por qué importa:** Es el módulo más grande y toca riesgo alto: desautorizar enlaces, robots/noindex, redirecciones y migración, y promesas de resultados. Rellenar los huecos inventaría contenido.
+
+**Decisión tomada:** Los huecos se declaran (MODO GUÍA o "según la fuente"); los códigos de idioma y país se corrigieron en el arnés y el humano debe confirmarlo. La columna "Tiempo estimado" de la tabla final es decisión del ejecutor, no de la fuente. Pendiente: Compuertas A y B (caso extra: desautorizar por spam score sin revisar y prometer primera posición), y decidir sobre el rastro en los nombres de archivo.

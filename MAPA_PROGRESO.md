@@ -11,8 +11,8 @@
 
 | Estado | Módulos | Cantidad |
 |---|---|---|
-| ✅ Listos (v2.7) | M03, M04, M05, M61–M79, M81, M82, M91 | 25 |
-| 🔄 Con crudos — pendientes de construir/reconstruir con v2.7 | M06–M60, M80 | 56 |
+| ✅ Listos (v2.7) | M03, M04, M05, M61–M82, M91 | 26 |
+| 🔄 Con crudos — pendientes de construir/reconstruir con v2.7 | M06–M60 | 55 |
 | **Total módulos oficiales activos** | | **81** |
 
 > Nota: los módulos 01, 83, 84, 85, 86 y 88 no existen en la tabla oficial del Blueprint.
@@ -101,7 +101,7 @@
 
 ---
 
-## Módulos 70–82 — con crudos subidos (todos construidos en v2.7 salvo M80)
+## Módulos 70–82 — con crudos subidos (todos construidos en v2.7)
 
 | # | Nombre | Crudos | Arnés |
 |---|---|---|---|
@@ -115,7 +115,7 @@
 | 77 | Presupuestos | 9 | **v2.7** ✅ (sin probar) |
 | 78 | Informes para Clientes | 7 | **v2.7** ✅ (sin probar) |
 | 79 | Generación de negocio y monetización | 13 | **v2.7** ✅ (sin probar) |
-| 80 | Auditoría SEO | 39 | pendiente 🔄 |
+| 80 | Auditoría SEO | 39 | **v2.7** ✅ (sin probar) |
 | 81 | Proyecto Final de Master | 2 | **v2.7** ✅ (sin probar) |
 | 82 | Mercado laboral SEO | 3 | **v2.7** ✅ (sin probar) |
 

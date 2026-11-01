@@ -4,7 +4,7 @@
 HARNESS-SDD is a structured system for building AI "harnesses" (specialized knowledge modules) for SEO training. The system tracks progress on 83 total modules across 8 phases, with emphasis on preventing AI jailbreaks and maintaining knowledge integrity. (Was 86; modules 87, 89 and 90 were excluded 2026-09-14 by user decision — their content goes to harnesses/material_de_apoyo/ instead of a standalone harness. See HALLAZGO 16 in AUDITORIA.md.)
 
 ## Current Progress
-- **Arneses Created:** 80 of 86 modules complete (Módulos 03-79, 81, 82, 91; M03, M04, M05, M61–M79, M81, M82, M91 en v2.7; falta M80)
+- **Arneses Created:** 81 of 86 modules complete (Módulos 03-79, 80, 81, 82, 91; M03, M04, M05, M61–M82 y M91 en v2.7)
 - **Template Version (verificado contra el repo real):**
   - Módulo 60: **v1.9** (probado 6/6, 2026-06-20)
   - Módulo 59: **v1.9** (probado 6/6, 2026-06-20)
@@ -39,12 +39,13 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
   - Módulo 68: **v2.7** (construido desde cero con Constructor v2.7, 2026-06-22) — categoría SABER (JS y CSS: entorno cliente/servidor, inclusión JS/CSS, display:none cloaking risk, cacheo CSS, minificación, Tailwind vs Bootstrap)
   - Módulo 69: **v2.7** (construido desde cero con Constructor v2.7, 2026-10-31) — categoría HACER-de-pasos con parte SABER (HTAccess y servidores para SEO: Apache y Nginx). SIN PROBAR: Compuertas A y B pendientes; sin código literal en la fuente (HALLAZGO 17)
   - Módulos 70, 71, 72, 73, 78, 81, 82: **v2.7** (construidos desde cero con Constructor v2.7, 2026-10-31, lote 1 de la Sesión 26). M70 SABER; M71 HACER-de-criterio; M72 HACER-de-criterio; M73 HACER-de-criterio; M78 HACER-de-pasos; M81 HACER-de-criterio; M82 SABER. TODOS SIN PROBAR: Compuertas A y B pendientes (ver HALLAZGO 19)
+  - Módulo 80: **v2.7** (construido desde cero con Constructor v2.7, 2026-11-01) — HACER-de-pasos con tramos de criterio (Auditoría SEO). SIN PROBAR: Compuertas A y B pendientes (ver HALLAZGO 21)
   - Módulos 74, 75, 76, 77, 79, 91: **v2.7** (construidos desde cero con Constructor v2.7, 2026-11-01, lote 2 de la Sesión 26). M74 SABER; M75 SABER; M76 HACER-de-pasos; M77 HACER-de-pasos; M79 HACER-de-criterio; M91 HACER-de-pasos. TODOS SIN PROBAR: Compuertas A y B pendientes (ver HALLAZGO 20)
   - Módulos 06-39: **v1.9** (parche HALLAZGO 7+8+adenda completado 2026-06-20)
   - Módulo 40: **v1.8** (parche v1.6→v1.8 completado 2026-06-20)
   - Blueprint maestro: **v1.8** — todo arnés desde el Módulo 48 nace con las correcciones completas.
 - **Bateria NIVEL 2 completa corrida y registrada:** Módulos 03, 17, 26, 33, 40 (x2), 41, 42 (+1 extra), 43, 44 (+1 extra), 45 (+1 extra), 46 (+1 extra), 47 (+1 extra), 48 (+1 extra), 49 (+1 extra). Todos superados. Módulos 04–39: 6/6 OK todos (M24 7/7 con gap PBN corregido). Módulos 50 y 51: 6/6 OK. Módulo 52: 7/7 OK (caso extra: migración desde dominio penalizado). Módulo 53: 6/6 OK (sin caso 7, contenido metodológico sin riesgo de compliance). Módulo 54: 6/6 OK (sin caso 7, contenido metodológico). Módulo 55: 6/6 OK (sin caso 7, contenido metodológico). Módulo 56: 6/6 OK (sin caso 7, contenido metodológico). Módulo 57: 6/6 OK (sin caso 7, contenido técnico-práctico sin riesgo de compliance).
-- **Last Session:** Sesión 26 (2026-11-01). Lote 2: M74, M75, M76, M77, M79 y M91 construidos y verificados (M80 en curso, ver HALLAZGO 20). Antes en la misma sesión: Lote 1 de arneses nuevos: M70, M71, M72, M73, M78, M81 y M82 construidos con Constructor v2.7 por ejecutores en paralelo y verificados (citas 0 fallidas). Ver HALLAZGO 19. Sesión anterior: Sesión 25 (2026-10-31). Módulo 69 (HTAccess) construido con Constructor v2.7 (ver HALLAZGO 17). Sesión anterior, Sesión 24 (2026-06-22). Módulos 62–68 construidos con Constructor v2.7. M68 (JS y CSS): 6 secciones JS + 6 secciones CSS, 41 elementos inventariados, 19 .txt, 3 PDFs no legibles. SABER.
+- **Last Session:** Sesión 26 (2026-11-01). Lote 2: M74, M75, M76, M77, M79, M91 y M80 construidos y verificados (ver HALLAZGOS 20 y 21). Ya existen todos los arneses nuevos. Antes en la misma sesión: Lote 1 de arneses nuevos: M70, M71, M72, M73, M78, M81 y M82 construidos con Constructor v2.7 por ejecutores en paralelo y verificados (citas 0 fallidas). Ver HALLAZGO 19. Sesión anterior: Sesión 25 (2026-10-31). Módulo 69 (HTAccess) construido con Constructor v2.7 (ver HALLAZGO 17). Sesión anterior, Sesión 24 (2026-06-22). Módulos 62–68 construidos con Constructor v2.7. M68 (JS y CSS): 6 secciones JS + 6 secciones CSS, 41 elementos inventariados, 19 .txt, 3 PDFs no legibles. SABER.
 - **Mega Harness Status:** Unlocked and ready for construction
 - **Blueprint maestro:** v1.9 — todos los arneses en v1.9 (M03 en v2.7 por reconstrucción con constructor).
 
@@ -82,7 +83,7 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
 4. HALLAZGO 9 (Módulo 42) es de contenido, no estructural.
 
 ## Next Task
-Plan mínimo para cerrar el sistema (decidido con el usuario 2026-10-31): terminar el arnés de M80 (Auditoría SEO, el módulo más grande). Después: probar los arneses nuevos (Compuertas A y B de M69-M79, M81, M82, M91). Reconstruir M06 a M60 y reorganizar carpetas queda para después.
+Plan mínimo para cerrar el sistema (decidido con el usuario 2026-10-31): ya existen todos los arneses nuevos (M69 a M82 y M91). Siguiente: probarlos (Compuertas A y B), empezando por los de más riesgo (M69, M71, M72, M77, M80). Reconstruir M06 a M60 y reorganizar carpetas queda para después.
 
 Plan anterior:
 Reconstruir arneses 06 en adelante con Constructor v2.7, uno por uno (Módulo 6 — URLs es el siguiente), probando cada uno antes de continuar. M61 y M62 reconstruidos/construidos. Después de terminar todos los arneses: reorganizar carpetas (harnesses/ + plantillas/ + conocimiento/) y crear MATRIZ.md.

@@ -1,7 +1,7 @@
 # PENDIENTES — SISTEMA HARNESS-SDD
 Última actualización: 2026-10-31 (Sesión 26)
 
-PENDIENTES ABIERTOS: 12
+PENDIENTES ABIERTOS: 13
 
 ---
 
@@ -21,11 +21,13 @@ PENDIENTES ABIERTOS: 12
 
 [RESUELTO 2026-11-01] Módulo 91 (SEO con ChatGPT): arnés construido con Constructor v2.7 (declara las herramientas de IA como de la fuente). Al construir, declarar que los nombres de herramientas de IA (Bing Chat, Bard, DALL-E 2) son los de la fuente y pedir al humano confirmar la versión actual. Ver HALLAZGO 18.
 
-[ABIERTO] Módulos 74, 75, 76, 77, 79 y 91: arneses construidos con Constructor v2.7 el 2026-11-01 pero NO probados. Falta la Compuerta A (cruzar los pasos de riesgo de cada ARNES.audit.md contra la fuente) y la Compuerta B (batería en sesión limpia y otro modelo). Ver HALLAZGO 20.
+[ABIERTO] Módulos 74, 75, 76, 77, 79, 80 y 91: arneses construidos con Constructor v2.7 el 2026-11-01 pero NO probados. Falta la Compuerta A (cruzar los pasos de riesgo de cada ARNES.audit.md contra la fuente) y la Compuerta B (batería en sesión limpia y otro modelo). Ver HALLAZGOS 20 y 21.
 
 [ABIERTO] Módulos 74, 75, 76, 77, 79 y 91: huecos de la fuente declarados en cada arnés (M75 sin código literal y con inconsistencias internas; M74 con un audio que empieza a mitad de explicación; M76 con capturas ilegibles; M77 sin horas ni tarifas típicas; M91 con regex y prompts descargables ausentes). Los .xlsx y .docx de M76, M77 y M91 no los comprueba el verificador: cruzar a mano. Ver HALLAZGO 20.
 
-[ABIERTO] Módulos 76 y 77: la lista de archivos de conocimiento conserva los nombres reales de archivo con la marca de origen (BIGSEO). El arnés ordena no mostrarlos al usuario. Decidir si se renombran los archivos de archivos/ para eliminar el rastro. Ver HALLAZGO 20.
+[ABIERTO] Módulo 80: umbral de longitud de URL dudoso en la fuente (MODO GUÍA), idiomas/países de hreflang invertidos en la fuente (el arnés los corrige, confirmar), gráfica de hoja de ruta ilegible y sin código literal de redirecciones, hreflang ni datos estructurados. Ver HALLAZGO 21.
+
+[ABIERTO] Módulos 76 y 77 (y 80): la lista de archivos de conocimiento conserva los nombres reales de archivo con la marca de origen (BIGSEO; en M80 los nombres con marca de origen se describen por número y tipo). El arnés ordena no mostrarlos al usuario. Decidir si se renombran los archivos de archivos/ para eliminar el rastro. Ver HALLAZGO 20.
 
 [ABIERTO] Reconstruir arneses 04-61 con Constructor v2.7, uno por uno, probando cada uno con cliente real antes de continuar con el siguiente — pendiente hasta que el usuario termine de subir crudos — origen: ciclo de maduración del constructor (HALLAZGO 14) + gold standard M3 validado.
 
