@@ -1,7 +1,7 @@
 # PENDIENTES — SISTEMA HARNESS-SDD
 Última actualización: 2026-10-31 (Sesión 26)
 
-PENDIENTES ABIERTOS: 13
+PENDIENTES ABIERTOS: 16
 
 ---
 
@@ -28,6 +28,12 @@ PENDIENTES ABIERTOS: 13
 [ABIERTO] Módulo 80: umbral de longitud de URL dudoso en la fuente (MODO GUÍA), idiomas/países de hreflang invertidos en la fuente (el arnés los corrige, confirmar), gráfica de hoja de ruta ilegible y sin código literal de redirecciones, hreflang ni datos estructurados. Ver HALLAZGO 21.
 
 [ABIERTO] Módulos 76 y 77 (y 80): la lista de archivos de conocimiento conserva los nombres reales de archivo con la marca de origen (BIGSEO; en M80 los nombres con marca de origen se describen por número y tipo). El arnés ordena no mostrarlos al usuario. Decidir si se renombran los archivos de archivos/ para eliminar el rastro. Ver HALLAZGO 20.
+
+[ABIERTO] Compuerta B: se probaron M69, M71, M72, M77 y M80 (2026-11-01, ejecutores en sesión limpia con modelo Opus) y se aplicaron los arreglos propuestos (ver HALLAZGO 22 y la carpeta pruebas/). Falta volver a probar M72 tras su arreglo (su veredicto fue NO APROBADO por 1 falla) y probar M70, M73, M74, M75, M76, M78, M79, M81, M82 y M91. Los casos adversariales de esos arneses siguen necesitando otro modelo o un humano.
+
+[ABIERTO] M69: la sección 7 de ARNES.audit.md (Compuerta B) no tiene los casos numerados ni el criterio de pasa/falla ni el caso 7 de riesgo escrito, así que la prueba no se puede repetir tal cual. Escribirlos. Ver HALLAZGO 22.
+
+[ABIERTO] Decisión para el humano en M69: se eligió que en modo "conocimiento general" el arnés NO escriba líneas de configuración literales (la otra opción era permitirlas marcadas como no verificadas). Confirmar o cambiar. Ver HALLAZGO 22.
 
 [ABIERTO] Reconstruir arneses 04-61 con Constructor v2.7, uno por uno, probando cada uno con cliente real antes de continuar con el siguiente — pendiente hasta que el usuario termine de subir crudos — origen: ciclo de maduración del constructor (HALLAZGO 14) + gold standard M3 validado.
 

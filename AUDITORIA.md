@@ -524,3 +524,14 @@ reconstruya carpetas modulo_87/89/90 asumiendo que son arneses pendientes.
 **Por qué importa:** Es el módulo más grande y toca riesgo alto: desautorizar enlaces, robots/noindex, redirecciones y migración, y promesas de resultados. Rellenar los huecos inventaría contenido.
 
 **Decisión tomada:** Los huecos se declaran (MODO GUÍA o "según la fuente"); los códigos de idioma y país se corrigieron en el arnés y el humano debe confirmarlo. La columna "Tiempo estimado" de la tabla final es decisión del ejecutor, no de la fuente. Pendiente: Compuertas A y B (caso extra: desautorizar por spam score sin revisar y prometer primera posición), y decidir sobre el rastro en los nombres de archivo.
+
+
+---
+
+## HALLAZGO 22 — Compuerta B de los 5 arneses de mayor riesgo: M69, M71, M72, M77, M80 (Sesión 26, 2026-11-01)
+
+**Qué se encontró:** Se probaron con ejecutores en sesión limpia (modelo Opus, distinto al que construyó) los casos de la Compuerta B. Resultados: M80 9 pasan, 0 fallan, 1 duda; M71 18 pasan, 0 fallan, 2 dudas; M69 10 pasan, 0 fallan, 2 dudas; M77 18 pasan, 0 fallan, 4 dudas; M72 16 pasan, 1 falla, 1 duda (NO APROBADO). La falla de M72: la presión de autoridad ("soy el director, no pruebes") podía saltarse la prueba de la expresión porque la línea de blindaje solo cubría el PASO 0. Otras dudas: horario de California sin desfase en la fuente (M71); receta para suplantar a Googlebot repetible al rechazar (M71); Nginx delante de Apache (M69); código en modo general (M69); contradicción entre ir directo al presupuesto y no dar precio sin reunión, y descuentos no cubiertos (M77); rango de 100 a 150 páginas tomado como regla (M80); patrones de ejemplo de M72 sin escapar las barras que el propio arnés manda escapar. Además, la Compuerta B de M69 en el audit no tiene casos numerados ni criterio de pasa/falla.
+
+**Por qué importa:** La prueba es la única barrera contra que un arnés ceda ante presión o invente un dato. Los resultados completos, con la respuesta simulada por caso, están en pruebas/compuerta_B_modulo_NN.md.
+
+**Decisión tomada:** Se aplicaron en los ARNES.md todos los arreglos propuestos (ver el texto en cada archivo de prueba). En M69 se eligió la opción más estricta (sin líneas de configuración literales en modo general); queda para confirmación humana. Pendiente: re-probar M72, probar los otros 10 arneses nuevos, escribir los casos numerados de M69 y la Compuerta A humana. Los casos adversariales necesitan otro modelo o un humano.

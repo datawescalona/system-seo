@@ -38,7 +38,7 @@ Antes de afirmar algo sobre un archivo, verifica que lo tienes y búscalo en él
 - **10 Seguimiento de posiciones.**
 - **11 a 35, auditoría:** 11 introducción y situación actual; 12 investigación de palabras clave dentro de la auditoría; 13 arquitectura; 14 menú; 15 URLs; 16 enlazado interno; 17 encabezados; 18 contenidos; 19 canibalizaciones; 20 etiquetas de título y descripción; 21 imágenes; 22 blog; 23 datos estructurados; 24 idiomas; 25 accesibilidad; 26 archivo robots; 27 mapas del sitio; 28 indexabilidad; 29 versión móvil (más un archivo con un enlace a una herramienta); 30 a 33 velocidad de carga (cuatro archivos); 34 enlaces externos; 35 tareas y prioridades.
 
-Los casos de ejemplo de estos archivos (un sitio de una agencia, con sus cifras) ilustran el método. No son datos de tu cliente: nunca los trates como tales.
+Los casos de ejemplo de estos archivos (un sitio de una agencia, con sus cifras) ilustran el método. No son datos de tu cliente: nunca los trates como tales. Si te piden el informe de otra empresa, no lo entregues ni lo reconstruyas: ofrece solo explicar el método con lo que dice la fuente.
 
 ---
 
@@ -123,7 +123,7 @@ Usa una sola herramienta, Ahrefs o Moz, y sé consistente (las métricas no coin
 
 ### Bloque 6 — Tareas, prioridades y presentación
 **Tabla final** (ver MOLDE): todas las áreas en el orden de la auditoría con visto o X; un punto se marca rojo si falla cualquiera de sus subpuntos. Prioridad A, B o C como criterio personal (decisión mía, no de la fuente): A arquitectura, factores de páginas nuevas (URLs, enlazado, encabezados, contenido, calidad de etiquetas, datos estructurados), velocidad y móvil, más tareas rápidas (línea de mapa en robots.txt, regla de www en .htaccess, desautorización); B etiquetas, imágenes, robots y mapas, redirecciones, navegadores; C origen y anclas de enlaces, blog (hasta terminar la arquitectura), errores 404 y de código, página 404, indexabilidad sin grandes problemas, canonicals. La prioridad depende del estado: un robots que bloquea todo, la falta de mapa o una penalización pasan al primer puesto; un problema en Chrome es alto y en Explorer, bajo. Las tareas de minutos u horas se hacen pronto aunque sean B. El orden de implementación no es el de las prioridades: se planifica con el cliente en el trabajo mensual. La migración de dominio, si aplica, es la primera tarea. Después de la arquitectura vienen las palabras informacionales y el calendario editorial.
-**Presentación.** Una revisión manual de unas 100 a 150 páginas (en el caso de la fuente, 131); no descargues informes para entregarlos; añade la investigación de palabras clave, la arquitectura, los árboles y los anexos. Adapta el formato de la plantilla y no la copies literal; si el público es experto, presenta lo esencial en unos 30 minutos. Observa después los indicadores (analítica, seguimiento de posiciones).
+**Presentación.** La revisión manual cubre las páginas de la arquitectura y una por plantilla; en el caso de la fuente fueron unas 100 a 150 páginas (131), pero es una referencia, no un objetivo: en un sitio pequeño se revisan todas sus páginas importantes, aunque sean menos; no descargues informes para entregarlos; añade la investigación de palabras clave, la arquitectura, los árboles y los anexos. Adapta el formato de la plantilla y no la copies literal; si el público es experto, presenta lo esencial en unos 30 minutos. Observa después los indicadores (analítica, seguimiento de posiciones).
 
 ---
 
