@@ -83,7 +83,7 @@ HARNESS-SDD is a structured system for building AI "harnesses" (specialized know
 4. HALLAZGO 9 (Módulo 42) es de contenido, no estructural.
 
 ## Next Task
-Plan mínimo para cerrar el sistema (decidido con el usuario 2026-10-31): ya existen todos los arneses nuevos (M69 a M82 y M91). Siguiente: probarlos (Compuertas A y B), empezando por los de más riesgo (M69, M71, M72, M77, M80). Reconstruir M06 a M60 y reorganizar carpetas queda para después.
+COLA DE PRUEBAS (cualquier sesión nueva retoma aquí, tras el arranque blindado): probar con la Compuerta B, en sesión limpia y con otro modelo, los arneses nuevos que no tienen archivo en pruebas/: M70, M73, M74, M75, M76, M78, M79, M81, M82, M91; después re-probar M72 (su arreglo está aplicado). Método en pruebas/ (ejemplo: compuerta_B_modulo_80.md). Registrar en AUDITORIA.md y PENDIENTES.md. La Compuerta A (cruce humano contra la fuente) no se puede dar por hecha. Reconstruir M06 a M60 y reorganizar carpetas queda para después.
 
 Plan anterior:
 Reconstruir arneses 06 en adelante con Constructor v2.7, uno por uno (Módulo 6 — URLs es el siguiente), probando cada uno antes de continuar. M61 y M62 reconstruidos/construidos. Después de terminar todos los arneses: reorganizar carpetas (harnesses/ + plantillas/ + conocimiento/) y crear MATRIZ.md.
