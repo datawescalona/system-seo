@@ -502,3 +502,14 @@ reconstruya carpetas modulo_87/89/90 asumiendo que son arneses pendientes.
 **Por qué importa:** Un arnés que rellenara esos huecos inventaría contenido que la fuente no tiene. Además ninguno de los siete ha pasado Compuerta A ni B, y varios tocan riesgo (redirecciones, borrado masivo con regex, datos personales en logs, dinero y carrera).
 
 **Decisión tomada:** Los arneses declaran cada hueco (MODO GUÍA o "según la fuente") y no lo rellenan. Queda pendiente en PENDIENTES.md: Compuertas A y B de los siete, cruce manual de lo que está en imágenes, decisión sobre la contradicción de M73 y revisión de vigencia de cifras. Las decisiones de clasificación y estructura de cada ejecutor están en la sección de decisiones de cada ARNES.audit.md y requieren confirmación humana.
+
+
+---
+
+## HALLAZGO 20 — Lote 2 de arneses nuevos (M74, M75, M76, M77, M79, M91): huecos de fuente y arneses sin probar (Sesión 26, 2026-11-01)
+
+**Qué se encontró:** Seis arneses construidos con Constructor v2.7 por ejecutores en paralelo y verificados por el PM (citas: M74 349, M75 592, M76 276, M77 211, M79 256, M91 167; todas con 0 fallidas; "PASO 0" y blindaje presentes). Los ejecutores se cortaron una vez por el límite de uso de 5 horas y se reanudaron sin perder trabajo. Huecos: (1) M75 no trae código literal y tiene inconsistencias internas (sort, count, len, split, calculadora, euros/dólares). (2) M74: el audio 08 empieza a mitad de explicación; faltan nombres exactos de valores (MODO GUÍA). (3) M76: capturas ilegibles; fuente sin fórmula de coste de captación; plantilla con columna de contraseña sustituida por defensa de seguridad. (4) M77: sin horas típicas ni tarifas fuera de España; cifra de 20 % y 30 % ambigua entre presupuesto y costo; fuente sin fecha. (5) M79: láminas de la matriz de crecimiento en imagen; cifras de costes de anuncios con fecha. (6) M91: sin regex finales literales, línea de Tor ilegible, prompts descargables ausentes, hoja de Excel mezclada con otro proyecto, herramientas de IA de la época (Bing Chat, Bard, DALL-E 2). (7) Los .xlsx y .docx no los lee el verificador. (8) Los nombres reales de archivo de M76 y M77 llevan la marca de origen y aparecen en la lista de archivos de conocimiento.
+
+**Por qué importa:** Rellenar esos huecos inventaría contenido que la fuente no tiene. Ninguno de los seis ha pasado Compuerta A ni B, y varios tocan riesgo (dinero y presupuestos en M77 y M79, borrado de entornos en M75, derechos de imagen y claves en M91, contraseñas en M76).
+
+**Decisión tomada:** Los arneses declaran cada hueco (MODO GUÍA o "según la fuente") y no lo rellenan. Queda pendiente en PENDIENTES.md: Compuertas A y B de los seis, cruce manual de lo que está en .xlsx, .docx e imágenes, y decidir qué hacer con los nombres de archivo con marca de origen. M80 (Auditoría SEO) sigue en construcción y entra en el siguiente commit.

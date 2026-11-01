@@ -1,6 +1,6 @@
 # MAPA DE PROGRESO — HARNESS-SDD
 > Este archivo es la foto del progreso. Se actualiza cada vez que se reconstruye un arnés (v2.7) o se suben crudos nuevos a un módulo.
-> Última actualización: 2026-10-31 — Sesión 26. M70–M73, M78, M81 y M82 construidos con v2.7 (pendientes de probar). M70–M82 y M91 ya tienen crudos subidos y confirmados: ya NO queda ningún módulo esperando crudos.
+> Última actualización: 2026-10-31 — Sesión 26. M70–M79, M81, M82 y M91 construidos con v2.7 (pendientes de probar). M70–M82 y M91 ya tienen crudos subidos y confirmados: ya NO queda ningún módulo esperando crudos.
 > Por decisión del usuario, M87, M89 y M90 YA NO se construyen como arneses independientes
 > (su contenido va a harnesses/material_de_apoyo/). M91 es el único módulo oficial del rango
 > alto y ya tiene sus crudos (subidos 2026-10-31). Ver HALLAZGO 15, 16 y 18 en AUDITORIA.md.
@@ -11,8 +11,8 @@
 
 | Estado | Módulos | Cantidad |
 |---|---|---|
-| ✅ Listos (v2.7) | M03, M04, M05, M61–M73, M78, M81, M82 | 19 |
-| 🔄 Con crudos — pendientes de construir/reconstruir con v2.7 | M06–M60, M74–M77, M79, M80, M91 | 62 |
+| ✅ Listos (v2.7) | M03, M04, M05, M61–M79, M81, M82, M91 | 25 |
+| 🔄 Con crudos — pendientes de construir/reconstruir con v2.7 | M06–M60, M80 | 56 |
 | **Total módulos oficiales activos** | | **81** |
 
 > Nota: los módulos 01, 83, 84, 85, 86 y 88 no existen en la tabla oficial del Blueprint.
@@ -101,7 +101,7 @@
 
 ---
 
-## Módulos 70–82 — con crudos subidos (M70–M73, M78, M81, M82 ya construidos en v2.7; el resto pendiente)
+## Módulos 70–82 — con crudos subidos (todos construidos en v2.7 salvo M80)
 
 | # | Nombre | Crudos | Arnés |
 |---|---|---|---|
@@ -109,22 +109,22 @@
 | 71 | Logs | 7 | **v2.7** ✅ (sin probar) |
 | 72 | RegEx | 18 | **v2.7** ✅ (sin probar) |
 | 73 | SQL | 17 | **v2.7** ✅ (sin probar) |
-| 74 | Frameworks | 11 | pendiente 🔄 |
-| 75 | Introducción al Python | 19 | pendiente 🔄 |
-| 76 | Gestión de Proyectos | 16 | pendiente 🔄 |
-| 77 | Presupuestos | 9 | pendiente 🔄 |
+| 74 | Frameworks | 11 | **v2.7** ✅ (sin probar) |
+| 75 | Introducción al Python | 19 | **v2.7** ✅ (sin probar) |
+| 76 | Gestión de Proyectos | 16 | **v2.7** ✅ (sin probar) |
+| 77 | Presupuestos | 9 | **v2.7** ✅ (sin probar) |
 | 78 | Informes para Clientes | 7 | **v2.7** ✅ (sin probar) |
-| 79 | Generación de negocio y monetización | 13 | pendiente 🔄 |
+| 79 | Generación de negocio y monetización | 13 | **v2.7** ✅ (sin probar) |
 | 80 | Auditoría SEO | 39 | pendiente 🔄 |
 | 81 | Proyecto Final de Master | 2 | **v2.7** ✅ (sin probar) |
 | 82 | Mercado laboral SEO | 3 | **v2.7** ✅ (sin probar) |
 
 ---
 
-## Módulo 91 — con crudos ya subidos (pendiente de construir con v2.7)
+## Módulo 91 — arnés construido con v2.7 (2026-11-01, sin probar)
 
-| # | Nombre | Crudos |
-|---|---|---|
-| 91 | SEO con ChatGPT | 27 archivos: 18 .txt + 8 PDF + 1 Excel |
+| # | Nombre | Crudos | Arnés |
+|---|---|---|---|
+| 91 | SEO con ChatGPT | 27 archivos: 18 .txt + 8 PDF + 1 Excel | **v2.7** ✅ (sin probar) |
 
 > M87, M89 y M90 ya NO aparecen en esta lista — ver nota arriba (HALLAZGO 16).
